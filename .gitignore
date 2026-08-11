@@ -53,3 +53,32 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# KiCad lock files (created while a project is open)
+~*.lck
+
+# KiCad auto-save / backup history
+.history/
+*-backup/
+*_backup/
+*.kicad_prl
+*.kicad_prl.bak
+*.kicad_dru
+
+# KiCad export artifacts (regenerable from the design)
+*-erc.json
+*-drc.json
+*-bom.csv
+*.kicad_brd
+*.gbr
+*.gbrjob
+*.pos
+*.rpt
+*.net
+*.dsn
+
+# Editor/OS noise
+*.swp
+*.tmp
+Thumbs.db
+.DS_Store

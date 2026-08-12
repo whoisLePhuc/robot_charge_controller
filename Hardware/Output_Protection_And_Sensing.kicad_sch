@@ -1493,6 +1493,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://www.lcsc.com/product-detail/C6490493.html?s_z=n_q_p_CSS2H-2512K-1L80x&spm=wm.ssy.bg.0.xh&lcsc_vid=EQVcUV1eFFRbUQdWRgVdX1ZXElBZVlACTgIMUwdeRlMxVlNeQVVXX11QRllaXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 135.89 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7c5fe36e-d56a-47f6-9bcc-e595742d65d8")
 		)
@@ -1503,86 +1514,6 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
 					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bba5f22-6aa2-40a5-9bc2-0f614ed78d24")
-		(property "Reference" "R42"
-			(at 152.4 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 152.4 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 152.4 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26ae7979-b4c9-4a18-9c9a-903441088a3e")
-		)
-		(pin "2"
-			(uuid "ad000689-a3d9-4a2b-8c33-27a1f1f8a089")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1622,7 +1553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 164.465 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1633,7 +1564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/BAV19W%20thru%20BAV21W.pdf"
 			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1644,7 +1575,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+		(property "Description" "200mA Switching Diode-120V-250V Surface Mount"
 			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1677,6 +1608,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/bav21w-250v-400ma-sod-123/"
+			(at 160.02 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "94bbda4b-26a6-4cf8-85ba-df5d96616872")
 		)
@@ -1687,170 +1629,6 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a9e62f0-d7be-4712-8bf2-9dee5760e964")
-		(property "Reference" "R44"
-			(at 162.56 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150k"
-			(at 162.56 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 160.02 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfa23d33-56ab-4db5-a0f4-64acd56e7692")
-		)
-		(pin "2"
-			(uuid "3535f859-baa2-48ce-9293-828b2069184d")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d1297ca-21f8-428f-97e9-0ad46b7ee291")
-		(property "Reference" "R46"
-			(at 162.56 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18k"
-			(at 162.56 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 160.02 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdbd7a1a-0be2-4491-b97e-588be4c2c884")
-		)
-		(pin "2"
-			(uuid "65eea5cc-00cd-46a5-ac92-bde5ad4bd8ab")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1935,9 +1713,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 144.78 115.57 0)
-		(mirror y)
+		(lib_id "Device:R_Small")
+		(at 152.4 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1945,9 +1722,100 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4a1974b9-8b91-446d-b1b0-8aaab777068e")
+		(uuid "609f9f4c-0ea2-415c-8b2e-b0133d1708db")
+		(property "Reference" "R42"
+			(at 153.162 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 152.4 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/8792-dien-tro-10k-0805-01-10c.html"
+			(at 234.95 -85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46f27d59-d25f-4b9d-817b-0e5fa5acfcd5")
+		)
+		(pin "2"
+			(uuid "2a86feb1-ab87-4eef-b684-9bc95fb05c57")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 144.78 115.57 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c158eb6-ae83-4ea5-bf46-2d3b27232eaf")
 		(property "Reference" "C29"
-			(at 142.24 114.3062 0)
+			(at 135.382 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1957,8 +1825,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 142.24 116.8462 0)
+		(property "Value" "100nF 50V"
+			(at 131.064 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1968,7 +1836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.78 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2001,11 +1869,22 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 57.15 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "c5c7819f-ec4b-45c6-8f13-f5b42be104f1")
+			(uuid "c803b1fd-0be0-4bef-aa6c-45ef9f824897")
 		)
 		(pin "2"
-			(uuid "15ce91b5-1bc3-4126-aa44-c3fce557ae95")
+			(uuid "e405a9de-ae02-400a-a771-aae83242fe0c")
 		)
 		(instances
 			(project "robot-hv-charge-controller"
@@ -2128,7 +2007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2151,6 +2030,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 160.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6685-dien-tro-0805-1-thong-so-tu-100k-den-910k.html"
 			(at 160.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2187,7 +2077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b75b2083-39e4-49db-937d-e92a5b1cee74")
+		(uuid "acf058e5-7535-4e04-bbb4-994c6cd7d506")
 		(property "Reference" "R45"
 			(at 162.56 101.5999 0)
 			(show_name no)
@@ -2210,7 +2100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2243,11 +2133,22 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6685-dien-tro-0805-1-thong-so-tu-100k-den-910k.html"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "8739104c-d393-41b4-8c90-608cc11e42fd")
+			(uuid "d1e923fa-b14d-42d4-bcd1-c833bf284871")
 		)
 		(pin "2"
-			(uuid "487e02ee-1c2a-47a3-9e24-e7d3bc427b1a")
+			(uuid "dbbd5242-7cef-4aa7-9d4e-504cd2cac4c7")
 		)
 		(instances
 			(project "robot-hv-charge-controller"
@@ -2331,6 +2232,189 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca7a509-fc6f-4dcc-a313-a161d49622b0")
+		(property "Reference" "R44"
+			(at 162.56 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150k"
+			(at 162.56 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.02 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6685-dien-tro-0805-1-thong-so-tu-100k-den-910k.html"
+			(at 160.02 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ef051fc-e2aa-4073-9baa-84deb43f20a1")
+		)
+		(pin "2"
+			(uuid "e6c352d0-361f-46e0-a644-1883022e437b")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf2c7a0e-5635-4477-888e-1f88409b1486")
+		(property "Reference" "R46"
+			(at 156.972 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 156.21 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/4177-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at -34.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "316e6573-8ba9-4d0c-8d39-911805959933")
+		)
+		(pin "2"
+			(uuid "c4b16493-92e1-4ed4-8a8f-7de40b866115")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/adb58854-9c08-4835-92b0-ac826969a4fa"
+					(reference "R46")
 					(unit 1)
 				)
 			)

@@ -829,14 +829,14 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "Manufacturer",
+          "label": "Link",
+          "name": "Link",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Link",
-          "name": "Link",
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
           "show": false
         }
       ],
@@ -896,7 +896,7 @@
         "uuid": "e734adb0-7c64-49f7-9536-e962540cdbdc"
       }
     ],
-    "used_designators": "#PWR141,C1",
+    "used_designators": "#PWR141,C1,C5,R44-45,R86",
     "variants": []
   },
   "sheets": [

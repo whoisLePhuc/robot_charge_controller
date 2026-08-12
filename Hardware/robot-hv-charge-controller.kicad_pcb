@@ -219,6 +219,19 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/7017-1n4148w-7-f-diode-gen-purp-100v-150ma-sod1235c.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "621aa6ce-1f83-45f0-8afe-3651e7afa561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/4acac182-48e8-4ed5-84e5-017eac2b6d0c/2ff7cb58-19d7-43c2-b671-11eaeba0abb1")
 		(sheetname "/Main_Relay_Control/")
@@ -1995,6 +2008,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c037eec-c5ac-49de-bb48-1b0593641f02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/8792-dien-tro-10k-0805-01-10c.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62a570bb-9e55-4d51-99e6-ca90a9220016")
 			(effects
 				(font
 					(size 1 1)
@@ -4894,7 +4920,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-8"
 		(layer "F.Cu")
 		(uuid "4b9469eb-815f-4f31-a001-c1205c02ceed")
-		(at 415.805 112.44)
+		(at 167 94)
 		(descr "SOT, 8 Pin (JEDEC MO-178 Var BA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U11"
@@ -4930,7 +4956,7 @@
 				)
 			)
 		)
-		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOT-23-8"
+		(property "Description" "NA241x –5 V to 110 V, Bidirectional, Ultra-Precise Current Sense Amplifier WithEnhanced PWM Rejection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4946,6 +4972,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2da441fc-0ed1-4f15-a158-d33af177c117")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://www.lcsc.com/product-detail/C5240853.html?s_z=n_q_x_INA241A2IDDFR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "168e3490-ff59-43ad-b270-bdd17860fe39")
 			(effects
 				(font
 					(size 1 1)
@@ -6059,6 +6098,177 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "5bfcbe5f-37a1-4dac-bd1c-6e2975666a26")
+		(at 156.725 94.005)
+		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
+		(tags "capacitor")
+		(property "Reference" "C28"
+			(at 0 -1.68 0)
+			(layer "F.SilkS")
+			(uuid "899649cb-296f-4060-9bd9-1641eb6dd8a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 0 1.68 0)
+			(layer "F.Fab")
+			(uuid "89d71201-2438-405b-9d52-a970ac50e3b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "400587c4-1668-40af-af38-76127b88a172")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4c318ba-091b-4b3a-afef-cae68910ab18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2a84609-0237-4b73-bd20-866786c7fe02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5de7b29-71cf-418b-88b0-ed2ee6f12c41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/742fe30b-f3e5-4d97-b09e-c4a20200f173/56cafcf5-39a2-4e44-8236-a32de9cb43cd")
+		(sheetname "/Current_Sensing/")
+		(sheetfile "Current_Sensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dfe8946e-d6eb-4e7f-b6a4-35efe82296e1")
+		)
+		(fp_line
+			(start -0.261252 0.735)
+			(end 0.261252 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e772358-4977-4821-bd9c-bf0b6a4521bb")
+		)
+		(fp_rect
+			(start -1.7 -0.98)
+			(end 1.7 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3adcc581-cc6d-4ebc-83e9-84c1dfa16bd2")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "27f1dd39-9aef-4e09-a2b5-3feeeba5d706")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "31a3a570-6a44-4d20-bd0d-de64f25435b9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "680f3f5a-f97c-444c-9bac-8974d883371c")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+3V3")
+			(pintype "passive")
+			(uuid "5c58339c-6aac-4cbe-81e0-48a8373d8be5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7194,6 +7404,19 @@
 				)
 			)
 		)
+		(property "Link to Buy" "Thay LTV-357T bang LTV-354T (pin-compatible). Mua tai CXT: linhkien.cxtvn.com/5850-ltv-354t-optoisolator-375kv-trans-4-sop.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a862bdc7-0ebd-404e-80a1-917c87b90ed2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SO*4.4x3.6mm*P2.54mm*")
 		(path "/4acac182-48e8-4ed5-84e5-017eac2b6d0c/9dfdd646-7567-416c-b5be-c9f2c99e1210")
 		(sheetname "/Main_Relay_Control/")
@@ -8240,6 +8463,348 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "6833a670-7a1d-4a0e-b126-e7932a98ae37")
+		(at 165.05 43)
+		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
+		(tags "capacitor")
+		(property "Reference" "C29"
+			(at 0 -1.68 0)
+			(layer "F.SilkS")
+			(uuid "022f26e4-d3ae-48c8-90d9-9f85cb474d70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 0 1.68 0)
+			(layer "F.Fab")
+			(uuid "44f667c2-2531-49c9-ab5d-238f1d53d5bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dba0ed31-4f32-4a47-a52d-94bdd3ceaae8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01d9a818-9f33-4b3a-9bea-a5ab14c30800")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd98d3fb-f721-454c-bb39-6a768ac400b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcea4dc8-93a0-4569-8fba-3c1f7d4475ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/adb58854-9c08-4835-92b0-ac826969a4fa/7c158eb6-ae83-4ea5-bf46-2d3b27232eaf")
+		(sheetname "/Output_Protection_And_Sensing/")
+		(sheetfile "Output_Protection_And_Sensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "78107a88-1083-4ae2-af4b-90409d80c185")
+		)
+		(fp_line
+			(start -0.261252 0.735)
+			(end 0.261252 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc4f2651-3884-442b-b036-339dec6a6abe")
+		)
+		(fp_rect
+			(start -1.7 -0.98)
+			(end 1.7 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "19bbd0f4-b9c9-4296-82a5-2210d169b48f")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2e3edeac-944b-4d78-ab7d-571af486363b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "277ee6ad-2120-4282-a42b-9b8dea157c6b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "4b509b35-9f63-4dbf-90f0-2469cb39c71d")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/VOUT_SENSE_ADC")
+			(pintype "passive")
+			(uuid "d6288e11-f691-4a9a-9d7f-aeec01bc6b52")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "692608c2-8955-49b6-821a-2be67fee661a")
+		(at 156.57 41)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R42"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "04f63715-2127-4c0b-b7d3-4dc61e3b99d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "2528e12b-dcaf-45a7-afe3-a9949a6a513c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a8cd8e4-c7a1-4cdd-ad6c-7c19c776a05b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "525c8e34-d15d-4857-a2ec-9622ec656e09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9c7f70a0-4a6f-4231-b339-22b7f46a0d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/8792-dien-tro-10k-0805-01-10c.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28fc7956-f576-4768-b926-f3fabb38acf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/adb58854-9c08-4835-92b0-ac826969a4fa/609f9f4c-0ea2-415c-8b2e-b0133d1708db")
+		(sheetname "/Output_Protection_And_Sensing/")
+		(sheetfile "Output_Protection_And_Sensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6dc5d8c6-5940-4044-a311-d49ab847e41a")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87496bc3-851b-44d8-9640-431fadd152bc")
+		)
+		(fp_rect
+			(start -1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "17ec2a26-8857-41f6-9999-2953327ef63d")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e31d9c6e-6693-49e5-a349-91604aa94d36")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c2522988-8825-42ac-8273-21a7ac59af62")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "/VOUT_SENSE_ADC")
+			(pintype "passive")
+			(uuid "314f6a6a-4563-476d-8890-96915d0214a8")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "/Output_Protection_And_Sensing/VOUT_DIV_RAW")
+			(pintype "passive")
+			(uuid "43aa46b7-736a-4d3c-bd86-596575718b3d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6e2814c3-1017-46b8-9a21-7b5a43847a66")
@@ -8602,6 +9167,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5f6ccabf-2f44-4611-976f-36f0dc3bc7f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/9278-rs1m-fr107-f7-diode-xung-1a-1000v-sod123-10c.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5c35f82-e6da-4389-aaed-4ba64778f3ba")
 			(effects
 				(font
 					(size 1 1)
@@ -9488,6 +10066,177 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x3.6mm_P2.54mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "840e65e6-f490-4357-8347-2d16b9b43e85")
+		(at 166 51)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R44"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "c33afc65-7ef0-4eea-b029-b03baabe0921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "3e947dd7-56e7-4e45-867a-dd42fcd8e97a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e788afe-df3f-496f-988f-12644eb87610")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a107ac6-8f16-47dc-b292-d70c0343269d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38200c3c-69d6-4716-9b31-ee39e12d7e10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6685-dien-tro-0805-1-thong-so-tu-100k-den-910k.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1300eafc-c2ed-4480-9f2a-22cdf2a38042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/adb58854-9c08-4835-92b0-ac826969a4fa/cca7a509-fc6f-4dcc-a313-a161d49622b0")
+		(sheetname "/Output_Protection_And_Sensing/")
+		(sheetfile "Output_Protection_And_Sensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2e1b8f9a-6108-4d96-abbe-6d0f1ed817aa")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "910d5fba-2802-4f18-98bb-b542d1c5217f")
+		)
+		(fp_rect
+			(start -1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8bca9a8b-116f-4b83-a2ba-e8d4e9ae8a0e")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3c0a7e0d-ff82-415b-96ec-8dac3ecaa81a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7ce37a95-19e2-403f-81cc-16046dd6252d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "Net-(R43-Pad2)")
+			(pintype "passive")
+			(uuid "daf98acf-3667-4bd4-943b-76d075797548")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "Net-(R44-Pad2)")
+			(pintype "passive")
+			(uuid "35276143-82f6-4074-8e9f-78e730969e91")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10467,14 +11216,14 @@
 			)
 		)
 	)
-	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8ca97487-e9a6-422f-a614-5ff6e5a6c6e8")
-		(at 402.035 111.835)
-		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
-		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
+		(at 156.65 71)
+		(descr "SOD-123")
+		(tags "SOD-123")
 		(property "Reference" "D15"
-			(at 3.81 -2.12 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "d1839abf-5afb-4638-a4bf-dfff606a24c7")
 			(effects
@@ -10485,7 +11234,7 @@
 			)
 		)
 		(property "Value" "BAV21W"
-			(at 3.81 2.12 0)
+			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "0d7fa025-6000-4cc0-9c49-183dc9f3b690")
 			(effects
@@ -10495,36 +11244,28 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/BAV19W%20thru%20BAV21W.pdf"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "984d2bdd-f8b5-40aa-b3a4-78b2cc48a98b")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+		(property "Description" "200mA Switching Diode-120V-250V Surface Mount"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f088f87b-ddc4-4538-8116-6539f9ef505d")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "874d8873-20a4-4e4a-ac8b-6c4d33a281f0")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10534,7 +11275,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e569b94-338d-4fe2-9175-1d9dec85b13f")
+			(uuid "10a08dc6-9e91-4c4a-ba65-1f6c2dd51116")
 			(effects
 				(font
 					(size 1 1)
@@ -10547,7 +11288,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d75b5f5-8a71-4e26-be86-bbd9a9182491")
+			(uuid "fe916a15-9b44-4520-bc04-4bb2372731c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/bav21w-250v-400ma-sod-123/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d859671-f56a-4999-a0a0-d6b4ebe611fe")
 			(effects
 				(font
 					(size 1 1)
@@ -10565,21 +11319,11 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.04 0)
-			(end 1.69 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4766d8e1-0091-48ca-99ea-b8a6d7a1179e")
-		)
-		(fp_line
-			(start 2.29 -1.12)
-			(end 2.29 1.12)
+			(start -2.36 -1)
+			(end -2.36 1)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10588,8 +11332,18 @@
 			(uuid "d6de5085-0b6b-41fb-b0b1-6916c9e687ef")
 		)
 		(fp_line
-			(start 2.41 -1.12)
-			(end 2.41 1.12)
+			(start -2.36 -1)
+			(end 1.65 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4766d8e1-0091-48ca-99ea-b8a6d7a1179e")
+		)
+		(fp_line
+			(start -2.36 1)
+			(end 1.65 1)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10598,80 +11352,48 @@
 			(uuid "c61e0643-2536-4482-b2b0-89b0337860c8")
 		)
 		(fp_line
-			(start 2.53 -1.12)
-			(end 2.53 1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad7df574-159f-4765-9ee0-59c6991c4e8a")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a639fcca-f3e1-4eca-b2e9-2cc403c0d42b")
-		)
-		(fp_rect
-			(start 1.69 -1.12)
-			(end 5.93 1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "63b30b13-e3f4-402e-b4d9-c688b1c316fc")
-		)
-		(fp_rect
-			(start -1.05 -1.25)
-			(end 8.67 1.25)
+			(start -2.35 -1.15)
+			(end -2.35 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1a58de0e-8742-40b4-9608-2155c567d7b1")
+			(uuid "209a63cd-7e9c-4d82-9b87-dee37a62ff84")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.81 0)
+			(start -2.35 -1.15)
+			(end 2.35 -1.15)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "86df86c1-dbda-4de9-9505-250f4a603f4d")
+			(layer "F.CrtYd")
+			(uuid "ad7df574-159f-4765-9ee0-59c6991c4e8a")
 		)
 		(fp_line
-			(start 2.31 -1)
-			(end 2.31 1)
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "fbb4031d-2cb3-498b-b5ba-a1b537017d0b")
+			(layer "F.CrtYd")
+			(uuid "a639fcca-f3e1-4eca-b2e9-2cc403c0d42b")
 		)
 		(fp_line
-			(start 2.41 -1)
-			(end 2.41 1)
+			(start 2.35 1.15)
+			(end -2.35 1.15)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "8d3a7e46-dc2b-4fc5-aa69-6aa0320ffad0")
+			(layer "F.CrtYd")
+			(uuid "2ead72fd-34df-4db8-ae6e-a643ba277f0e")
 		)
 		(fp_line
-			(start 2.51 -1)
-			(end 2.51 1)
+			(start -1.4 -0.9)
+			(end 1.4 -0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -10680,8 +11402,8 @@
 			(uuid "3675a385-d289-4313-b2e0-d772339715b4")
 		)
 		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -10689,75 +11411,129 @@
 			(layer "F.Fab")
 			(uuid "21113a65-1368-4a88-8c19-92ee35a0ac9b")
 		)
-		(fp_rect
-			(start 1.81 -1)
-			(end 5.81 1)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.Fab")
-			(uuid "8f12bc89-c5d5-449e-9d9e-3c91b62a9d7e")
+			(uuid "9d1926a2-5c9e-4e39-8c46-04fe57bec4ad")
 		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
-			(layer "F.SilkS")
-			(uuid "5a769a41-9319-44ac-a94f-d72389e3d9b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
 			)
-		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
 			(layer "F.Fab")
-			(uuid "747649ac-1d3b-4e68-9ced-5c1fefaace3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
+			(uuid "20096fc5-1330-4532-991a-1ed7d3e6cb24")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
 			)
+			(layer "F.Fab")
+			(uuid "8d3a7e46-dc2b-4fc5-aa69-6aa0320ffad0")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92ccbb88-3624-4190-9b27-3221be352af2")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f48febc2-3226-457a-9b89-f2433816714d")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86df86c1-dbda-4de9-9505-250f4a603f4d")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fbb4031d-2cb3-498b-b5ba-a1b537017d0b")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "32893b8c-bafc-44c9-b64c-abcb8c5488a3")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "63e1bee3-bab6-4261-b3b0-5d0d457a5598")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "7da00555-ed5a-4c74-a593-d1f9ec14961d")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.15625)
+		(pad "1" smd roundrect
+			(at -1.65 0)
+			(size 0.9 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
 			(net "Net-(D15-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "4bc3ee63-54d5-4c5c-b3c1-eaa4f5d02e21")
 		)
-		(pad "2" thru_hole circle
-			(at 7.62 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "2" smd roundrect
+			(at 1.65 0)
+			(size 0.9 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
 			(net "/Current_Sensing/IOUT_SHUNT_N")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f8e185af-db0c-4c35-8511-084c67b6ee86")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12267,7 +13043,7 @@
 	(footprint "CSS2H_2512R_1L00F:RES_1L00x_BRN"
 		(layer "F.Cu")
 		(uuid "a0d320f6-8218-405b-9c10-adfa9f455f4c")
-		(at 404.7319 116.0531)
+		(at 167 70)
 		(tags "CSS2H-2512R-1L00F ")
 		(property "Reference" "R41"
 			(at 0 0 0)
@@ -12312,6 +13088,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://www.lcsc.com/product-detail/C6490493.html?s_z=n_q_p_CSS2H-2512K-1L80x&spm=wm.ssy.bg.0.xh&lcsc_vid=EQVcUV1eFFRbUQdWRgVdX1ZXElBZVlACTgIMUwdeRlMxVlNeQVVXX11QRllaXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac49ae3c-dcbf-41e0-ace2-18ec997fb54d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12561,7 +13350,7 @@
 			)
 			(polygon
 				(pts
-					(xy 402.865 114.491) (xy 406.5988 114.491) (xy 406.5988 117.6152) (xy 402.865 117.6152)
+					(xy 165.1331 68.4379) (xy 168.8669 68.4379) (xy 168.8669 71.5621) (xy 165.1331 71.5621)
 				)
 			)
 		)
@@ -14272,6 +15061,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14307,6 +15097,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c9f3a98-4959-4085-b459-c4bdcca20f5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "Relay HV 80A - khong ban le tai VN. Dat tu LCSC: C5322130 (HF116F-80/24-1HTF)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b2e9d42-a61a-42f5-8069-d4209cac3021")
 			(effects
 				(font
 					(size 1 1)
@@ -14495,6 +15298,177 @@
 		)
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RELAY-TH_HF116F-80-XX-1HTF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "b7561a75-29c1-410f-b6e5-8ddefe9c38e8")
+		(at 165 58)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R46"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "7ab232b1-0ee9-47ed-8066-a2b4a4eb8e0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "738ee26f-f2f2-4cde-8c85-a18e9a3daa98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91305396-1eab-4566-ac83-503cc1fa9ad3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b597369-9c1a-484b-a8f0-e15f105fc542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d68349a1-6087-4802-8b4d-d5c75e59e676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/4177-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fdf8fd2-613e-4942-8ab8-6e1712a48a84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/adb58854-9c08-4835-92b0-ac826969a4fa/cf2c7a0e-5635-4477-888e-1f88409b1486")
+		(sheetname "/Output_Protection_And_Sensing/")
+		(sheetfile "Output_Protection_And_Sensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d00531da-70e1-464d-a462-da39d92a1166")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4bdf002e-3212-4584-8b30-a7d1a92b8fd5")
+		)
+		(fp_rect
+			(start -1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "43cb82ae-e6fa-4315-aff5-97e02a859287")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "bca68ef4-b53f-45c1-b725-3a3ce75d0777")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8710f9de-4bff-42ab-86f9-57b41283419a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "GND")
+			(pintype "passive")
+			(uuid "66f1e570-48c0-46df-a229-9cccc5d6f59a")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "/Output_Protection_And_Sensing/VOUT_DIV_RAW")
+			(pintype "passive")
+			(uuid "f077e7af-6b31-4d73-88cd-980843c40239")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15879,6 +16853,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc595096-fc51-4858-be3b-a93c8f7e335b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/4177-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74b0579b-1dcc-40ea-bce0-bc7066618381")
 			(effects
 				(font
 					(size 1 1)
@@ -18183,6 +19170,19 @@
 				)
 			)
 		)
+		(property "Link to Buy" "Dien tro dan 0805 1% - Mua tai CXT: linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html (chon 470R)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0debd96-208e-4f7e-98ce-2e43d3f557f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4acac182-48e8-4ed5-84e5-017eac2b6d0c/3233382e-6d86-4bf9-b00e-6431f645e9be")
 		(sheetname "/Main_Relay_Control/")
@@ -19397,6 +20397,177 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "f11c5475-fe65-4694-ac28-37bc7fd8e891")
+		(at 156.57 58)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R45"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "f6a0202e-a97e-4bf9-9555-f0bdbd70fc30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "3c5ad26c-12d8-4dee-907d-4eef9fa71e42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "696fdbc5-9afd-44c3-bc9e-5def12f0be75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f9176f7-344b-47d5-ac2a-7de6f7ed63c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "75c7f1fa-63fd-4ca0-a866-68ecbcd79877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6685-dien-tro-0805-1-thong-so-tu-100k-den-910k.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03872532-f807-4fec-8224-436f5b367eda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/adb58854-9c08-4835-92b0-ac826969a4fa/acf058e5-7535-4e04-bbb4-994c6cd7d506")
+		(sheetname "/Output_Protection_And_Sensing/")
+		(sheetfile "Output_Protection_And_Sensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e2b50c8b-d0df-4f7e-88d6-37db98108b54")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13955252-2a58-46b4-9906-2e2d06aac12e")
+		)
+		(fp_rect
+			(start -1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "09f5bd3a-fac3-47d1-8bb9-2b0b25108db1")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3f7a5fbb-0b49-4887-bf1f-3c5ba91d7b2f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "49f097da-0389-4570-be37-0dbcf56f738c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "Net-(R44-Pad2)")
+			(pintype "passive")
+			(uuid "126847d4-3ceb-4c6f-8e9e-61e97a4ddaba")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "/Output_Protection_And_Sensing/VOUT_DIV_RAW")
+			(pintype "passive")
+			(uuid "0661fc5d-6bcb-4fd1-ac4f-ee2220cf4ba6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f701ccdd-f78f-414a-93e1-352e3821707f")
@@ -19688,6 +20859,177 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "fae8fc24-294f-458c-9ab6-eab97988d4c0")
+		(at 157 51)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R43"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "1f1592bb-299d-41f1-ac2e-61b87823a2f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "847f64c7-02f6-4ab0-99af-b8d7ec2e672f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e6b43a4-3d32-4f10-8741-5de15fec1ede")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c52a583-e8bf-4bde-be6c-ec03f6a6b66b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e808ac95-858a-4e4f-b263-d8ce6443dce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6685-dien-tro-0805-1-thong-so-tu-100k-den-910k.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93f7e86b-9f99-47be-a4df-456604cbca55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/adb58854-9c08-4835-92b0-ac826969a4fa/9ba988e4-aa21-4194-ab35-355085c33358")
+		(sheetname "/Output_Protection_And_Sensing/")
+		(sheetfile "Output_Protection_And_Sensing.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6c3e3cf2-e625-4aa8-8e6a-b8899fd8dcb0")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2e81c959-8e1c-49c4-83d4-13a30607a23a")
+		)
+		(fp_rect
+			(start -1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7c45b22b-e8e0-4da3-862e-72485d1d9246")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "06acb290-de50-438b-9e19-e9e5d25c6dd6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "92ff0a8c-100a-4065-abac-c331e7105c6b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "Net-(D15-K)")
+			(pintype "passive")
+			(uuid "ae38728f-db41-42de-b439-75f9fc5dfa6a")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 1.025 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.243902)
+			(net "Net-(R43-Pad2)")
+			(pintype "passive")
+			(uuid "51d0da51-7c0b-44cb-a75e-727909b0253d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20134,6 +21476,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d037dbd4-0f3a-403d-8ad1-7c5cc6f9fed3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/5979-bc817-40-transistor-npn-45v-05a-sot23-10c.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed7b531d-7c40-4ac5-9f43-c84b2b961dcf")
 			(effects
 				(font
 					(size 1 1)
@@ -21457,6 +22812,19 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/3250-tu-nhom-47uf-50v-6x7mm-10c.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b43a22f-f00c-4725-99d1-22bdabad655f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/4acac182-48e8-4ed5-84e5-017eac2b6d0c/0a065640-8831-4d71-bc42-be27c6f54c81")
 		(sheetname "/Main_Relay_Control/")
@@ -22251,6 +23619,28 @@
 		)
 	)
 	(gr_rect
+		(start 149 34)
+		(end 181 78)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "e6ec6049-8b54-4bec-a4f3-770a43234bbe")
+	)
+	(gr_rect
+		(start 151 90)
+		(end 175 98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "b4cadb5e-091a-4a90-9c2c-d80b3700787f")
+	)
+	(gr_rect
 		(start 190 32)
 		(end 264 129)
 		(stroke
@@ -22260,6 +23650,32 @@
 		(fill no)
 		(layer "F.Cu")
 		(uuid "fea2d686-4c04-4a7b-ba35-a275bceea6ad")
+	)
+	(gr_text "Output_Protection_and_Sensing"
+		(at 147 32 0)
+		(layer "F.Cu")
+		(uuid "c8278a5c-113e-4eb8-85f3-f1823bf32e03")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Current_Sensing"
+		(at 154 88 0)
+		(layer "F.Cu")
+		(uuid "c1a54777-3254-48b6-9e44-a2594a79ec7a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Main_Relay_Control"
 		(at 217 30 0)

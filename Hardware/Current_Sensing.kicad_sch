@@ -924,6 +924,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 147.32 105.41 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -931,29 +932,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46ee4299-d22f-4ec2-a20f-af32afdbd076")
+		(uuid "56cafcf5-39a2-4e44-8236-a32de9cb43cd")
 		(property "Reference" "C28"
-			(at 147.3263 99.06 90)
+			(at 149.098 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 147.3263 101.6 90)
+		(property "Value" "100nF 50V"
+			(at 152.146 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -986,11 +988,22 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 31.75 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "88cbbadd-7f69-4ae1-b550-065bae49f3da")
+			(uuid "dc2189ef-df4c-4a69-a78a-7a2ffa28d5de")
 		)
 		(pin "2"
-			(uuid "f3a851ed-0b36-4315-9ef5-19ae8c2ef699")
+			(uuid "72c8c30e-4f9c-4726-b368-d327ca77c171")
 		)
 		(instances
 			(project "robot-hv-charge-controller"
@@ -1291,7 +1304,18 @@
 				)
 			)
 		)
-		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOT-23-8"
+		(property "Description" "NA241x –5 V to 110 V, Bidirectional, Ultra-Precise Current Sense Amplifier WithEnhanced PWM Rejection"
+			(at 156.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://www.lcsc.com/product-detail/C5240853.html?s_z=n_q_x_INA241A2IDDFR"
 			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)

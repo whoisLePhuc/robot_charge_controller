@@ -5,6 +5,183 @@
 	(uuid "0022efab-9f58-4f20-a811-b718d17ff4e1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1678,25 +1855,13 @@
 		(uuid "20ec92ff-481a-422b-8926-662fb42e2468")
 	)
 	(junction
-		(at 120.65 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "327d1869-2560-479a-a7a5-d98d9477666e")
-	)
-	(junction
 		(at 182.88 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dcd9a84-1515-4804-afb4-f6f1ac1ad52e")
 	)
 	(junction
-		(at 120.65 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49cde402-6190-4dd1-93bb-e166953e03d5")
-	)
-	(junction
-		(at 110.49 91.44)
+		(at 106.68 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65bb147a-9121-4faf-be7d-698aac8b77fb")
@@ -1706,12 +1871,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69334bf8-4054-49a0-93df-72dad620f021")
-	)
-	(junction
-		(at 110.49 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a7efecd-b9d0-499c-a178-a49b68d5f0ad")
 	)
 	(junction
 		(at 182.88 72.39)
@@ -1726,16 +1885,22 @@
 		(uuid "8ba5feca-c759-48e3-bf32-f89b6b4f60ca")
 	)
 	(junction
-		(at 124.46 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e203338-50db-4d90-ab1d-e4dcc9e34b93")
-	)
-	(junction
 		(at 124.46 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a91f18fe-3928-46a1-8e85-a4cc39aff1e2")
+	)
+	(junction
+		(at 120.65 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ca4020-82ef-4450-8ed7-04be7fcd4fd7")
+	)
+	(junction
+		(at 106.68 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c42d521c-147d-4e97-be5d-d3b92b971fbf")
 	)
 	(junction
 		(at 166.37 91.44)
@@ -1743,15 +1908,31 @@
 		(color 0 0 0 0)
 		(uuid "dadde59d-5edd-490d-9d59-daeb285f66ba")
 	)
+	(junction
+		(at 124.46 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc63c67e-a1c1-4de2-8621-ae43807d10dd")
+	)
 	(wire
 		(pts
-			(xy 120.65 77.47) (xy 120.65 87.63)
+			(xy 120.65 74.93) (xy 120.65 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0014ac41-8c3b-4bd7-bb5a-af7cfc6fe779")
+	)
+	(wire
+		(pts
+			(xy 106.68 74.93) (xy 109.22 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027c7938-1e4e-4bc8-ba7e-fd2fc3cbc75a")
 	)
 	(wire
 		(pts
@@ -1762,16 +1943,6 @@
 			(type default)
 		)
 		(uuid "17c649e2-3be1-48c5-a3b8-879084e48920")
-	)
-	(wire
-		(pts
-			(xy 120.65 87.63) (xy 120.65 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20f633c8-d8ed-47c7-837e-43ae6bcb4e50")
 	)
 	(wire
 		(pts
@@ -1795,17 +1966,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 110.49 77.47)
+			(xy 120.65 87.63) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2af7d198-d911-46c0-ba61-e0152c43ee9c")
+		(uuid "2c4ad5f7-0ec4-45c2-afd5-30f41fcdb885")
 	)
 	(wire
 		(pts
-			(xy 100.33 91.44) (xy 110.49 91.44)
+			(xy 100.33 91.44) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +2016,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 91.44) (xy 124.46 91.44)
+			(xy 106.68 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1925,16 +2096,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 77.47) (xy 120.65 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6671408a-9ee2-4d79-a210-a53cb464ca84")
-	)
-	(wire
-		(pts
 			(xy 149.86 99.06) (xy 156.21 99.06)
 		)
 		(stroke
@@ -1945,7 +2106,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 77.47) (xy 110.49 87.63)
+			(xy 106.68 74.93) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 124.46 96.52)
+			(xy 104.14 96.52) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +2136,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 87.63) (xy 110.49 91.44)
+			(xy 106.68 87.63) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 73.66) (xy 214.63 73.66)
+			(xy 220.98 73.66) (xy 214.63 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2236,17 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 73.66) (xy 223.52 73.66)
+			(xy 116.84 74.93) (xy 120.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac019ecb-9a69-42b0-98be-ab2899a890b7")
+	)
+	(wire
+		(pts
+			(xy 233.68 73.66) (xy 226.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2085,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 120.65 87.63)
+			(xy 116.84 87.63) (xy 120.65 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 110.49 87.63)
+			(xy 111.76 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2213,16 +2384,6 @@
 		)
 		(uuid "f80bab44-c548-4176-aa56-0dd78322fdd6")
 	)
-	(wire
-		(pts
-			(xy 104.14 96.52) (xy 120.65 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8bcc1dd-3a22-429b-82c9-b210fd4d64e3")
-	)
 	(label "MAIN_RELAY_COIL_N"
 		(at 162.56 107.95 180)
 		(effects
@@ -2265,6 +2426,96 @@
 			(justify right)
 		)
 		(uuid "fc4cb206-f412-4533-b753-e8eb6e27c597")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 113.03 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a065640-8831-4d71-bc42-be27c6f54c81")
+		(property "Reference" "C3"
+			(at 113.03 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF  50V"
+			(at 113.284 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 116.84 73.9648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C72523.pdf"
+			(at 113.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 113.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/3250-tu-nhom-47uf-50v-6x7mm-10c.html"
+			(at 113.03 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfb59920-17a3-4045-a490-e57be0b88442")
+		)
+		(pin "2"
+			(uuid "ab930d82-5d19-489f-bd87-4fb507d5aa12")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:1N914")
@@ -2353,29 +2604,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148TR"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C84410"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Onsemi"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/7017-1n4148w-7-f-diode-gen-purp-100v-150ma-sod1235c.html"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2392,19 +2621,7 @@
 		(pin "2"
 			(uuid "eb0ddbf4-ec5d-42f1-8859-453e86ac9107")
 		)
-		    (property "MPN" "1N4148W"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "Manufacturer" "JCET"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "BOM Comments" "Mua tai LKCL: linhkienchatluong.vn/urldiode-chinh-luu/diode-1n4148w-t4-1206sod-123-chinh-hang-jcet-10-chiec_sp572_ct4211.aspx"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "D2")
@@ -2415,7 +2632,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 220.98 73.66 270)
+		(at 223.52 73.66 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2426,7 +2643,7 @@
 		(dnp no)
 		(uuid "3233382e-6d86-4bf9-b00e-6431f645e9be")
 		(property "Reference" "R83"
-			(at 220.98 69.342 90)
+			(at 223.52 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2436,7 +2653,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 220.98 71.374 90)
+			(at 223.52 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2446,7 +2663,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 220.98 73.66 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2457,7 +2674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 73.66 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2468,7 +2685,18 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 220.98 73.66 0)
+			(at 223.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "Dien tro dan 0805 1% - Mua tai CXT: linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html (chon 470R)"
+			(at 2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,23 +2712,7 @@
 		(pin "2"
 			(uuid "013550c0-abd7-4087-8068-85e62476c068")
 		)
-		    (property "MPN" "0805W8F4700T5E"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "Manufacturer" "UniOhm"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "LCSC Part" "C17710"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "BOM Comments" "Dien tro dan 0805 1% - Mua tai CXT: linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html (chon 470R)"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "R83")
@@ -2619,7 +2831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RELAY-TH_HF116F-80-XX-1HTF"
+		(property "Footprint" "HF116F-80-12-24-1HTF:RELAY-TH_HF116F-80-XX-1HTF"
 			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2652,29 +2864,7 @@
 				)
 			)
 		)
-		(property "MPN" "HF116F-80/24-1HTF"
-			(at 139.7 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5322130"
-			(at 139.7 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HF(宏发)"
+		(property "Link to Buy" "Relay HV 80A - khong ban le tai VN. Dat tu LCSC: C5322130 (HF116F-80/24-1HTF)"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2703,11 +2893,7 @@
 		(pin "2"
 			(uuid "37eb552c-d73f-4f14-85f6-ac372802f8fa")
 		)
-		    (property "BOM Comments" "Relay HV 80A - khong ban le tai VN. Dat tu LCSC: C5322130 (HF116F-80/24-1HTF)"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "U8")
@@ -2887,6 +3073,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/5979-bc817-40-transistor-npn-45v-05a-sot23-10c.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5478dd6a-5203-4101-8183-59edd7af6cf3")
 		)
@@ -2896,27 +3093,7 @@
 		(pin "3"
 			(uuid "f6548fd7-3151-47ec-a4df-2d6428d13fc7")
 		)
-		    (property "MPN" "BCX56-16"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "LCSC Part" "C5205285"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "MPN" "BC817-40"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "Manufacturer" "NXP"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "BOM Comments" "Mua tai LKCL: linhkienchatluong.vn/transistor/bc817-40-6c-6cw-npn-transistor-05a-45v-sot-23-chinh-hang-nxp_sp787_ct490.aspx"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "Q8")
@@ -2989,151 +3166,27 @@
 				)
 			)
 		)
+		(property "Link to Buy" "Dien tro dan 0805 1% - Mua tai CXT: linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html (chon 10k)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "279ecfc7-5565-45aa-94fb-d5d8af7270d1")
 		)
 		(pin "2"
 			(uuid "c9c61756-5ac4-44c4-90a5-3a3576636f96")
 		)
-		    (property "MPN" "0805W8F1002T5E"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "Manufacturer" "UniOhm"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "LCSC Part" "C17414"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "BOM Comments" "Dien tro dan 0805 1% - Mua tai CXT: linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html (chon 10k)"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "R85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 115.57 77.47 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99e8e313-a560-497c-93cb-408d63265278")
-		(property "Reference" "C3"
-			(at 112.014 71.374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47uF 50V"
-			(at 112.014 73.914 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 115.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RVT1H470M0607"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C72523"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Jianghai"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a80cee28-26da-41ca-9b9f-336d96b0ab64")
-		)
-		(pin "2"
-			(uuid "7b327394-29e5-4edb-a22b-c6ef9f946e1d")
-		)
-		    (property "BOM Comments" "Mua tai CXT: linhkien.cxtvn.com/9200-tu-hoa-47uf-50v-6x12mm.html (tụ hóa 47uF 50V 6x12mm)"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3208,6 +3261,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "Thay LTV-357T bang LTV-354T (pin-compatible). Mua tai CXT: linhkien.cxtvn.com/5850-ltv-354t-optoisolator-375kv-trans-4-sop.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "a0906e71-3d81-48df-90f3-2aa6059ac3f9")
 		)
@@ -3220,34 +3284,88 @@
 		(pin "2"
 			(uuid "01c76394-2bce-43a6-a137-508d639c4143")
 		)
-		    (property "MPN" "LTV-357T"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "Manufacturer" "Lite-On"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "LCSC Part" "C119089"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "MPN" "LTV-354T"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "Manufacturer" "Lite-On"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "BOM Comments" "Thay LTV-357T bang LTV-354T (pin-compatible). Mua tai CXT: linhkien.cxtvn.com/5850-ltv-354t-optoisolator-375kv-trans-4-sop.html"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a56587ff-52ef-40f1-92fb-0708264caa8b")
+		(property "Reference" "#PWR0141"
+			(at 120.65 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81cd4d64-9287-4cff-90a7-0e511b83b1c8")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -3474,29 +3592,24 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/4177-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19938bde-d886-4328-af71-c150180baf7b")
 		)
 		(pin "2"
 			(uuid "a342c17b-b67d-4b3a-8e07-0d2c291602dd")
 		)
-		    (property "MPN" "0805W8F3301T5E"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "Manufacturer" "UniOhm"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "LCSC Part" "C26010"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "BOM Comments" "Dien tro dan 0805 1% - Mua tai CXT: linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html (chon 3.3k)"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "R84")
@@ -3540,7 +3653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 187.325 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3551,7 +3664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C35253.pdf"
+		(property "Datasheet" ""
 			(at 182.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3562,7 +3675,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+		(property "Description" "RS1M FR107 F7 Diode 1A 1000V SOD123"
 			(at 182.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3595,25 +3708,24 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/9278-rs1m-fr107-f7-diode-xung-1a-1000v-sod123-10c.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec174300-0763-48d8-917f-8c397f0b61f6")
 		)
 		(pin "2"
 			(uuid "a2a34b91-6ece-49a1-8530-123bd1e0e3ff")
 		)
-		    (property "MPN" "FR107"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "LCSC Part" "C35253"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-        (property "BOM Comments" "FR107 Diode xung 1A 1000V DO-41 - Mua tai CXT: linhkien.cxtvn.com/8428-fr107-diode-xung-1a-1000v-do-41.html"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "D7")
@@ -3624,7 +3736,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 87.63 90)
+		(at 114.3 87.63 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3635,7 +3747,7 @@
 		(dnp no)
 		(uuid "f700a8fb-68f8-46ca-8cdd-d2dfd4be3ab8")
 		(property "Reference" "C2"
-			(at 112.014 81.534 90)
+			(at 113.03 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3645,8 +3757,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 112.014 84.074 90)
+		(property "Value" "100nF 50V"
+			(at 108.966 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3657,7 +3769,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 115.57 87.63 0)
+			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 87.63 0)
+			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3679,7 +3791,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 87.63 0)
+			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,30 +3801,8 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C49678"
-			(at 0 0 0)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at -1.27 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,11 +3818,7 @@
 		(pin "2"
 			(uuid "215aa1ae-5176-4197-b759-58e45f306aed")
 		)
-		    (property "BOM Comments" "Tu 104 100nF 0805 50V - Mua tai CXT: linhkien.cxtvn.com/1976-tu-100nf-0805-104-50v-20-10c.html"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "C2")

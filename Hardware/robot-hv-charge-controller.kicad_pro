@@ -757,12 +757,6 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MF",
           "name": "MF",
           "show": false
@@ -819,6 +813,30 @@
           "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BOM Comments",
+          "name": "BOM Comments",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link to Buy",
+          "name": "Link to Buy",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
           "show": false
         }
       ],
@@ -878,7 +896,7 @@
         "uuid": "e734adb0-7c64-49f7-9536-e962540cdbdc"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR141,C1",
     "variants": []
   },
   "sheets": [

@@ -1458,7 +1458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_1L00x_BRN"
+		(property "Footprint" "CSS2H_2512R_1L00F:RES_1L00x_BRN"
 			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1619,7 +1619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/BAV19W%20thru%20BAV21W.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5335/SOD123AV21WST3.pdf"
 			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1843,7 +1843,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kR"
 			(at 152.4 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1886,7 +1886,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/8792-dien-tro-10k-0805-01-10c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/9909-dien-tro-0805-05-18w-10-chiec-cac-gia-tri.html"
 			(at 234.95 -85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1990,7 +1990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 131.064 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "150kR"
 			(at 162.56 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +2364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "150kR"
 			(at 162.56 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "150kR"
 			(at 162.56 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "18kR"
 			(at 156.21 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "68kR"
 			(at 207.01 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,7 +4331,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "LED_G"
 			(at 254 67.2464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5401,7 +5401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "12kR"
 			(at 207.01 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,7 +5412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 204.47 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5445,7 +5445,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/dien-tro-12k-ohm-0603-1/"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/4177-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6391,7 +6391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 60.96 127.0062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6617,7 +6617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kR"
 			(at 254 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6628,7 +6628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 251.46 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6661,7 +6661,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/7112-dien-tro-0402-1-thong-so-tu-1k-den-91k.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6843,7 +6843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 49.53 127.0062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +6990,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse 1A"
+		(property "Value" "Fuse"
 			(at 69.85 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7012,7 +7012,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C66453.pdf"
 			(at 69.85 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7023,7 +7023,7 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "Fuse 1A"
 			(at 69.85 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7258,7 +7258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7434207.pdf"
 			(at 80.01 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7280,7 +7280,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/rt9013-33gb-ic-nguon-ldo-3-3v-500ma/"
+		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/rt9013-33gb-jsm/"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7302,7 +7302,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Richtek"
+		(property "Manufacturer" "Richtek"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7818,7 +7818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "49.9R"
 			(at 116.84 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8210,7 +8210,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 118.1163 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,7 +8357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100uF"
 			(at 128.27 127.3809 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +8719,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9092,7 +9092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 100.33 127.0062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9701,7 +9701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 111.76 127.0062 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1320,7 +1320,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC817"
+		(symbol "Transistor_FET:2N7002K"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1341,7 +1341,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC817"
+			(property "Value" "2N7002K"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1365,8 +1365,8 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1377,7 +1377,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1388,29 +1388,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1432,34 +1410,11 @@
 					)
 				)
 			)
-			(symbol "BC817_0_1"
+			(symbol "2N7002K_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1468,11 +1423,9 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "BC817_1_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1484,7 +1437,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1496,7 +1485,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -1506,10 +1495,93 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7002K_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1527,7 +1599,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "E"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1545,7 +1617,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1843,16 +1915,22 @@
 		(uuid "3d097e2f-db48-45d9-aa15-6c8db8e889cb")
 	)
 	(junction
+		(at 201.93 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05ec94b5-f3fc-46fd-8b6d-dcc0f78ca54e")
+	)
+	(junction
 		(at 156.21 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d3d951c-18e2-482b-b1ba-86cfd907a999")
 	)
 	(junction
-		(at 194.31 78.74)
+		(at 194.31 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20ec92ff-481a-422b-8926-662fb42e2468")
+		(uuid "22ec6f15-4450-48cd-83b4-e3d6fcd68574")
 	)
 	(junction
 		(at 182.88 63.5)
@@ -1861,16 +1939,16 @@
 		(uuid "3dcd9a84-1515-4804-afb4-f6f1ac1ad52e")
 	)
 	(junction
+		(at 194.31 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549b53dd-fa43-4b59-9292-55bf8b470134")
+	)
+	(junction
 		(at 106.68 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65bb147a-9121-4faf-be7d-698aac8b77fb")
-	)
-	(junction
-		(at 182.88 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69334bf8-4054-49a0-93df-72dad620f021")
 	)
 	(junction
 		(at 182.88 72.39)
@@ -1914,6 +1992,12 @@
 		(color 0 0 0 0)
 		(uuid "dc63c67e-a1c1-4de2-8621-ae43807d10dd")
 	)
+	(junction
+		(at 182.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc1d4d3a-e676-45e0-8c0e-333ef7efcf3f")
+	)
 	(wire
 		(pts
 			(xy 120.65 74.93) (xy 120.65 87.63)
@@ -1936,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 78.74) (xy 214.63 78.74)
+			(xy 226.06 78.74) (xy 219.71 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1946,17 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 182.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25cdae49-360d-4fc8-b939-880ef80be223")
-	)
-	(wire
-		(pts
-			(xy 194.31 86.36) (xy 182.88 86.36)
+			(xy 194.31 88.9) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 78.74) (xy 194.31 78.74)
+			(xy 204.47 78.74) (xy 201.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2026,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 80.01) (xy 220.98 78.74)
+			(xy 226.06 80.01) (xy 226.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 85.09) (xy 194.31 86.36)
+			(xy 194.31 86.36) (xy 194.31 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2166,7 +2240,27 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 73.66) (xy 214.63 73.66)
+			(xy 201.93 88.9) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9810202b-6e0f-4206-be9b-06e05b7f52da")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98176f97-240f-45f2-910c-0a760197b6d0")
+	)
+	(wire
+		(pts
+			(xy 226.06 73.66) (xy 219.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2246,7 +2340,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 73.66) (xy 226.06 73.66)
+			(xy 233.68 73.66) (xy 231.14 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 194.31 73.66)
+			(xy 204.47 73.66) (xy 194.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 78.74) (xy 194.31 80.01)
+			(xy 194.31 78.74) (xy 194.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2346,6 +2440,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 78.74) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8120d8-ddf0-4279-94b8-e268c69a23f9")
+	)
+	(wire
+		(pts
 			(xy 182.88 62.23) (xy 182.88 63.5)
 		)
 		(stroke
@@ -2366,6 +2470,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 87.63) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efffbce2-152f-49a1-bb8c-92006c2574b1")
+	)
+	(wire
+		(pts
+			(xy 201.93 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44e53c0-4d61-47d1-88d8-50f15702e682")
+	)
+	(wire
+		(pts
 			(xy 149.86 91.44) (xy 156.21 91.44)
 		)
 		(stroke
@@ -2376,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 182.88 86.36)
+			(xy 182.88 83.82) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2572,7 @@
 				)
 			)
 		)
-		(property "Value" "47uF  50V"
+		(property "Value" "47uF"
 			(at 113.284 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C84410.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
 			(at 139.7 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2742,7 +2866,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 223.52 73.66 270)
+		(at 228.6 73.66 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2753,7 +2877,7 @@
 		(dnp no)
 		(uuid "3233382e-6d86-4bf9-b00e-6431f645e9be")
 		(property "Reference" "R83"
-			(at 223.52 69.342 90)
+			(at 228.6 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2762,8 +2886,8 @@
 				)
 			)
 		)
-		(property "Value" "470R"
-			(at 223.52 71.374 90)
+		(property "Value" "220R"
+			(at 228.6 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2773,7 +2897,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 223.52 73.66 0)
+			(at 228.6 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +2908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 73.66 0)
+			(at 228.6 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2919,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 223.52 73.66 0)
+			(at 228.6 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,8 +2929,8 @@
 				)
 			)
 		)
-		(property "Link to Buy" "Dien tro dan 0805 1% - Mua tai CXT: linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html (chon 470R)"
-			(at 2.54 0 0)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/2345-dien-tro-470r-0805-1-100c.html"
+			(at 7.62 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,7 +2941,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 223.52 73.66 90)
+			(at 228.6 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2828,7 +2952,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 223.52 73.66 90)
+			(at 228.6 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,7 +2963,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 223.52 73.66 90)
+			(at 228.6 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2850,7 +2974,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 223.52 73.66 90)
+			(at 228.6 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2861,7 +2985,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 223.52 73.66 90)
+			(at 228.6 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2888,8 +3012,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 87.63 0)
-		(mirror y)
+		(at 179.07 88.9 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2899,7 +3023,7 @@
 		(dnp no)
 		(uuid "3d17d53a-e0f9-4dd1-a60d-6b241691c086")
 		(property "Reference" "#PWR0140"
-			(at 182.88 93.98 0)
+			(at 172.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2910,7 +3034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 91.948 0)
+			(at 173.228 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2920,7 +3044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 87.63 0)
+			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,7 +3055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 87.63 0)
+			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,7 +3066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 87.63 0)
+			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3123,8 +3247,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002K")
+		(at 185.42 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "680a5fb7-8ad1-4ed4-9494-71f2ed072109")
+		(property "Reference" "Q8"
+			(at 179.07 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2308BDS"
+			(at 179.07 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 180.34 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/69958/si2308bds.pdf"
+			(at 180.34 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SI2308BDS-T1-E3 N-Mosfet 60V 2.3A SOT23-3(TO-236)"
+			(at 185.42 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/5514-si2308bds-t1-e3-n-mosfet-60v-23a-sot23-3to-236.html?utm_source=chatgpt.com"
+			(at 185.42 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3f975fc-95a1-4488-8a85-003985d29053")
+		)
+		(pin "2"
+			(uuid "3fd186c9-9707-45d3-81ed-dc61d248ce2d")
+		)
+		(pin "3"
+			(uuid "5bcdcd10-8b2d-4c0e-8bf1-8d26c8c9cb4f")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 220.98 80.01 0)
+		(at 226.06 80.01 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3135,7 +3358,7 @@
 		(dnp no)
 		(uuid "7e9e2100-8b76-43e2-8b09-4063b22d7a7f")
 		(property "Reference" "#PWR0139"
-			(at 220.98 86.36 0)
+			(at 226.06 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,7 +3369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 84.328 0)
+			(at 226.06 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3156,7 +3379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 80.01 0)
+			(at 226.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3167,7 +3390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 80.01 0)
+			(at 226.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3178,7 +3401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 80.01 0)
+			(at 226.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,185 +3424,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC817")
-		(at 185.42 78.74 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80f3d718-b6a4-4853-8acf-01f0b539a993")
-		(property "Reference" "Q8"
-			(at 180.34 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC817-40"
-			(at 180.34 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 180.34 80.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bcx56.pdf"
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/5979-bc817-40-transistor-npn-45v-05a-sot23-10c.html"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5478dd6a-5203-4101-8183-59edd7af6cf3")
-		)
-		(pin "1"
-			(uuid "4ef5b2af-970b-4b51-b513-0935cc4f851c")
-		)
-		(pin "3"
-			(uuid "f6548fd7-3151-47ec-a4df-2d6428d13fc7")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 194.31 82.55 180)
+		(at 194.31 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3389,7 +3435,7 @@
 		(dnp no)
 		(uuid "8ca383e0-5ab9-45ad-badb-09b7af0a28d5")
 		(property "Reference" "R85"
-			(at 191.262 81.28 0)
+			(at 191.262 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3398,8 +3444,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 190.5 83.82 0)
+		(property "Value" "10kR"
+			(at 190.5 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3409,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,7 +3466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3477,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,8 +3487,8 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/8792-dien-tro-10k-0805-01-10c.html"
-			(at 0 0 0)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/9909-dien-tro-0805-05-18w-10-chiec-cac-gia-tri.html"
+			(at 0 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3453,7 +3499,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3464,7 +3510,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3475,7 +3521,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,7 +3532,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,7 +3543,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,162 +3563,6 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
 					(reference "R85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-357T")
-		(at 207.01 76.2 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dfdd646-7567-416c-b5be-c9f2c99e1210")
-		(property "Reference" "U13"
-			(at 207.01 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-354T"
-			(at 207.01 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 212.09 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "Thay LTV-357T bang LTV-354T (pin-compatible). Mua tai CXT: linhkien.cxtvn.com/5850-ltv-354t-optoisolator-375kv-trans-4-sop.html"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "a0906e71-3d81-48df-90f3-2aa6059ac3f9")
-		)
-		(pin "1"
-			(uuid "5e5f1a49-d8dc-4ba5-b82b-d1675e260e6a")
-		)
-		(pin "3"
-			(uuid "df397955-4bf2-413e-b057-814b724a3932")
-		)
-		(pin "2"
-			(uuid "01c76394-2bce-43a6-a137-508d639c4143")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -3836,6 +3726,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N914")
+		(at 201.93 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cefb5301-54e1-4b6c-8d03-6ed284b8b3f9")
+		(property "Reference" "D17"
+			(at 204.47 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C12"
+			(at 204.47 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 197.485 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/BZT52C12%20SOD-123.PDF"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode zener 12V BZT52C12 WH SOT-123/1206"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Comments" ""
+			(at 201.93 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 201.93 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 201.93 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 201.93 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR" ""
+			(at 201.93 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkienchatluong.vn/urldiode-zender-chan-dan--bzt52-sot-1231206/diode-zener-12v-bzt52c12-wh-sot-1231206-chinh-hang-jcet-10-chiec_sp1642_ct14895.aspx"
+			(at 123.19 -21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f552e90-f0ef-4256-b2ed-752a52a592f3")
+		)
+		(pin "2"
+			(uuid "bc029f47-dd05-4fdb-82d4-e5174e072a33")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 100.33 91.44 0)
 		(unit 1)
@@ -3914,6 +3973,194 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:LTV-357T")
+		(at 212.09 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5139f6-1ae2-4587-9c08-c8bb8eaf6811")
+		(property "Reference" "U13"
+			(at 212.09 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-357T"
+			(at 212.09 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Comments" ""
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR" ""
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkienchatluong.vn/urlltv/ltv357-ltv357t-sop-4-chinh-hang-liteon_sp1653_ct2643.aspx"
+			(at 157.48 -36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTV-357T"
+			(at 157.48 -36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 157.48 -36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C119091"
+			(at 157.48 -36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3285f955-6e67-401b-b9a8-13cd43b439e1")
+		)
+		(pin "1"
+			(uuid "a49fa9ed-c1d0-4cb4-9ddc-b5433c5818f0")
+		)
+		(pin "3"
+			(uuid "ccfa1f3a-ae55-4788-954c-c2b860f58bc6")
+		)
+		(pin "2"
+			(uuid "462d44da-d67e-465c-aaf5-7f6618602b46")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/4acac182-48e8-4ed5-84e5-017eac2b6d0c"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 194.31 68.58 180)
 		(unit 1)
@@ -3934,7 +4181,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3.3kR"
 			(at 190.5 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4082,7 +4329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FR107"
+		(property "Value" "RS1M"
 			(at 180.34 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4093,7 +4340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.325 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4104,7 +4351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
 			(at 182.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4252,7 +4499,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 108.966 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)

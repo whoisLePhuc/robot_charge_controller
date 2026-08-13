@@ -536,7 +536,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -573,19 +573,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -603,7 +603,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -825,7 +825,7 @@
           "group_by": false,
           "label": "Link to Buy",
           "name": "Link to Buy",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -836,16 +836,22 @@
         {
           "group_by": false,
           "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "F",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -896,7 +902,7 @@
         "uuid": "e734adb0-7c64-49f7-9536-e962540cdbdc"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Q2,Q9,Q12,#PWR123,D10-11,D16-18,D24,J4,J6,J8-14,J17-18,#FLG5",
     "variants": []
   },
   "sheets": [

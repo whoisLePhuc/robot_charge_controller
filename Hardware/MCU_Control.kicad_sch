@@ -1700,172 +1700,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5817"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5817"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N5817_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5817_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_2"
 			(power global)
 			(pin_numbers
@@ -5452,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 106.68) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fce2860-7af0-4d73-8ad7-33581ba61e26")
+	)
+	(wire
+		(pts
 			(xy 132.334 31.75) (xy 136.144 31.75)
 		)
 		(stroke
@@ -5522,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 106.68) (xy 26.67 106.68)
+			(xy 26.67 106.68) (xy 34.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5559,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "38eecc67-2b3a-4f61-9ace-807627765763")
+	)
+	(wire
+		(pts
+			(xy 93.98 36.83) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b26a849-4056-420a-9d35-c22eb3b8b39c")
 	)
 	(wire
 		(pts
@@ -5702,16 +5556,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 39.37) (xy 93.98 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59818a8c-1c7f-4817-8875-266d5fff1594")
-	)
-	(wire
-		(pts
 			(xy 136.144 31.75) (xy 136.144 34.29)
 		)
 		(stroke
@@ -5759,16 +5603,6 @@
 			(type default)
 		)
 		(uuid "5f211984-c2b9-4fa0-8f88-da6cc6405516")
-	)
-	(wire
-		(pts
-			(xy 44.45 106.68) (xy 50.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f236047-126b-4b5c-a112-82b649f46f56")
 	)
 	(wire
 		(pts
@@ -5939,16 +5773,6 @@
 			(type default)
 		)
 		(uuid "77f2911f-fa9c-4a30-9fcb-1872303c97fc")
-	)
-	(wire
-		(pts
-			(xy 77.47 27.94) (xy 83.82 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aabf071-8a24-4177-8a36-e36fbd230692")
 	)
 	(wire
 		(pts
@@ -6452,7 +6276,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 27.94) (xy 69.85 27.94)
+			(xy 63.5 27.94) (xy 83.82 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7261,7 +7085,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf"
 			(at 260.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7385,6 +7209,17 @@
 		)
 		(property "VENDOR" ""
 			(at 260.35 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/5979-bc817-40-transistor-npn-45v-05a-sot23-10c.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7569,140 +7404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
-		(at 73.66 27.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a660921-077b-4a9d-b022-927e3d35f70d")
-		(property "Reference" "D9"
-			(at 73.914 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 73.66 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 73.66 23.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ca8cb105-5d4a-41c7-9a79-feed781a8abf")
-		)
-		(pin "1"
-			(uuid "9b83f14d-3126-48eb-a8f4-f95ad6e969e1")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 91.44 101.6 180)
 		(unit 1)
@@ -7725,7 +7426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kR"
 			(at 88.9 100.3301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +7437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 91.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7815,6 +7516,17 @@
 		)
 		(property "VENDOR" ""
 			(at 91.44 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7849,10 +7561,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24d60ee7-8d3f-411e-804c-2dfdc27072e6")
 		(property "Reference" "R27"
-			(at 66.04 102.8701 0)
+			(at 66.04 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7862,8 +7573,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 66.04 100.3301 0)
+		(property "Value" "1kR"
+			(at 66.04 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7873,7 +7584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7952,6 +7663,17 @@
 		)
 		(property "VENDOR" ""
 			(at 68.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,7 +7711,7 @@
 		(fields_autoplaced yes)
 		(uuid "3743021e-3ecd-467f-9edc-e601ffb12e73")
 		(property "Reference" "U7"
-			(at 68.2341 181.61 0)
+			(at 68.1833 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8000,7 +7722,7 @@
 			)
 		)
 		(property "Value" "CP2102N-A02-GQFN20"
-			(at 68.2341 184.15 0)
+			(at 68.1833 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8066,17 +7788,6 @@
 			)
 		)
 		(property "VMax" ""
-			(at 66.04 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Silicon Laboratories"
 			(at 66.04 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8175,6 +7886,50 @@
 				)
 			)
 		)
+		(property "MPN" "CP2102N-A02-GQFN20R"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Silicon Labs"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C969913"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://ic-vietnam.com.vn/mach-tich-hop-ic-cp2102n-a02-gqfn20-sp13405.htm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "15"
 			(uuid "a29fa28d-b748-4015-b3c1-146c15e7e95d")
 		)
@@ -8248,6 +8003,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 59.69 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3844d998-6ec3-48c0-8e41-697279bbc9c6")
+		(property "Reference" "F2"
+			(at 59.69 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 59.69 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 64.77 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C66453.pdf"
+			(at 59.69 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse 1A"
+			(at 59.69 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/nsmd100-cau-chi-tu-phuc-hoi-60v-1a-1206/"
+			(at -10.16 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "nSMD100"
+			(at -10.16 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C66453"
+			(at -10.16 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Comments" ""
+			(at 59.69 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 59.69 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 59.69 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 59.69 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR" ""
+			(at 59.69 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c91a86de-af62-4b17-b81e-52c9a8feb6b3")
+		)
+		(pin "1"
+			(uuid "6a1beab8-75e5-4aa4-a7db-6a9d04f40324")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 26.67 152.4 0)
 		(unit 1)
@@ -8270,7 +8194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K5"
+		(property "Value" "47kR"
 			(at 29.21 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8435,6 +8359,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkienchatluong.vn/urlloai-0805-sai-so-1/dien-tro-dan-0805-47k-1-50-chiec_sp1569_ct5386.aspx"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f4357bbd-6275-4280-9003-76969f188639")
 		)
@@ -8472,7 +8407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 139.7 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8483,7 +8418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:T491A"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.954 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +8430,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
+		(property "Datasheet" ""
 			(at -60.046 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8608,7 +8543,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 136.144 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8771,6 +8706,17 @@
 		)
 		(property "VENDOR" ""
 			(at 136.144 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +8908,7 @@
 		(dnp no)
 		(uuid "50c4a13b-18b8-4ea3-9424-0a5165e88356")
 		(property "Reference" "R21"
-			(at 51.562 30.988 90)
+			(at 49.022 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8971,8 +8917,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 55.626 30.988 90)
+		(property "Value" "5.1kR"
+			(at 54.864 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8981,7 +8927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9069,6 +9015,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e3432f0d-7015-4bf2-957c-53d318b168f2")
 		)
@@ -9107,7 +9064,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "LED_R"
 			(at 66.04 94.0436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9208,6 +9165,17 @@
 		)
 		(property "VENDOR" ""
 			(at 68.58 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkienchatluong.vn/urlled-dan-0603-smd/led-dan-0603-mau-do-chinh-hang-xinglight-10-chiec_sp1972_ct9911.aspx"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9352,6 +9320,39 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/cong-usb-type-c-16-chan-han-pcb/"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USB4105-GF-A"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GCT (Global Connector Technology)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A8"
 			(uuid "d983abfa-98da-4087-a461-4f112afc1c21")
 		)
@@ -9434,7 +9435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 35.56 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9456,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 21.59 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9568,7 +9569,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 38.1 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9656,6 +9657,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "220cc9e1-9604-44b6-a4a5-2b174187d510")
 		)
@@ -9666,6 +9678,276 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:C")
+		(at 38.1 106.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d396361-47e2-4856-a88d-8ff1fae4ec08")
+		(property "Reference" "C23"
+			(at 39.624 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 33.02 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 26.67 107.6452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 21.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-00000"
+			(at 24.13 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "1kV"
+			(at 36.8301 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "100%"
+			(at 34.2901 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Purpose" "Bypass  capacitor."
+			(at 31.75 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Instructions and notes" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IMax" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDrop" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VMax" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Comments" ""
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR" ""
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6349-tu-khong-phan-cuc-1206.html"
+			(at 0 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ded607d-1bd8-4adc-b90d-982ba6846993")
+		)
+		(pin "2"
+			(uuid "c4e2a5cf-f846-4f45-92c1-f8aa40f50275")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -9693,7 +9975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 119.888 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +9997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 128.524 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9895,6 +10177,17 @@
 		)
 		(property "VENDOR" ""
 			(at 127.254 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10327,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 43.688 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10349,7 +10642,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 41.91 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10515,6 +10808,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd936359-f127-4c0e-94ef-f357b1bf159d")
 		)
@@ -10654,7 +10958,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf"
 			(at 260.35 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10787,6 +11091,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/5979-bc817-40-transistor-npn-45v-05a-sot23-10c.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1cbc9bc9-7b65-4b0a-b3a4-26209e03875d")
 		)
@@ -10838,7 +11153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.5652 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10917,6 +11232,17 @@
 		)
 		(property "VENDOR" ""
 			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11040,7 +11366,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kR"
 			(at 252.73 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11203,6 +11529,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/9909-dien-tro-0805-05-18w-10-chiec-cac-gia-tri.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e73e41ba-90bc-4012-a350-ccbc16f3a58f")
 		)
@@ -11297,8 +11634,8 @@
 		)
 	)
 	(symbol
-		(lib_id "T491A106K010AT7280:T491A106K010AT7280")
-		(at 44.45 106.68 180)
+		(lib_id "Device:C_Small")
+		(at 93.98 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11306,9 +11643,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "93b13848-8b93-453d-9dba-ae41ab5f2f74")
-		(property "Reference" "C23"
-			(at 36.068 101.854 0)
+		(fields_autoplaced yes)
+		(uuid "90968855-68fb-4c4d-aade-34dad9506410")
+		(property "Reference" "C21"
+			(at 96.52 33.0262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11318,8 +11656,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 43.688 102.108 0)
+		(property "Value" "10uF"
+			(at 96.52 35.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11329,32 +11667,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:T491A"
-			(at 35.56 10.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
-			(at 35.56 -89.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 10%, 10 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3.8 Ohms, 1000 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 9000, 156  Weeks"
-			(at 44.45 106.68 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11364,8 +11678,8 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-00000"
-			(at 44.45 92.71 0)
+		(property "Datasheet" ""
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11375,32 +11689,8 @@
 				)
 			)
 		)
-		(property "Voltage" "1kV"
-			(at 40.64 105.4101 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "100%"
-			(at 40.64 102.8701 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Purpose" "Bypass  capacitor."
-			(at 39.37 100.33 90)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11410,8 +11700,8 @@
 				)
 			)
 		)
-		(property "Instructions and notes" "Download from https://componentsearchengine.com/part-view/T491A106K010AT7280/KEMET"
-			(at 44.45 106.68 0)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 16.51 -34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11419,138 +11709,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "IMax" ""
-			(at 44.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDrop" ""
-			(at 44.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VMax" ""
-			(at 44.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comments" ""
-			(at 44.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.8"
-			(at 35.56 -289.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 35.56 -389.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T491A106K010AT7280"
-			(at 35.56 -489.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "80-T491A106K107280"
-			(at 35.56 -589.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/T491A106K010AT7280?qs=HIKTYMuL%252B9NxijI%252BZuzkYQ%3D%3D"
-			(at 35.56 -689.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "T491A106K010AT7280"
-			(at 35.56 -789.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t491a106k010at7280/kemet-corporation?region=nac"
-			(at 35.56 -889.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(property "BOM Comments" ""
-			(at 44.45 106.68 0)
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11561,7 +11723,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 44.45 106.68 0)
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11572,7 +11734,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 44.45 106.68 0)
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11583,7 +11745,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 44.45 106.68 0)
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11594,7 +11756,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 44.45 106.68 0)
+			(at 93.98 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11605,15 +11767,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "17453cb4-6b18-4677-8b1a-97133d7dee97")
+			(uuid "0648e80d-84ec-4f9e-986f-a7a38c2f829a")
 		)
 		(pin "2"
-			(uuid "5a661d25-c5c7-4fe4-9bf9-86cc6ac955c7")
+			(uuid "50a75acb-85e4-47c8-ae0e-431ec611115b")
 		)
 		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11640,7 +11802,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2.2kR"
 			(at 46.99 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11804,6 +11966,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "26a3b1ff-3951-4b36-b502-31b23696d06e")
 		)
@@ -11842,7 +12015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 254 41.9162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +12026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 251.46 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11941,6 +12114,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ffc3cecf-30ba-46f5-9980-2309fd05a768")
 		)
@@ -11951,279 +12135,6 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 59.69 27.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dddecf1-43d4-49e2-b3c8-c1be0f105190")
-		(property "Reference" "F2"
-			(at 59.69 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse 1A"
-			(at 59.69 24.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 64.77 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 59.69 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 59.69 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 59.69 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 59.69 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 59.69 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 59.69 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0f70d2d0-c4cd-4dad-92fe-322fa7fa31fb")
-		)
-		(pin "1"
-			(uuid "9d3ccac9-2a78-47ae-a2b4-cd34f79ec449")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 93.98 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1eb05cb-60c6-401e-b00f-8f2d41834f4d")
-		(property "Reference" "C21"
-			(at 97.79 33.4009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 97.79 35.9409 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 94.9452 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "215b4acb-5bc9-4ea6-a6a9-f3e0fcf13573")
-		)
-		(pin "2"
-			(uuid "87be1d60-a609-4d88-9c35-bc834e233e21")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -12419,6 +12330,39 @@
 		)
 		(property "VENDOR" ""
 			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/wifi-ble-module-esp32-esp-wroom-32e/"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESP32-WROOM-32E"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Espressif"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12644,7 +12588,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kR"
 			(at 252.73 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12807,6 +12751,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/9909-dien-tro-0805-05-18w-10-chiec-cac-gia-tri.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb5efedb-f612-429f-b6cc-473f2a6a3d01")
 		)
@@ -12845,7 +12800,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "LED_G"
 			(at 88.9 94.0436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12946,6 +12901,17 @@
 		)
 		(property "VENDOR" ""
 			(at 91.44 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkienchatluong.vn/urlled-dan-0603-smd/led-dan-0603-mau-xanh-la-tinh-khiet-chinh-hang-xinglight-10-chiec_sp1972_ct9912.aspx"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13168,6 +13134,50 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/10278-b3u-1000p-nut-nhan-smd-2p-3x25x16mm.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3U-1000P"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C231329"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa2a0ac9-fdd0-4ecb-8535-94f7a14d656b")
 		)
@@ -13307,6 +13317,50 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6071-usblc6-2sc6-tvs-diode-525v-17v-sot23-62c.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7519"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "86806db6-91a0-43ec-949b-0201f6527434")
 		)
@@ -13346,7 +13400,7 @@
 		(dnp no)
 		(uuid "d3314dcc-7641-45b7-b77e-81d1ef39e757")
 		(property "Reference" "R22"
-			(at 51.562 38.354 90)
+			(at 49.276 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13355,8 +13409,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 55.626 38.354 90)
+		(property "Value" "5.1kR"
+			(at 55.118 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13365,7 +13419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.07 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13444,6 +13498,17 @@
 		)
 		(property "VENDOR" ""
 			(at 52.07 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13802,7 +13867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kR"
 			(at 254 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13813,7 +13878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 251.46 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13901,6 +13966,17 @@
 				)
 			)
 		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/9909-dien-tro-0805-05-18w-10-chiec-cac-gia-tri.html"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "44db2a7d-20c2-433c-a2b8-9a79e6948a4d")
 		)
@@ -13939,7 +14015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22K1"
+		(property "Value" "22kR"
 			(at 29.21 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14095,6 +14171,17 @@
 		)
 		(property "VENDOR" ""
 			(at 26.67 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/6337-dien-tro-0805-1-thong-so-tu-1k-den-91k.html"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

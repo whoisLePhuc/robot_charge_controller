@@ -944,7 +944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 152.146 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)

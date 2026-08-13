@@ -3248,7 +3248,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002K")
-		(at 185.42 78.74 180)
+		(at 185.42 78.74 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3256,10 +3257,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "680a5fb7-8ad1-4ed4-9494-71f2ed072109")
 		(property "Reference" "Q8"
-			(at 179.07 77.4699 0)
+			(at 179.07 80.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3270,7 +3270,7 @@
 			)
 		)
 		(property "Value" "SI2308BDS"
-			(at 179.07 80.0099 0)
+			(at 179.07 77.4701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3281,7 +3281,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 180.34 76.835 0)
+			(at 180.34 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3294,7 +3294,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/69958/si2308bds.pdf"
-			(at 180.34 74.93 0)
+			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

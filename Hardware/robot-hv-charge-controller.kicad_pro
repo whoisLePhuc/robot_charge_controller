@@ -902,7 +902,7 @@
         "uuid": "e734adb0-7c64-49f7-9536-e962540cdbdc"
       }
     ],
-    "used_designators": "Q2,Q9,Q12,#PWR123,D10-11,D16-18,D24,J4,J6,J8-14,J17-18,#FLG5",
+    "used_designators": "Q2,Q9,Q12,#PWR71,#PWR123-124,D10-11,D16-18,D24,J4,J6,J8-14,J17-18,#FLG5",
     "variants": []
   },
   "sheets": [

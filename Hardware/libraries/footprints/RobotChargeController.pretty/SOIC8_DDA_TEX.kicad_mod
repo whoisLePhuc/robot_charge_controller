@@ -821,7 +821,7 @@
 		(uuid "22e20f1f-b038-42cc-af44-10f976ad1f5e")
 	)
 	(embedded_fonts no)
-	(model "D:/Working_space/Custom_components/LV14340DDAR/DDA0008B.stp"
+	(model "${KIPRJMOD}/libraries/3d-models/DDA0008B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

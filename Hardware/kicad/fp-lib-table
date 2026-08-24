@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "RobotChargeController") (type "KiCad") (uri "../../Hardware/libraries/footprints/RobotChargeController.pretty") (options "") (descr "Project-specific footprints for the Robot Charge Controller"))
-)

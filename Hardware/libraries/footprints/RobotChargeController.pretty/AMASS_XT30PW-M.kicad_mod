@@ -597,7 +597,7 @@
 		(uuid "c968d101-1f4a-4e10-b01d-5067700304ad")
 	)
 	(embedded_fonts no)
-	(model "D:/Working_space/Custom_components/XT30PW-M/XT30PW-M.step"
+	(model "${KIPRJMOD}/libraries/3d-models/XT30PW-M.step"
 		(offset
 			(xyz 0 0 0)
 		)

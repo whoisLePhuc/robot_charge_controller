@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib
+    (name "RobotChargeController")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/libraries/symbols/RobotChargeController.kicad_sym")
+    (options "")
+    (descr "Project-specific symbols for Robot Charge Controller")
+  )
+)

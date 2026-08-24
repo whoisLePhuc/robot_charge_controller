@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "RobotChargeController") (type "KiCad") (uri "../../Hardware/libraries/symbols/RobotChargeController.kicad_sym") (options "") (descr "Project-specific symbols for the Robot Charge Controller"))
-)

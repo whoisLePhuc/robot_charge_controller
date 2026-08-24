@@ -361,6 +361,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
@@ -850,6 +861,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://SOIC-8_3.9x4.9mm_P1.27mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/SOIC-8_3.9x4.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1964,6 +1986,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
@@ -2586,7 +2619,7 @@
 			(uuid "9fe9d8f4-4754-427b-9dc2-160ef8163130")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3369,6 +3402,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 		(layer "F.Cu")
@@ -3897,7 +3941,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R81"
-			(at 2.09 -0.36 180)
+			(at 2.09 -0.36 0)
 			(layer "F.SilkS")
 			(uuid "d074ded9-152d-47c1-ba36-19c1ec0b12fa")
 			(effects
@@ -4114,7 +4158,7 @@
 			(uuid "52e9703d-3171-49e3-83b5-05ae526c16be")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4587,6 +4631,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5510,6 +5565,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/TSSOP-8_4.4x3mm_P0.65mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -5754,7 +5820,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R75"
-			(at 2.08 -0.34 180)
+			(at 2.08 -0.34 0)
 			(layer "F.SilkS")
 			(uuid "3da29d7e-f343-47ba-bb03-f499b52e523e")
 			(effects
@@ -5971,7 +6037,7 @@
 			(uuid "586552f8-4668-457d-9378-7d384e7242f5")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6507,6 +6573,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SOT-23.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -6733,6 +6810,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7376,6 +7464,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9456,7 +9555,7 @@
 			(uuid "f33975fa-96d7-4c8c-9b82-8a6d11f62b1b")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://RELAY-TH_HF116F-80-XX-1HTF.step"
+		(model "${RB_CC_DIR}/RELAY-TH_HF116F-80-XX-1HTF.step"
 			(offset
 				(xyz 3 0 22.5)
 			)
@@ -10499,6 +10598,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
@@ -10507,7 +10617,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U7"
-			(at 0 -4.5 180)
+			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(uuid "a8d95fd0-1508-49d2-bf82-61964502103f")
 			(effects
@@ -10784,6 +10894,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SOT-223.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -11009,7 +11130,7 @@
 			(uuid "378a9e94-ce0a-4d09-8747-daeafdde2efc")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11256,6 +11377,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -11481,7 +11613,7 @@
 			(uuid "7a99ff80-75c1-4769-aaec-e45146a14484")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11954,6 +12086,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12489,6 +12632,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SOT-23.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
 		(layer "F.Cu")
@@ -12787,6 +12941,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
 		(layer "F.Cu")
@@ -13075,6 +13240,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://SO-4_4.4x3.6mm_P2.54mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13564,6 +13740,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SOT-23-6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -13572,7 +13759,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R78"
-			(at 2.09 -0.35 180)
+			(at 2.09 -0.35 0)
 			(layer "F.SilkS")
 			(uuid "c005d839-9cfe-4932-aeb5-d22538088bd0")
 			(effects
@@ -13789,7 +13976,7 @@
 			(uuid "4cb91add-cca0-46e2-aa98-2ffc845b6698")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14025,7 +14212,7 @@
 			(uuid "b2f09a57-c97b-482a-b399-eff9c14ef04b")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14524,7 +14711,7 @@
 			(uuid "d4eaabeb-9e33-4bd2-a639-2363b6f58d06")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16041,6 +16228,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "${RB_CC_DIR}/XT30PW-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -16502,7 +16700,7 @@
 			(uuid "d8264f6f-3fd9-409b-89ca-2985e9db310d")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17515,6 +17713,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SOIC-16_3.9x9.9mm_P1.27mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -17976,7 +18185,7 @@
 			(uuid "ada5291e-26d3-4037-b113-1b5a71a19485")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18379,6 +18588,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_2512_6332Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -18605,6 +18825,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18851,6 +19082,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -19077,6 +19319,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19548,7 +19801,7 @@
 			(uuid "f85fafdb-b88e-4718-9aba-1137a40374a1")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20093,6 +20346,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -20555,6 +20819,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21773,6 +22048,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -22009,6 +22295,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -22235,6 +22532,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23189,6 +23497,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
@@ -23981,6 +24300,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SOT-23.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "XT60PW-M:AMASS_XT60PW-M"
 		(layer "F.Cu")
@@ -24518,6 +24848,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://XT60PW-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "${RB_CC_DIR}/XT60PW-M.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25192,6 +25533,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "${RB_CC_DIR}/XT60PW-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -25417,7 +25769,7 @@
 			(uuid "08292b6a-8a26-4178-a36a-7bb2d935010f")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25770,7 +26122,7 @@
 			(uuid "bb3d2850-a6af-4d97-8d30-5d05153b77d2")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26738,6 +27090,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -26977,6 +27340,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27591,7 +27965,7 @@
 			(uuid "38b5a54a-9c2a-4273-a4a6-4b80a2d9a182")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27827,7 +28201,7 @@
 			(uuid "c017d5c1-e2cf-4a6b-aa07-62c3beb3df50")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28926,6 +29300,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_2512_6332Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -29170,7 +29555,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D12"
-			(at 1.74 1.8 180)
+			(at 1.74 1.8 0)
 			(layer "F.SilkS")
 			(uuid "16a53d9d-4d20-46c0-85eb-d9fc4dcb7584")
 			(effects
@@ -29573,6 +29958,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://SOT-23.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30462,6 +30858,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CSS2H_2512R_1L00F:RES_1L00x_BRN"
 		(layer "F.Cu")
@@ -30854,6 +31261,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_2512_6332Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -31080,6 +31498,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31455,6 +31884,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://SW_SPST_B3U-1000P.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/SW_SPST_B3U-1000P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32897,6 +33337,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
@@ -33663,6 +34114,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SOIC-8_3.9x4.9mm_P1.27mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -33967,6 +34429,17 @@
 		)
 		(embedded_fonts no)
 		(model "kicad-embed://R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34628,6 +35101,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal"
 		(layer "F.Cu")
@@ -34636,7 +35120,7 @@
 		(descr "Generic Phoenix Contact connector footprint for: MC_1,5/2-G-3.81; number of pins: 02; pin pitch: 3.81mm; Angled || order number: 1803277 8A 160V")
 		(tags "phoenix_contact connector MC_01x02_G_3.81mm")
 		(property "Reference" "J9"
-			(at 7.6 2.95 180)
+			(at -3.66 3.6425 180)
 			(layer "F.SilkS")
 			(uuid "11b62d1f-aff3-4bf0-92ec-74fba700c785")
 			(effects
@@ -35677,6 +36161,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "B.Cu")
@@ -35685,7 +36180,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R83"
-			(at 0 -1.6 90)
+			(at 0 1.56 90)
 			(layer "B.SilkS")
 			(uuid "85b19f01-814c-4ead-807e-72d376bf4ccd")
 			(effects
@@ -35914,7 +36409,7 @@
 			(uuid "5042e8aa-83fd-4b1b-a3d9-4fef7e5f64ef")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36573,7 +37068,7 @@
 			(uuid "d334a87a-6951-44da-8d67-79d49139ec79")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36592,7 +37087,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "Q7"
-			(at 0 4.5 90)
+			(at 0 -4.1975 90)
 			(layer "B.SilkS")
 			(uuid "aa7a70b6-b62d-4991-b1ca-cda198d0147e")
 			(effects
@@ -36942,7 +37437,7 @@
 			(uuid "dc812cd9-6e44-4573-abef-ade5e5c0eadb")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://TO-252-2.step"
+		(model "${KIPRJMOD}/libraries/3d-models/TO-252-2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37190,7 +37685,7 @@
 			(uuid "1a1e8c52-e3fd-4bd7-99c9-6877e65c49d6")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37438,7 +37933,7 @@
 			(uuid "9c9760ee-fad2-4eed-818f-f01abfc881d0")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38677,7 +39172,7 @@
 			(uuid "3efe0947-1b21-491a-8919-583151a86c83")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://D_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/3d-models/D_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39000,7 +39495,7 @@
 			(uuid "50bd36d4-f493-497d-b7e6-941ea2134c74")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://SOT-89-3.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-89-3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39659,7 +40154,7 @@
 			(uuid "22cdb7b2-dff9-45b4-9e3c-4442f339b142")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39678,7 +40173,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R84"
-			(at 0.01 -1.4675 90)
+			(at 2.04 0.1 0)
 			(layer "B.SilkS")
 			(uuid "0570ba72-0927-4b47-98a2-d593ee72f6cc")
 			(effects
@@ -39907,7 +40402,7 @@
 			(uuid "38444bdd-9e9b-4639-baec-b34990e23d49")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40576,7 +41071,7 @@
 			(uuid "ff5bff47-e7c2-4248-aeaa-6649524a00be")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40595,7 +41090,7 @@
 		(descr "4-Lead Plastic Small Outline (SO), see https://www.elpro.org/de/index.php?controller=attachment&id_attachment=339")
 		(tags "SO SOIC 2.54")
 		(property "Reference" "U13"
-			(at -3.22 -2.69 180)
+			(at -0.01 2.63 180)
 			(layer "B.SilkS")
 			(uuid "cc297ca6-89e8-4b2b-8890-ddb7b8569248")
 			(effects
@@ -40880,7 +41375,7 @@
 			(uuid "14cef7d7-423b-4d4d-a85b-1d3307088b18")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://SO-4_4.4x3.6mm_P2.54mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SO-4_4.4x3.6mm_P2.54mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41203,7 +41698,7 @@
 			(uuid "6b5f96b2-6f4b-4fd4-95b4-f21f3526772a")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://SOT-89-3.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-89-3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41451,7 +41946,7 @@
 			(uuid "5f309030-1d17-420e-bc23-1a500bfb45cb")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41774,7 +42269,7 @@
 			(uuid "c1872238-31d5-48ae-8e21-a401508ea1d3")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://SOT-89-3.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-89-3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42022,7 +42517,7 @@
 			(uuid "883233cb-8100-470b-9b5d-f5d3f37026ff")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)

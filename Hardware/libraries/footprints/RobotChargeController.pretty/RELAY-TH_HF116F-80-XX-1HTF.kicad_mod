@@ -1,0 +1,306 @@
+(footprint "RELAY-TH_HF116F-80-XX-1HTF"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12.85 0)
+		(layer "F.SilkS")
+		(uuid "ad6d57db-81f2-4137-b702-fd7c22cb7efc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HF116F-80/24-1HTF"
+		(at 0 12.85 0)
+		(layer "F.Fab")
+		(uuid "f84c178d-73e5-4232-aa91-60a5b9b217a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C5322130.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e2631b6-7d7a-4c47-a351-c6d4ff31dfb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a52a2918-09f3-4375-8c49-885454a3b133")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C5322130"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ad3eeb7-782c-43b0-b872-dff9b0e57118")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link to Buy" "https://www.lcsc.com/product-detail/C5322130.html?s_z=n_q_HF116F-80%252F24-1HTF&spm=wm.fly.bg.0.xh&lcsc_vid=RAULBVRUQFdbAgdSFVdZAl1VQlMLVgBUQwBZUlMDRlIxVlNeQVdZXlBVQ1NWVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d530c4-874c-4bd4-a13d-ea89c5c08337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM Comments" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a1bb024-e441-4acf-9f0f-82759f3e450a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae876321-734b-402e-b852-45ce4c299255")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b92e37b5-fa72-485a-8bd2-247d8e6e833d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d7ec73-c9c4-4002-9321-82aea7082150")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VENDOR" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcac8718-f368-43e5-848d-6e6a800585ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Main_Relay_Control/")
+	(sheetfile "Main_Relay_Control.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -25.25 -16.7)
+		(end -25.25 16.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ad6c9da-e8b7-49bf-9ad5-7e19894858dd")
+	)
+	(fp_line
+		(start -25.25 -16.7)
+		(end 25.25 -16.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e40b26b-377e-4d1c-816a-50427a0b0d0c")
+	)
+	(fp_line
+		(start -25.25 16.2)
+		(end 25.25 16.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a422e6d-ae37-4559-81bc-630f5e1dc0f9")
+	)
+	(fp_line
+		(start 25.25 -16.7)
+		(end 25.25 16.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6de99e0-c7d2-46b9-8b6c-7bcee165dacb")
+	)
+	(fp_circle
+		(center 25.25 16.2)
+		(end 25.28 16.2)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a7e5ce94-7595-45dd-ac84-222435751b01")
+	)
+	(fp_line
+		(start -25.25 -16.7)
+		(end 25.25 -16.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e4ce07a-67d9-4575-809d-53273015deda")
+	)
+	(fp_line
+		(start -25.25 16.2)
+		(end -25.25 -16.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "077883c7-b15d-4ccb-9ac7-bbf245ba7868")
+	)
+	(fp_line
+		(start 25.25 -16.7)
+		(end 25.25 16.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3364a651-0282-4341-98e3-2bfd51711787")
+	)
+	(fp_line
+		(start 25.25 16.2)
+		(end -25.25 16.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7259bbc-f737-4b9f-82d3-68901f1160cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.45 5.3 0)
+		(layer "F.Fab")
+		(uuid "43f5e27f-ade7-42d5-b319-8ce7860ea6f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" thru_hole oval
+		(at -18.3 8.85)
+		(size 8 2.4)
+		(drill oval 6.799986 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e6ffa95-40be-4148-9ba6-96ac4c987298")
+	)
+	(pad "1" thru_hole oval
+		(at 18.3 8.85)
+		(size 8 2.4)
+		(drill oval 6.799986 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92bc5235-dd99-4f20-a1cd-cf6f607156f3")
+	)
+	(pad "2" thru_hole oval
+		(at -18.3 -8.85)
+		(size 8 2.4)
+		(drill oval 6.799986 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18131c3e-cb0c-4681-a3f6-5442d35d79de")
+	)
+	(pad "4" thru_hole oval
+		(at -7.2 -8.85)
+		(size 8 2.4)
+		(drill oval 6.799986 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8bc55e07-40fa-4793-bf0f-f285b9961845")
+	)
+	(pad "6" thru_hole oval
+		(at 7.2 -8.85)
+		(size 8 2.4)
+		(drill oval 6.799986 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc121c4e-ae9a-43c4-af58-3123215d3314")
+	)
+	(pad "8" thru_hole oval
+		(at 18.3 -8.85)
+		(size 8 2.4)
+		(drill oval 6.799986 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd72fbb0-04a8-4971-b401-2e90ebcd28db")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/RELAY-TH_HF116F-80-XX-1HTF.step"
+		(offset
+			(xyz 3 0 22.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

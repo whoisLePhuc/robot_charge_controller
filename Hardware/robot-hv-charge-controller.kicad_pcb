@@ -361,7 +361,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -871,7 +871,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOIC-8_3.9x4.9mm_P1.27mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOIC-8_3.9x4.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1986,7 +1986,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3402,7 +3402,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4641,7 +4641,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5565,7 +5565,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/TSSOP-8_4.4x3mm_P0.65mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/TSSOP-8_4.4x3mm_P0.65mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6573,7 +6573,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOT-23.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6820,7 +6820,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7474,7 +7474,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9555,7 +9555,7 @@
 			(uuid "f33975fa-96d7-4c8c-9b82-8a6d11f62b1b")
 		)
 		(embedded_fonts no)
-		(model "${RB_CC_DIR}/RELAY-TH_HF116F-80-XX-1HTF.step"
+		(model "${KIPRJMOD}/libraries/3d-models/RELAY-TH_HF116F-80-XX-1HTF.step"
 			(offset
 				(xyz 3 0 22.5)
 			)
@@ -10598,7 +10598,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SO-4_4.4x3.6mm_P2.54mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10894,7 +10894,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOT-223.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-223.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11377,7 +11377,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12096,7 +12096,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12632,7 +12632,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOT-23.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12941,7 +12941,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SO-4_4.4x3.6mm_P2.54mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13250,7 +13250,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SO-4_4.4x3.6mm_P2.54mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13740,7 +13740,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOT-23-6.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-23-6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16228,7 +16228,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "${RB_CC_DIR}/XT30PW-M.step"
+		(model "${KIPRJMOD}/libraries/3d-models/XT30PW-M.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17713,7 +17713,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOIC-16_3.9x9.9mm_P1.27mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOIC-16_3.9x9.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18588,7 +18588,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_2512_6332Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_2512_6332Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18835,7 +18835,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19082,7 +19082,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19329,7 +19329,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20346,7 +20346,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SO-4_4.4x3.6mm_P2.54mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20829,7 +20829,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22048,7 +22048,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22295,7 +22295,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22542,7 +22542,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23497,7 +23497,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24300,7 +24300,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOT-23.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24858,7 +24858,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "${RB_CC_DIR}/XT60PW-M.step"
+		(model "${KIPRJMOD}/libraries/3d-models/XT60PW-M.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25533,7 +25533,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "${RB_CC_DIR}/XT60PW-M.step"
+		(model "${KIPRJMOD}/libraries/3d-models/XT60PW-M.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27090,7 +27090,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(model "${KIPRJMOD}/libraries/3d-models/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27350,7 +27350,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29300,7 +29300,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_2512_6332Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_2512_6332Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29968,7 +29968,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOT-23.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30858,7 +30858,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31261,7 +31261,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_2512_6332Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_2512_6332Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31508,7 +31508,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31894,7 +31894,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SW_SPST_B3U-1000P.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SW_SPST_B3U-1000P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33337,7 +33337,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34114,7 +34114,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SOIC-8_3.9x4.9mm_P1.27mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SOIC-8_3.9x4.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34439,7 +34439,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35101,7 +35101,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/SO-4_4.4x3.6mm_P2.54mm.step"
+		(model "${KIPRJMOD}/libraries/3d-models/SO-4_4.4x3.6mm_P2.54mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36161,7 +36161,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${RB_CC_DIR}/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/libraries/3d-models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)

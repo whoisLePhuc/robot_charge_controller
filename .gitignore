@@ -82,3 +82,6 @@ dkms.conf
 *.tmp
 Thumbs.db
 .DS_Store
+
+# Local scratch database (empty placeholder, not part of the design)
+mydatabase.db

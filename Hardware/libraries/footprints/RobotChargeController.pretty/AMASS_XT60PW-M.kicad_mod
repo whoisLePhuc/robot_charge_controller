@@ -515,7 +515,7 @@
 		(uuid "53502d5c-7979-4398-8cdc-7ca8322bcc46")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3d-models/XT60PW-M.step"
+	(model "${KIPRJMOD}/../libraries/3d-models/XT60PW-M.step"
 		(offset
 			(xyz 0 0 0)
 		)

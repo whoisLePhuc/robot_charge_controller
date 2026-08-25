@@ -1,5 +1,9 @@
-# 04-calculations/
+# Calculations
 
-T├¡nh to├ín kß╗╣ thuß║¡t ΓÇö c├íc bß║úng t├¡nh v├á ghi ch├║ t├¡nh to├ín phß╗Ñc vß╗Ñ thiß║┐t kß║┐ (c├┤ng suß║Ñt, nhiß╗çt, d├▓ng ─æiß╗çn, ph├ón ├íp, v.v.).
+This directory contains auditable engineering calculations associated with specific hardware revisions.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: t├¡nh to├ín tß╗òn hao d├óy dß║½n, t─âng nhiß╗çt PCB, d├▓ng tß║úi li├¬n tß╗Ñc, dung sai.
+## Current Artifact
+
+- [`INA241A2IDDFR_Output_Calculation.pdf`](INA241A2IDDFR_Output_Calculation.pdf): imported from the workspace calculation directory without transformation on 2026-08-25.
+
+The imported PDF is supporting evidence only. Its input values, component identity, tolerances, temperature assumptions, schematic revision, and acceptance criteria must be reviewed before its results are used for a design or release decision.

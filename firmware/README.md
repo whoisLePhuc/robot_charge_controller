@@ -1,14 +1,12 @@
-# firmware/
+# Firmware
 
-Phß║ºn mß╗üm nh├║ng ΓÇö firmware ESP32 cho Robot Charge Controller.
+This directory is reserved for ESP32 firmware that supervises the Robot Charge Controller.
 
-## Cß║Ñu tr├║c
+## Structure
 
-| Th╞░ mß╗Ñc | Chß╗⌐c n─âng |
-|---|---|
-| `include/` | Header file c├┤ng khai |
-| `src/` | M├ú nguß╗ôn ch├¡nh |
-| `lib/` | Th╞░ viß╗çn v├á module nß╗Öi bß╗Ö |
-| `test/` | Kiß╗âm thß╗¡ phß║ºn mß╗üm |
+- include/: public headers and interfaces.
+- src/: application source.
+- lib/: focused reusable modules.
+- test/: host-side and target-side tests.
 
-C├┤ng cß╗Ñ ph├ít triß╗ân: Visual Studio Code, PlatformIO hoß║╖c ESP-IDF.
+The firmware implementation has not started. Hardware-safe states, interface contracts, fault handling, timing, and test strategy must be defined before control logic is implemented.

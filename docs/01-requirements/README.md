@@ -1,5 +1,5 @@
-# 01-requirements/
+# Requirements
 
-Y├¬u cß║ºu hß╗ç thß╗æng ΓÇö c├íc t├ái liß╗çu m├┤ tß║ú y├¬u cß║ºu chß╗⌐c n─âng v├á phi chß╗⌐c n─âng cß╗ºa hß╗ç thß╗æng Robot Charge Controller.
+This directory contains controlled system, electrical, interface, environmental, safety, production, and verification requirements.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: ─æß║╖c tß║ú y├¬u cß║ºu, ma trß║¡n truy vß║┐t y├¬u cß║ºu, y├¬u cß║ºu an to├án v├á m├┤i tr╞░ß╗¥ng hoß║ít ─æß╗Öng.
+Every requirement should have a stable identifier, measurable acceptance criterion, source, owner, applicable hardware variant, and revision status. Unknown values must remain explicit rather than being copied from assumptions or another design.

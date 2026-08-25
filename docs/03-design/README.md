@@ -1,5 +1,9 @@
-# 03-design/
+# Detailed Design
 
-Thiß║┐t kß║┐ chi tiß║┐t ΓÇö t├ái liß╗çu thiß║┐t kß║┐ mß║ích ─æiß╗çn tß╗¡, lß╗▒a chß╗ìn linh kiß╗çn v├á thiß║┐t kß║┐ phß║ºn mß╗üm nh├║ng.
+This directory contains detailed circuit, component-selection, PCB-layout, and embedded-design documentation.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: ghi ch├║ thiß║┐t kß║┐, biß╗çn minh lß╗▒a chß╗ìn linh kiß╗çn, s╞í ─æß╗ô mß║ích tham khß║úo.
+## Contents
+
+- [`guides/`](guides/README.md): project layout, routing, EMI, and netclass guidance imported from the engineering workspace.
+
+Guides provide design rationale and constraints; they do not replace schematic/PCB review, calculations, simulation, or verification evidence for a particular revision.

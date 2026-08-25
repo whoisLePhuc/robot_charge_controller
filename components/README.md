@@ -1,5 +1,9 @@
-# components/
+# Components
 
-Linh kiß╗çn ΓÇö BOM (Bill of Materials), lß╗▒a chß╗ìn linh kiß╗çn thay thß║┐ ─æß║ít y├¬u cß║ºu v├á li├¬n kß║┐t datasheet.
+This directory contains component-selection records, BOM source files, qualified alternatives, datasheet indexes, and supply-chain notes.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: bß║úng BOM, linh kiß╗çn thay thß║┐, li├¬n kß║┐t datasheet v├á ghi ch├║ khß║ú n─âng cung ß╗⌐ng.
+## Contents
+
+- [`bom/`](bom/README.md): current BOM workbook candidates imported from the engineering workspace.
+
+Orderable manufacturer part numbers, alternates, lifecycle status, and sourcing evidence must be reviewed before a manufacturing release.

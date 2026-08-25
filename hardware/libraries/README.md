@@ -1,14 +1,11 @@
-# hardware/libraries/
+# Shared KiCad Libraries
 
-Th╞░ viß╗çn d├╣ng chung cß╗ºa dß╗▒ ├ín ΓÇö symbol, footprint v├á m├┤ h├¼nh 3D, l├á nguß╗ôn duy nhß║Ñt (single source of truth) cho mß╗ìi thiß║┐t kß║┐ board.
+This directory is the repository source of truth for project-specific symbols, footprints, and 3D models used by supported hardware variants.
 
-## Cß║Ñu tr├║c
+## Structure
 
-| Th╞░ mß╗Ñc | Chß╗⌐c n─âng |
-|---|---|
-| `symbols/` | Symbol schematic (`.kicad_sym`) |
-| `footprints/` | Footprint PCB (`.pretty/`) |
-| `3d-models/` | M├┤ h├¼nh 3D (`.step`/`.stp`) |
+- symbols/: project symbol libraries.
+- footprints/: project footprint libraries.
+- 3d-models/: project STEP/STP models.
 
-> [!NOTE]
-> Th╞░ mß╗Ñc n├áy ─æ╞░ß╗úc duy tr├¼ tr├¬n nh├ính `develop`. C├íc nh├ính thiß║┐t kß║┐ merge `develop` ─æß╗â nhß║¡n bß║ún cß║¡p nhß║¡t th╞░ viß╗çn mß╗¢i nhß║Ñt.
+All KiCad library changes must use the approved Konnect workflow. A shared-library change must be checked against every affected board project before merge.

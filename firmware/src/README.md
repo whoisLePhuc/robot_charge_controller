@@ -1,5 +1,5 @@
-# firmware/src/
+# Firmware Source
 
-M├ú nguß╗ôn ch├¡nh cß╗ºa firmware ΓÇö triß╗ân khai logic ─æiß╗üu khiß╗ân, gi├ím s├ít v├á truyß╗ün th├┤ng cß╗ºa ESP32.
+Application entry points, state machines, hardware integration, and orchestration code belong here.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: file `.c`/`.cpp` triß╗ân khai ─æiß╗üu khiß╗ân relay, ─æß╗ìc cß║úm biß║┐n, xß╗¡ l├╜ lß╗ùi v├á giao tiß║┐p CAN/RS485/UART.
+The source tree is currently a scaffold. Relay control must default to a defined safe state and must not be implemented before hardware and system requirements are recorded.

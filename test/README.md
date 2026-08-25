@@ -1,5 +1,5 @@
-# test/
+# Hardware Test
 
-Kiß╗âm thß╗¡ phß║ºn cß╗⌐ng ΓÇö ─æo l╞░ß╗¥ng, ß║únh chß╗Ñp oscilloscope v├á b├ío c├ío kiß╗âm tra tr├¬n thiß║┐t bß╗ï thß║¡t.
+This directory is reserved for bring-up procedures, fixtures, measurements, oscilloscope captures, raw data, and analyzed verification reports.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: dß╗» liß╗çu ─æo, ß║únh chß╗Ñp s├│ng, b├ío c├ío kiß╗âm tra v├á kß║┐t quß║ú x├íc minh phß║ºn cß╗⌐ng.
+Tests involving the 60 VDC/20 A path require a reviewed procedure, current-limited setup, suitable protection, qualified supervision, and clearly defined stop conditions.

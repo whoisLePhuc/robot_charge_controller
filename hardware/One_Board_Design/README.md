@@ -57,20 +57,20 @@ One_Board_Design/
 └── README.md
 ```
 
-The project's shared symbols, footprints, and 3D models are kept **outside** this directory, in `Hardware/libraries/`. This directory therefore does **not** contain its own `libraries/` folder; instead, the library tables and 3D-model references point one level up to the shared location (see [Library Paths](#library-paths)).
+The project's shared symbols, footprints, and 3D models are kept **outside** this directory, in `hardware/libraries/`. This directory therefore does **not** contain its own `libraries/` folder; instead, the library tables and 3D-model references point one level up to the shared location (see [Library Paths](#library-paths)).
 
 ## Opening the Design
 
 Open `robot-hv-charge-controller.kicad_pro` with KiCad 10.0.3 or a reviewed compatible version. The project and all hierarchical sheets must remain together. The project expects the shared library files to be present at `../libraries/` relative to this directory; if you relocate the project, update the library paths described in [Library Paths](#library-paths) accordingly.
 
-Before using any generated manufacturing data, regenerate and review ERC and DRC reports. The selected fabrication baseline is a two-layer, 1.6 mm PCB with 2 oz finished copper on both copper layers; the current KiCad board metadata still records approximately 1 oz per layer and must be synchronized before a fabrication release.
+Before using any generated manufacturing data, regenerate and review ERC and DRC reports. The selected fabrication baseline is a two-layer, 1.6 mm PCB with 2 oz finished copper on both copper layers. The current board stack-up records 0.07 mm copper on F.Cu and B.Cu, while the copper-finish field remains unspecified; the complete stack-up and finish still require fabricator confirmation before release.
 
 ## Library Paths
 
-The project uses a **shared library layout**: the KiCad project files live in this directory, while the project-specific symbols, footprints, and 3D models live one level up in `Hardware/libraries/`.
+The project uses a **shared library layout**: the KiCad project files live in this directory, while the project-specific symbols, footprints, and 3D models live one level up in `hardware/libraries/`.
 
 ```text
-Hardware/
+hardware/
 ├── libraries/                          # Shared project libraries (single source of truth)
 │   ├── symbols/
 │   │   └── RobotChargeController.kicad_sym
@@ -89,13 +89,13 @@ Hardware/
 
 | Reference | Value in file | Resolves to |
 |---|---|---|
-| Symbol library (`sym-lib-table`) | `${KIPRJMOD}/../libraries/symbols/RobotChargeController.kicad_sym` | `Hardware/libraries/symbols/` |
-| Footprint library (`fp-lib-table`) | `${KIPRJMOD}/../libraries/footprints/RobotChargeController.pretty` | `Hardware/libraries/footprints/` |
-| Project 3D models (footprints + PCB instances) | `${KIPRJMOD}/../libraries/3d-models/...` | `Hardware/libraries/3d-models/` |
+| Symbol library (`sym-lib-table`) | `${KIPRJMOD}/../libraries/symbols/RobotChargeController.kicad_sym` | `hardware/libraries/symbols/` |
+| Footprint library (`fp-lib-table`) | `${KIPRJMOD}/../libraries/footprints/RobotChargeController.pretty` | `hardware/libraries/footprints/` |
+| Project 3D models (footprints + PCB instances) | `${KIPRJMOD}/../libraries/3d-models/...` | `hardware/libraries/3d-models/` |
 | Standard KiCad 3D models | `${KICAD10_3DMODEL_DIR}/...` | KiCad installation `3dmodels` |
 | Embedded 3D models | `kicad-embed://...` | Stored inside the PCB file |
 
-`${KIPRJMOD}` is the directory containing the `.kicad_pro` file, i.e. this directory. The `../` prefix points one level up to `Hardware/libraries/`.
+`${KIPRJMOD}` is the directory containing the `.kicad_pro` file, i.e. this directory. The `../` prefix points one level up to `hardware/libraries/`.
 
 ### Notes
 
@@ -125,7 +125,7 @@ Hardware/
 |---|---|
 | Hierarchical schematic | Present; requires current ERC and engineering review evidence |
 | PCB layout | Present; requires current DRC, thermal, EMC, and manufacturability review evidence |
-| Copper stack-up metadata | Needs synchronization with the selected 2 oz fabrication baseline |
+| Copper stack-up metadata | 0.07 mm recorded on both copper layers; finish and fabricator stack-up still require confirmation |
 | 60 VDC / 20 A operation | Design requirement; not yet verified by the repository evidence |
 | Production release | Not authorized |
 

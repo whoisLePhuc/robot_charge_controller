@@ -1,5 +1,9 @@
-# tools/
+# Tools
 
-C├┤ng cß╗Ñ ΓÇö script xuß║Ñt, kiß╗âm tra v├á tß╗▒ ─æß╗Öng h├│a phß╗Ñc vß╗Ñ ph├ít triß╗ân.
+Repository validation, export, and automation utilities belong here.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: script xuß║Ñt Gerber/BOM, script kiß╗âm tra tß╗▒ ─æß╗Öng, script chuyß╗ân ─æß╗òi v├á tiß╗çn ├¡ch d├▓ng lß╗çnh.
+## Available Tool
+
+- check_repository.py validates the baseline directory structure, Markdown encoding, documented path case, and local Markdown links.
+
+KiCad source modifications must not be implemented with general-purpose text scripts; use the approved Konnect workflow.

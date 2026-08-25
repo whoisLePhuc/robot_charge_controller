@@ -1,5 +1,5 @@
-# hardware/templates/
+# Hardware Templates
 
-Template KiCad d├╣ng chung ΓÇö c├íc template project v├á sheet chuß║⌐n h├│a ─æß╗â khß╗ƒi tß║ío thiß║┐t kß║┐ mß╗¢i nhß║Ñt qu├ín.
+Reusable, reviewed KiCad templates may be stored here.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: template project, template sheet, khung t├¬n (title block) chuß║⌐n.
+The directory is currently a scaffold. A template must document its intended use, assumptions, library dependencies, KiCad version, and verification status.

@@ -1,5 +1,5 @@
-# 06-verification/
+# Verification
 
-Kiß╗âm chß╗⌐ng v├á x├íc nhß║¡n ΓÇö bß║▒ng chß╗⌐ng kiß╗âm tra, ─æo l╞░ß╗¥ng v├á x├íc nhß║¡n thiß║┐t kß║┐ so vß╗¢i y├¬u cß║ºu.
+This directory contains verification plans, requirement-to-test traceability, test procedures, raw results, analyzed results, and residual open actions.
 
-Nß╗Öi dung ─æiß╗ân h├¼nh: kß║┐ hoß║ích kiß╗âm chß╗⌐ng, b├ío c├ío kiß╗âm tra, kß║┐t quß║ú ─æo, hß╗ô s╞í x├íc nhß║¡n.
+Every result must identify the hardware, firmware, setup, instrumentation, environment, date, and acceptance criterion. A successful tool run is not automatically a verified requirement.

@@ -1,143 +1,98 @@
 # Robot Charge Controller
 
-An ESP32-based controller for switching, monitoring, and supervising the high-power DC charging path of a robotic system. The board controls a power relay, measures bus voltage and current, and communicates with external systems through CAN, RS485, and 3.3 V UART interfaces.
+An ESP32-based controller for switching, monitoring, and supervising a high-power DC charging path for mobile robots. The project supports two hardware architectures that coexist in this repository and share the same project-local KiCad libraries.
 
 > [!WARNING]
-> This project operates at up to **60 VDC and 20 A**. This energy level can cause arcing, overheating, fire, equipment damage, or personal injury if the system is designed, assembled, or tested incorrectly. The current design is a **prototype under development** and has not been validated for production or safety-critical use.
+> This project targets a charging path of up to **60 VDC and 20 A**. This energy level can cause arcing, overheating, fire, equipment damage, or personal injury. Both hardware variants are prototypes under development and have not been validated for production or safety-critical use.
 
-## 1. Project Goals
+## Hardware Variants
 
-The project is intended to provide the following capabilities:
+| Variant | Description | Current state |
+|---|---|---|
+| [One-Board Design](hardware/One_Board_Design/README.md) | Relay path, sensing, auxiliary power, ESP32 control, and communications on one PCB | KiCad schematic and PCB present; engineering checks remain open |
+| [Split-Board Design](hardware/Split_Board_Design/README.md) | Control Board and Relay Board connected through a controlled interface | Requirements scaffold present; KiCad projects not started |
 
-- Switch a 60 VDC charging path using a DC-rated power relay.
-- Measure voltage and current on the main power path.
-- Control and supervise system operation using an ESP32.
-- Communicate with higher-level systems through CAN, RS485, or 3.3 V UART.
-- Read external switch inputs.
-- Control auxiliary 24 V indicator loads.
-- Support hardware diagnostics, firmware development, and future expansion.
+Both variants are directories in the same repository. Branches are used for temporary changes, not as the only place where a hardware variant can be discovered.
 
-This board **does not replace a dedicated battery charger or battery management system (BMS)**. Battery-chemistry-specific charging control, cell balancing, and pack-level protection remain the responsibility of the external charger and BMS.
+## Design Targets
 
-## 2. Design Specifications
-
-| Item | Design target | Status |
+| Item | Target | Evidence status |
 |---|---:|---|
-| Main bus voltage | Up to 60 VDC | Design requirement |
-| Continuous load current | Up to 20 A | Requires thermal validation |
-| Auxiliary input | 24 VDC | Design requirement |
-| Microcontroller | ESP32-WROOM-32E | Selected |
-| Main switching device | DC-rated power relay | Verification in progress |
-| Current measurement | Shunt and current-sense amplifier | Verification in progress |
-| Voltage measurement | Resistor divider connected to an ADC input | Verification in progress |
-| Communication interfaces | CAN, RS485, and 3.3 V UART | Included in the design |
-| External inputs | Two switch inputs | Included in the design |
-| Auxiliary outputs | Three 24 V LED load-control channels | Included in the design |
-| PCB construction | Two layers; 2 oz finished copper on F.Cu and B.Cu | Selected fabrication baseline; KiCad copper-thickness metadata still needs synchronization |
+| Main bus voltage | Up to 60 VDC | Project requirement |
+| Continuous current | Up to 20 A | Requires electrical and thermal verification |
+| Auxiliary input | 24 VDC | Project requirement |
+| Controller | ESP32-WROOM-32E | Present in the One-Board Design |
+| Communications | CAN, RS485, and 3.3 V UART | Present in the One-Board Design |
+| PCB baseline | Two layers, nominal 1.6 mm, 2 oz finished copper on F.Cu and B.Cu | Selected baseline; fabricator stack-up and finish require review |
 
-The values above describe design requirements or planned configurations. If any conflict exists, the released BOM, schematic, PCB, and verification records for the applicable revision are the authoritative sources.
+This project does not replace a battery charger or battery management system. Battery-chemistry charging control, cell balancing, and pack-level protection remain the responsibility of the external charger and BMS.
 
-## 3. System Architecture
+## Repository Structure
 
-```mermaid
-flowchart TD
-    HV["60 VDC main input"] --> PROT["Input protection"]
-    PROT --> SENSE["Voltage and current sensing"]
-    SENSE --> RELAY["Power relay"]
-    RELAY --> LOAD["Robot charging output"]
-
-    AUX["24 VDC auxiliary input"] --> PSU["Logic power supplies"]
-    PSU --> MCU["ESP32-WROOM-32E"]
-
-    MCU --> RELAY
-    SENSE --> MCU
-    MCU <--> COMMS["CAN / RS485 / UART"]
-    SWITCH["External switches"] --> MCU
-    MCU --> LED["24 V LED loads"]
-```
-
-### Main Functional Blocks
-
-| Block | Function |
-|---|---|
-| Input protection | Limits the effects of overcurrent, voltage transients, and incorrect connections within the defined protection scope |
-| Power path | Carries the 60 V–20 A load while maintaining acceptable electrical loss and temperature rise |
-| Relay and driver | Switches the charging path and limits transients generated by the relay coil and contacts |
-| Current sensing | Measures the shunt voltage through Kelvin connections and conditions the signal for the ADC |
-| Voltage sensing | Divides, filters, and clamps the bus voltage before it reaches the ESP32 ADC |
-| Logic power | Converts the 24 V auxiliary input into the rails required by the MCU and communication circuits |
-| Communications | Provides CAN, RS485, and UART connectivity to external systems |
-| Control | Implements operating states, fault supervision, relay control, and auxiliary-output control |
-
-## 4. Repository Structure
-
-```text
-robot-charge-controller/
-├── README.md                 # Project overview and getting-started guide
-├── CHANGELOG.md              # Version history
-├── LICENSE                   # Project license
-├── docs/                     # Requirements, design, calculations, and verification
+~~~text
+robot_charge_controller/
+├── README.md
+├── CHANGELOG.md
+├── LICENSE
+├── components/
+│   └── bom/                       # BOM workbook candidates and index
+├── docs/
 │   ├── 01-requirements/
 │   ├── 02-architecture/
 │   ├── 03-design/
 │   ├── 04-calculations/
 │   ├── 05-reviews/
 │   ├── 06-verification/
-│   └── decisions/            # Architecture Decision Records
+│   ├── decisions/                 # Architecture decision records
+│   └── workflow.md
+├── firmware/
 ├── hardware/
-│   ├── kicad/                # Schematic and PCB source files
-│   ├── libraries/            # Project-local symbols, footprints, and 3D models
-│   └── templates/            # Shared KiCad templates
-├── firmware/                 # ESP32 firmware
-│   ├── include/
-│   ├── src/
-│   ├── lib/
-│   └── test/
-├── simulation/               # SPICE simulations and component models
-├── components/               # BOM, qualified alternatives, and datasheet links
-├── manufacturing/            # Fabrication notes and controlled release packages
-├── test/                     # Measurements, oscilloscope captures, and test reports
-└── tools/                    # Export, validation, and automation scripts
-```
+│   ├── One_Board_Design/
+│   ├── Split_Board_Design/
+│   ├── libraries/                 # Shared KiCad symbols, footprints, and 3D models
+│   └── templates/
+├── manufacturing/
+├── simulation/
+├── test/
+└── tools/
+~~~
 
-## 5. Development Tools
+## Getting Started
 
-### Hardware
+1. Read the [development workflow](docs/workflow.md).
+2. Select a hardware variant from the table above.
+3. Review the variant README, requirements, open findings, and shared-library path rules.
+4. Open a KiCad project only from its variant directory and keep `hardware/libraries/` in the repository layout.
+5. Run the repository organization check:
 
-- KiCad for schematic capture and PCB layout.
-- KiCad ERC and DRC for connectivity and layout-rule checks.
-- LTspice or ngspice for relevant circuit simulations.
-- Suitable tools for analyzing conductor current capacity, power loss, and PCB temperature rise.
+   ~~~sh
+   python tools/check_repository.py
+   ~~~
 
-### Firmware
+6. Before any hardware gate decision, regenerate ERC/DRC reports and record the exact board revision and open findings.
 
-- Visual Studio Code.
-- PlatformIO or ESP-IDF, depending on the configuration selected in `firmware/`.
-- A suitable USB connection for programming and serial logging.
+## Project Evidence
 
-The exact tool versions used to generate a release should be recorded with that release so the design can be reproduced.
+- [BOM candidates](components/bom/README.md)
+- [Engineering calculations](docs/04-calculations/README.md)
+- [Design guides](docs/03-design/guides/README.md)
+- [Architecture decisions](docs/decisions/README.md)
+- [Verification records](docs/06-verification/README.md)
+- [Manufacturing records](manufacturing/README.md)
 
-## 6. Project Status
+## Status
 
-| Area | Status |
+| Area | State |
 |---|---|
-| System requirements | In progress |
-| Schematic | In development/review |
-| PCB layout | In development |
-| Firmware | In development |
-| Simulation | Not completed |
-| Prototype assembly | Not confirmed |
-| 60 V–20 A verification | Not confirmed |
-| Production release | Not released |
+| Repository baseline | Established; both hardware variants coexist in the repository tree |
+| One-Board schematic and PCB | Present; unresolved review actions remain |
+| Split-Board requirements | Initial scaffold present |
+| Split-Board schematic and PCB | Not started |
+| Firmware | Scaffold only |
+| Simulation | Scaffold only |
+| Prototype verification | Not confirmed by controlled repository evidence |
+| Production release | Not authorized |
 
-Update this table only when corresponding evidence is available. Completion of the schematic or PCB alone does not establish safety, reliability, or production readiness.
+## License
 
-## 7. License
-
-The project license has not yet been selected. Before publishing the repository or permitting third-party reuse, add an appropriate `LICENSE` file and verify the licenses of all included libraries, models, and documentation.
-
----
-
-**Project:** Robot Charge Controller  
-**Design target:** 60 VDC, 20 A  
-**Lifecycle state:** Prototype / under development
+This repository is licensed under the [MIT License](LICENSE). Component models, third-party libraries, datasheets, and imported engineering artifacts may have separate terms that must be reviewed before redistribution.

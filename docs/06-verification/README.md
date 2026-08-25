@@ -1,5 +1,5 @@
-# 06-verification/
+# Verification
 
-Kiểm chứng và xác nhận — bằng chứng kiểm tra, đo lường và xác nhận thiết kế so với yêu cầu.
+This directory contains verification plans, requirement-to-test traceability, test procedures, raw results, analyzed results, and residual open actions.
 
-Nội dung điển hình: kế hoạch kiểm chứng, báo cáo kiểm tra, kết quả đo, hồ sơ xác nhận.
+Every result must identify the hardware, firmware, setup, instrumentation, environment, date, and acceptance criterion. A successful tool run is not automatically a verified requirement.

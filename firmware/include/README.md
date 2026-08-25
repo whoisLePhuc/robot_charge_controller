@@ -1,5 +1,5 @@
-# firmware/include/
+# Firmware Include
 
-Header file công khai của firmware — khai báo API, cấu trúc dữ liệu và hằng số được chia sẻ giữa các module.
+Public firmware headers and stable module interfaces belong here.
 
-Nội dung điển hình: file `.h` định nghĩa giao diện công khai của từng module.
+Do not place implementation-only declarations in this directory. Hardware-facing interfaces must document units, ranges, ownership, default state, and error behavior.

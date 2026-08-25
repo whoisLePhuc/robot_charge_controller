@@ -1,5 +1,9 @@
-# decisions/
+# Architecture Decisions
 
-Architecture Decision Records (ADR) — hồ sơ ghi lại các quyết định kiến trúc quan trọng và lý do lựa chọn.
+This directory contains architecture decision records for consequential repository, hardware, interface, and lifecycle choices.
 
-Mỗi ADR là một file Markdown theo mẫu: Bối cảnh → Quyết định → Hệ quả.
+## Records
+
+- [ADR-0001: Keep Hardware Variants in One Repository Tree](0001-coexisting-hardware-variants.md)
+
+Each record preserves context, alternatives, decision, consequences, and migration rules. Human release or risk-acceptance decisions require an identified responsible owner.

@@ -1,5 +1,5 @@
-# firmware/lib/
+# Firmware Libraries
 
-Thư viện và module nội bộ — mã dùng chung, driver thiết bị ngoại vi và các thành phần tái sử dụng được.
+Focused reusable firmware modules belong here.
 
-Nội dung điển hình: driver cảm biến, driver truyền thông, bộ thư viện tiện ích.
+Each module should own one responsibility, expose a documented interface, and include tests that do not require unrelated application state.

@@ -1,5 +1,5 @@
-# test/
+# Hardware Test
 
-Kiểm thử phần cứng — đo lường, ảnh chụp oscilloscope và báo cáo kiểm tra trên thiết bị thật.
+This directory is reserved for bring-up procedures, fixtures, measurements, oscilloscope captures, raw data, and analyzed verification reports.
 
-Nội dung điển hình: dữ liệu đo, ảnh chụp sóng, báo cáo kiểm tra và kết quả xác minh phần cứng.
+Tests involving the 60 VDC/20 A path require a reviewed procedure, current-limited setup, suitable protection, qualified supervision, and clearly defined stop conditions.

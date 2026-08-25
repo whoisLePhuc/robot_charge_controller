@@ -1,5 +1,5 @@
-# simulation/
+# Simulation
 
-Mô phỏng — mô phỏng SPICE và mô hình linh kiện phục vụ kiểm chứng thiết kế mạch.
+This directory is reserved for SPICE testbenches, component models, simulation parameters, and analyzed results.
 
-Nội dung điển hình: file netlist, testbench, mô hình SPICE và báo cáo kết quả mô phỏng (LTspice/ngspice).
+Every simulation must record model source and version, schematic revision, boundary conditions, sweeps or corners, limitations, and measurable acceptance criteria.

@@ -1,178 +1,103 @@
-# Quy trình phát triển (Development Workflow)
+# Quy trình phát triển
 
-Tài liệu này mô tả cách tổ chức repository và cách các thay đổi từ nhánh thiết kế (design branches) được đưa vào nhánh `main` ổn định.
+Tài liệu này quy định cách tổ chức repository và luồng thay đổi cho Robot Charge Controller. Hai phương án phần cứng cùng tồn tại trong cây thư mục; nhánh Git chỉ dùng để cô lập thay đổi trong thời gian ngắn.
 
-## 1. Mô hình nhánh (Branch Model)
+## 1. Mô hình repository
 
-Repository tuân theo mô hình kiểu **GitFlow** được điều chỉnh cho phù hợp với thiết kế phần cứng:
+~~~text
+main                         baseline có thể tái tạo
+└── develop                  nhánh tích hợp tùy chọn
+    ├── feature/<name>       tính năng hoặc artifact mới
+    ├── fix/<name>           sửa lỗi
+    └── docs/<name>          thay đổi tài liệu
 
-```text
-main (ổn định, sẵn sàng phát hành)
-  ▲ merge sau khi đánh giá
-develop (tích hợp + thư viện dùng chung)
-  ▲ merge qua pull request
-  ├── design/one-board     (One_Board_Design)
-  └── design/split-board   (Split_Board_Design)
-```
+hardware/
+├── One_Board_Design/        thiết kế tích hợp một PCB
+├── Split_Board_Design/      thiết kế Control Board + Relay Board
+├── libraries/               thư viện KiCad dùng chung
+└── templates/               template dùng chung
+~~~
 
-| Nhánh | Mục đích | Nội dung |
-|---|---|---|
-| `main` | Trạng thái ổn định, sẵn sàng phát hành | Chỉ có khung dự án: `README.md`, `LICENSE`, `.gitignore`, `Docs/` |
-| `develop` | Điểm tích hợp và tài sản dùng chung | Khung dự án + `Hardware/libraries/` (symbol, footprint, mô hình 3D) |
-| `design/one-board` | Phát triển thiết kế một board | `Hardware/One_Board_Design/` + `Hardware/libraries/` |
-| `design/split-board` | Phát triển thiết kế tách board | `Hardware/Split_Board_Design/` + `Hardware/libraries/` |
+`design/one-board` và `design/split-board` cũ được giữ nguyên trong giai đoạn chuyển đổi để đối chiếu lịch sử. Sau khi integration baseline được review và merge, mọi phát triển mới dùng nhánh ngắn hạn từ baseline phù hợp.
 
-## 2. Vai trò của từng nhánh
+## 2. Vai trò của nhánh
 
 ### `main`
 
-- Chỉ chứa những nội dung được coi là **ổn định và sẵn sàng phát hành**.
-- Trong giai đoạn prototype, không có thiết kế board nào nằm trên `main`.
-- Một thiết kế board chỉ được đưa lên `main` sau khi đã được đánh giá và xác nhận, đồng thời đã được merge vào `develop` và được phê duyệt.
+- Chứa toàn bộ artifact cần thiết để tái tạo baseline đã chọn, bao gồm các phương án phần cứng được hỗ trợ và thư viện dùng chung.
+- Không đồng nghĩa với chứng nhận an toàn hoặc cho phép sản xuất; trạng thái release phải dựa trên hồ sơ kiểm chứng và quyết định của người có thẩm quyền.
+- Chỉ nhận thay đổi qua pull request đã review.
 
-### `develop`
+### `develop` — tùy chọn
 
-- Là **nhánh tích hợp**: mọi thay đổi đã được đánh giá đều được merge vào đây trước khi đến `main`.
-- Lưu trữ **thư viện dùng chung** (`Hardware/libraries/`) — nguồn duy nhất (single source of truth) cho symbol, footprint và mô hình 3D được sử dụng bởi mọi thiết kế board.
-- Các thay đổi thư viện được thực hiện trên `develop` (hoặc qua một nhánh ngắn hạn được merge vào `develop`).
+- Dùng làm nhánh tích hợp khi nhiều thay đổi đang phát triển song song.
+- Phải được đồng bộ thường xuyên với `main` và không được trở thành nơi duy nhất chứa thư viện hoặc artifact cần cho việc tái tạo thiết kế.
+- Có thể bỏ qua đối với thay đổi nhỏ bằng cách tạo nhánh ngắn hạn trực tiếp từ `main`.
 
-### Các nhánh `design/*`
+### Nhánh thay đổi ngắn hạn
 
-- Mỗi thiết kế board được phát triển trên **nhánh riêng của nó**.
-- `design/one-board`   → thiết kế một board (One_Board_Design).
-- `design/split-board` → thiết kế board tách điều khiển/rơ-le (Split_Board_Design).
-- Các nhánh này **merge `develop` định kỳ** để nhận thư viện dùng chung và các cập nhật khung dự án mới nhất.
+- `feature/<name>` cho chức năng hoặc artifact mới.
+- `fix/<name>` cho sửa lỗi.
+- `docs/<name>` cho tài liệu.
+- Nhánh phải được xóa sau khi merge và không được dùng làm nơi lưu duy nhất của một phương án sản phẩm.
 
-## 3. Luồng thay đổi (Change Flow)
+## 3. Luồng thay đổi
 
-```mermaid
-flowchart LR
-    OB["design/one-board"] -->|PR| DEV["develop"]
-    SB["design/split-board"] -->|PR| DEV
-    LIB["thay đổi thư viện"] --> DEV
-    DEV -->|đánh giá| DEV
-    DEV -->|PR / merge được duyệt| MAIN["main"]
-```
+1. Chọn baseline phù hợp (`main` hoặc `develop`) và cập nhật từ remote.
+2. Tạo nhánh ngắn hạn với tên mô tả đúng phạm vi.
+3. Chỉ sửa các artifact thuộc phạm vi thay đổi; file KiCad phải được chỉnh qua Konnect.
+4. Chạy kiểm tra repository:
 
-### 3.1 Làm việc trên một thiết kế board
+   ~~~sh
+   python tools/check_repository.py
+   ~~~
 
-1. Chuyển sang nhánh thiết kế tương ứng:
-   ```sh
-   git checkout design/one-board      # hoặc design/split-board
-   ```
-2. Kéo các tài sản dùng chung mới nhất từ `develop`:
-   ```sh
-   git fetch origin
-   git merge origin/develop
-   ```
-3. Thực hiện các thay đổi schematic / PCB.
-4. Chạy ERC và DRC, ghi lại bằng chứng đánh giá.
-5. Commit với thông điệp mô tả rõ ràng (xem [Quy ước commit](#6-quy-ước-commit)).
-6. Push nhánh:
-   ```sh
-   git push origin design/one-board
-   ```
-7. Mở pull request vào `develop`.
+5. Với thay đổi KiCad, chạy ERC/DRC trên từng project bị ảnh hưởng và lưu bằng chứng theo revision.
+6. Review diff, mở pull request và ghi rõ kiểm tra đã chạy cùng các rủi ro còn mở.
+7. Merge sau khi review; xóa nhánh thay đổi khi không còn cần thiết.
 
-### 3.2 Thay đổi thư viện dùng chung
+## 4. Quản lý hai phương án phần cứng
 
-Thư viện dùng chung (symbol, footprint, mô hình 3D) nằm trên `develop`:
+- `hardware/One_Board_Design/` và `hardware/Split_Board_Design/` cùng tồn tại trên baseline.
+- Mỗi project KiCad phải tự mở được từ thư mục của nó và dùng thư viện chung tại `hardware/libraries/` qua đường dẫn portable.
+- Thay đổi thư viện dùng chung phải được kiểm tra với mọi project sử dụng thư viện đó.
+- Split-Board phải có interface contract được quản lý revision trước khi Control Board hoặc Relay Board phụ thuộc vào pinout hay mức điện áp cụ thể.
+- Tài liệu trạng thái phải phân biệt rõ “artifact tồn tại”, “tool đã chạy”, “vi phạm đã được xử lý” và “yêu cầu đã được kiểm chứng”.
 
-1. Tạo một nhánh ngắn hạn từ `develop` (hoặc làm việc trực tiếp trên `develop` cho các thay đổi nhỏ):
-   ```sh
-   git checkout develop
-   git checkout -b fix/library-xyz
-   ```
-2. Chỉnh sửa các file thư viện trong `Hardware/libraries/`.
-3. Commit, push, và mở pull request trở lại vào `develop`.
-4. Sau khi thay đổi thư viện được merge vào `develop`, mỗi nhánh thiết kế merge `develop` để nhận bản cập nhật.
+## 5. Quality gates
 
-### 3.3 Phát hành lên `main`
-
-1. Đảm bảo mọi thay đổi board đã được merge vào `develop` và đã được đánh giá.
-2. Khi trạng thái tích hợp được coi là ổn định:
-   ```sh
-   git checkout main
-   git merge develop
-   git push origin main
-   ```
-   hoặc mở pull request từ `develop` vào `main`.
-3. Tạo tag cho bản phát hành nếu cần:
-   ```sh
-   git tag -a v0.1.0 -m "First prototype baseline"
-   git push origin v0.1.0
-   ```
-
-## 4. Cấu trúc repository hiện tại
-
-```text
-robot_charge_controller/
-├── README.md                 # Tổng quan dự án
-├── LICENSE                   # Giấy phép dự án
-├── .gitignore
-├── docs/                     # Yêu cầu, kiến trúc, thiết kế, tính toán, đánh giá, kiểm chứng
-│   ├── 01-requirements/
-│   ├── 02-architecture/
-│   ├── 03-design/
-│   ├── 04-calculations/
-│   ├── 05-reviews/
-│   ├── 06-verification/
-│   ├── decisions/
-│   └── workflow.md           # Tài liệu này
-├── hardware/                 # Thiết kế phần cứng
-│   ├── libraries/            # Dùng chung: symbol, footprint, mô hình 3D (trên develop)
-│   └── templates/            # Template KiCad dùng chung
-├── firmware/                 # Firmware ESP32 (include, src, lib, test)
-├── simulation/               # Mô phỏng SPICE
-├── components/               # BOM, linh kiện thay thế, datasheet
-├── manufacturing/            # Ghi chú chế tạo, bộ hồ sơ phát hành
-├── test/                     # Đo lường, báo cáo kiểm tra phần cứng
-└── tools/                    # Script xuất, kiểm tra, tự động hóa
-```
-
-> [!NOTE]
-> `hardware/libraries/` được duy trì trên nhánh `develop` — nguồn duy nhất cho symbol,
-> footprint và mô hình 3D dùng chung. Các thiết kế board cụ thể
-> (`One_Board_Design`, `Split_Board_Design`) được phát triển trên các nhánh
-> `design/one-board` và `design/split-board`.
-
-## 5. Cổng kiểm tra chất lượng (Quality Gates)
-
-Trước khi một nhánh thiết kế được merge vào `develop`, các kiểm tra sau phải đạt và được ghi lại:
-
-| Cổng kiểm tra | Công cụ | Yêu cầu |
+| Gate | Công cụ hoặc bằng chứng | Điều kiện tối thiểu trước merge |
 |---|---|---|
-| Kiểm tra quy tắc điện (ERC) | KiCad `kicad-cli sch erc` | Không có lỗi; các cảnh báo đã được xem xét |
-| Kiểm tra quy tắc thiết kế (DRC) | KiCad `kicad-cli pcb drc` | Không có vi phạm chưa được phê duyệt |
-| Độ phân giải thư viện | KiCad | Không thiếu symbol, footprint hoặc mô hình 3D |
-| Đánh giá thiết kế | Đánh giá kỹ thuật | Đã được đánh giá và phê duyệt |
-| Kiểm tra sản xuất | KiCad / nhà máy | Chỉ trước khi phát hành chế tạo |
+| Repository | `python tools/check_repository.py` | PASS |
+| Markdown | Link nội bộ và encoding | Không có link hỏng hoặc mojibake |
+| KiCad source integrity | Konnect workflow | Không chỉnh tay file KiCad |
+| ERC | KiCad 10 `kicad-cli sch erc` | Không có error chưa được xử lý; warning đã review |
+| DRC | KiCad 10 `kicad-cli pcb drc` | Không có short, unconnected hoặc error chưa được xử lý |
+| Shared libraries | Mở project và render/export liên quan | Không thiếu symbol, footprint hoặc 3D model cần thiết |
+| Engineering review | Findings và verification records | Phạm vi và rủi ro còn mở được ghi rõ |
+
+Tool chạy thành công không đồng nghĩa với yêu cầu đã được kiểm chứng hoặc thiết kế được phép phát hành.
 
 ## 6. Quy ước commit
 
-Thông điệp commit tuân theo **phong cách ngữ nghĩa (semantic style)** của repository:
+Sử dụng thông điệp ngữ nghĩa, ví dụ:
 
-- `feat(hardware): ...` — tính năng hoặc khả năng mới
-- `fix(hardware): ...` — sửa lỗi
-- `refactor(hardware): ...` — tái cấu trúc không thay đổi hành vi
-- `chore: ...` — bảo trì, dọn dẹp, thay đổi không chức năng
-- `docs: ...` — chỉ tài liệu
+- `feat(hardware): add control-board interface scaffold`
+- `fix(hardware): resolve relay-board clearance violation`
+- `docs: update repository workflow`
+- `chore(repo): normalize documentation paths`
 
-Ví dụ về scope: `hardware`, `firmware`, `docs`, `libraries`.
+Không gộp thay đổi tài liệu, thư viện và schematic không liên quan vào cùng một commit.
 
-Ví dụ:
+## 7. Baseline và release
 
-```sh
-git commit -m "fix(hardware): correct 3D model paths in shared footprints"
-```
+Một baseline phần cứng phải xác định rõ:
 
-## 7. Vệ sinh nhánh (Branch Hygiene)
+- Commit hoặc tag chính xác.
+- Biến thể board áp dụng.
+- Phiên bản KiCad và stack-up chế tạo.
+- BOM, schematic, PCB, calculation và verification records tương ứng.
+- ERC/DRC cùng disposition của từng finding.
+- Người có thẩm quyền quyết định release.
 
-- Xóa một nhánh thiết kế sau khi nó đã được merge và không còn cần thiết:
-  ```sh
-  git push origin --delete design/one-board
-  git branch -d design/one-board
-  ```
-- Giữ `main` sạch: nó không bao giờ được chứa thiết kế đang triển khai dở dang.
-- Rebase hoặc merge `develop` vào các nhánh thiết kế thường xuyên để giảm thiểu xung đột.
-- Tạo tag cho các mốc quan trọng (baseline prototype, điểm kiểm tra đánh giá, bản phát hành).
+Chỉ tạo release tag sau khi các artifact trên đồng bộ và review hoàn tất.

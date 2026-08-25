@@ -1,14 +1,12 @@
-# firmware/
+# Firmware
 
-Phần mềm nhúng — firmware ESP32 cho Robot Charge Controller.
+This directory is reserved for ESP32 firmware that supervises the Robot Charge Controller.
 
-## Cấu trúc
+## Structure
 
-| Thư mục | Chức năng |
-|---|---|
-| `include/` | Header file công khai |
-| `src/` | Mã nguồn chính |
-| `lib/` | Thư viện và module nội bộ |
-| `test/` | Kiểm thử phần mềm |
+- include/: public headers and interfaces.
+- src/: application source.
+- lib/: focused reusable modules.
+- test/: host-side and target-side tests.
 
-Công cụ phát triển: Visual Studio Code, PlatformIO hoặc ESP-IDF.
+The firmware implementation has not started. Hardware-safe states, interface contracts, fault handling, timing, and test strategy must be defined before control logic is implemented.

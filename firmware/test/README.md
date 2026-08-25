@@ -1,5 +1,5 @@
-# firmware/test/
+# Firmware Tests
 
-Kiểm thử phần mềm — test case, test fixture và script kiểm thử cho firmware.
+Host-side unit tests, hardware-in-the-loop tests, fixtures, and test data belong here.
 
-Nội dung điển hình: unit test, integration test, test host (chạy trên máy tính) và script kiểm thử tự động.
+Every test must state the interface or requirement it covers, setup assumptions, expected result, and whether it can energize external hardware.

@@ -1,5 +1,9 @@
-# 04-calculations/
+# Calculations
 
-Tính toán kỹ thuật — các bảng tính và ghi chú tính toán phục vụ thiết kế (công suất, nhiệt, dòng điện, phân áp, v.v.).
+This directory contains auditable engineering calculations associated with specific hardware revisions.
 
-Nội dung điển hình: tính toán tổn hao dây dẫn, tăng nhiệt PCB, dòng tải liên tục, dung sai.
+## Current Artifact
+
+- [`INA241A2IDDFR_Output_Calculation.pdf`](INA241A2IDDFR_Output_Calculation.pdf): imported from the workspace calculation directory without transformation on 2026-08-25.
+
+The imported PDF is supporting evidence only. Its input values, component identity, tolerances, temperature assumptions, schematic revision, and acceptance criteria must be reviewed before its results are used for a design or release decision.

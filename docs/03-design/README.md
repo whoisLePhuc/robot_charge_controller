@@ -1,5 +1,9 @@
-# 03-design/
+# Detailed Design
 
-Thiết kế chi tiết — tài liệu thiết kế mạch điện tử, lựa chọn linh kiện và thiết kế phần mềm nhúng.
+This directory contains detailed circuit, component-selection, PCB-layout, and embedded-design documentation.
 
-Nội dung điển hình: ghi chú thiết kế, biện minh lựa chọn linh kiện, sơ đồ mạch tham khảo.
+## Contents
+
+- [`guides/`](guides/README.md): project layout, routing, EMI, and netclass guidance imported from the engineering workspace.
+
+Guides provide design rationale and constraints; they do not replace schematic/PCB review, calculations, simulation, or verification evidence for a particular revision.

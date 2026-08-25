@@ -1,5 +1,9 @@
-# components/
+# Components
 
-Linh kiện — BOM (Bill of Materials), lựa chọn linh kiện thay thế đạt yêu cầu và liên kết datasheet.
+This directory contains component-selection records, BOM source files, qualified alternatives, datasheet indexes, and supply-chain notes.
 
-Nội dung điển hình: bảng BOM, linh kiện thay thế, liên kết datasheet và ghi chú khả năng cung ứng.
+## Contents
+
+- [`bom/`](bom/README.md): current BOM workbook candidates imported from the engineering workspace.
+
+Orderable manufacturer part numbers, alternates, lifecycle status, and sourcing evidence must be reviewed before a manufacturing release.

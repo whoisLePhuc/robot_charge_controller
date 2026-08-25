@@ -1,14 +1,11 @@
-# hardware/libraries/
+# Shared KiCad Libraries
 
-Thư viện dùng chung của dự án — symbol, footprint và mô hình 3D, là nguồn duy nhất (single source of truth) cho mọi thiết kế board.
+This directory is the repository source of truth for project-specific symbols, footprints, and 3D models used by supported hardware variants.
 
-## Cấu trúc
+## Structure
 
-| Thư mục | Chức năng |
-|---|---|
-| `symbols/` | Symbol schematic (`.kicad_sym`) |
-| `footprints/` | Footprint PCB (`.pretty/`) |
-| `3d-models/` | Mô hình 3D (`.step`/`.stp`) |
+- symbols/: project symbol libraries.
+- footprints/: project footprint libraries.
+- 3d-models/: project STEP/STP models.
 
-> [!NOTE]
-> Thư mục này được duy trì trên nhánh `develop`. Các nhánh thiết kế merge `develop` để nhận bản cập nhật thư viện mới nhất.
+All KiCad library changes must use the approved Konnect workflow. A shared-library change must be checked against every affected board project before merge.

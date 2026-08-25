@@ -1,5 +1,5 @@
-# manufacturing/
+# Manufacturing
 
-Sản xuất — ghi chú chế tạo và bộ hồ sơ phát hành có kiểm soát (controlled release packages).
+This directory is reserved for fabrication notes, assembly instructions, controlled release packages, and manufacturing verification records.
 
-Nội dung điển hình: ghi chú chế tạo, bộ file Gerber/BOM/position, hồ sơ phát hành và xác nhận nhà máy.
+Generated Gerbers, drill files, BOM, and placement data must be tied to an exact source revision and independently reviewed before release. No production package is currently authorized.

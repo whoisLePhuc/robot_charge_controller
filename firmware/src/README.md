@@ -1,5 +1,5 @@
-# firmware/src/
+# Firmware Source
 
-Mã nguồn chính của firmware — triển khai logic điều khiển, giám sát và truyền thông của ESP32.
+Application entry points, state machines, hardware integration, and orchestration code belong here.
 
-Nội dung điển hình: file `.c`/`.cpp` triển khai điều khiển relay, đọc cảm biến, xử lý lỗi và giao tiếp CAN/RS485/UART.
+The source tree is currently a scaffold. Relay control must default to a defined safe state and must not be implemented before hardware and system requirements are recorded.

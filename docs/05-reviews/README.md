@@ -1,5 +1,5 @@
-# 05-reviews/
+# Reviews
 
-Đánh giá thiết kế — biên bản, danh sách kiểm tra và kết quả các buổi đánh giá thiết kế (design review).
+This directory contains schematic, PCB, safety, EMC, thermal, reliability, manufacturability, and integration review findings.
 
-Nội dung điển hình: biên bản đánh giá, danh sách phát hiện, quyết định và hành động khắc phục.
+Each review must identify the exact artifact revision, scope, tool versions, evidence, severity, disposition, owner, and open verification action. Review completion is not release authorization.

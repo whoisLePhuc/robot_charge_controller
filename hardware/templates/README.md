@@ -1,5 +1,5 @@
-# hardware/templates/
+# Hardware Templates
 
-Template KiCad dùng chung — các template project và sheet chuẩn hóa để khởi tạo thiết kế mới nhất quán.
+Reusable, reviewed KiCad templates may be stored here.
 
-Nội dung điển hình: template project, template sheet, khung tên (title block) chuẩn.
+The directory is currently a scaffold. A template must document its intended use, assumptions, library dependencies, KiCad version, and verification status.

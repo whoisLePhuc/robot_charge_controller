@@ -1,5 +1,5 @@
-# 01-requirements/
+# Requirements
 
-Yêu cầu hệ thống — các tài liệu mô tả yêu cầu chức năng và phi chức năng của hệ thống Robot Charge Controller.
+This directory contains controlled system, electrical, interface, environmental, safety, production, and verification requirements.
 
-Nội dung điển hình: đặc tả yêu cầu, ma trận truy vết yêu cầu, yêu cầu an toàn và môi trường hoạt động.
+Every requirement should have a stable identifier, measurable acceptance criterion, source, owner, applicable hardware variant, and revision status. Unknown values must remain explicit rather than being copied from assumptions or another design.

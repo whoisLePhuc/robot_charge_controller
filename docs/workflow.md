@@ -120,7 +120,6 @@ robot_charge_controller/
 │   ├── decisions/
 │   └── workflow.md           # Tài liệu này
 ├── hardware/                 # Thiết kế phần cứng
-│   ├── kicad/                # File nguồn schematic và PCB
 │   ├── libraries/            # Dùng chung: symbol, footprint, mô hình 3D (trên develop)
 │   └── templates/            # Template KiCad dùng chung
 ├── firmware/                 # Firmware ESP32 (include, src, lib, test)

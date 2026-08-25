@@ -2979,12 +2979,6 @@
 		(uuid "18bd77bd-59d7-46bf-b413-51de9363fe79")
 	)
 	(junction
-		(at 215.9 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bd8a429-15fd-4066-89fc-6c2ebd366a8d")
-	)
-	(junction
 		(at 160.02 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3045,6 +3039,12 @@
 		(uuid "57799526-017c-4327-afd0-679dbd696b1a")
 	)
 	(junction
+		(at 233.68 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f7500d-42d4-4a95-9113-9b253827dd88")
+	)
+	(junction
 		(at 256.54 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3099,16 +3099,16 @@
 		(uuid "b0c95c44-35f1-4519-aa54-771489702364")
 	)
 	(junction
-		(at 233.68 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4373568-3c90-47b4-9a70-7d63add20acd")
-	)
-	(junction
 		(at 82.55 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba206f30-59c4-438b-beea-dd76db38d244")
+	)
+	(junction
+		(at 215.9 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ed9376-457f-4e39-abf2-6aea54743da6")
 	)
 	(junction
 		(at 200.66 44.45)
@@ -3195,6 +3195,12 @@
 		(uuid "f147e59b-303f-40b2-86b8-c00f42c56f89")
 	)
 	(junction
+		(at 215.9 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa396826-9a53-480e-a18c-42f6ffc8610e")
+	)
+	(junction
 		(at 242.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3212,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 58.42) (xy 215.9 53.34)
+			(xy 215.9 58.42) (xy 215.9 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3592,16 +3598,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 40.64) (xy 215.9 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351c3c4b-40ac-42b6-91a1-efaef5b90036")
-	)
-	(wire
-		(pts
 			(xy 161.29 158.75) (xy 161.29 161.29)
 		)
 		(stroke
@@ -3609,16 +3605,6 @@
 			(type default)
 		)
 		(uuid "369fc828-b28c-4169-a9df-dd84d8c2bab4")
-	)
-	(wire
-		(pts
-			(xy 233.68 44.45) (xy 233.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3722ffaf-5e9d-4f96-b5c6-7069424c5086")
 	)
 	(wire
 		(pts
@@ -3742,6 +3728,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 44.45) (xy 238.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0ac068-bc24-4927-8596-4f3f65cda91f")
+	)
+	(wire
+		(pts
 			(xy 168.91 62.23) (xy 168.91 59.69)
 		)
 		(stroke
@@ -3759,16 +3755,6 @@
 			(type default)
 		)
 		(uuid "4ff94424-b9c4-45e8-b639-abb720b912be")
-	)
-	(wire
-		(pts
-			(xy 210.82 44.45) (xy 233.68 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c1cc46-6b6f-4374-9c51-7fb61f9a1a58")
 	)
 	(wire
 		(pts
@@ -4172,7 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 44.45) (xy 238.76 44.45)
+			(xy 210.82 44.45) (xy 215.9 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4409,6 +4395,16 @@
 			(type default)
 		)
 		(uuid "a687915b-db97-4fad-871a-8294ee5a56b8")
+	)
+	(wire
+		(pts
+			(xy 233.68 62.23) (xy 233.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dfe186-0eaf-4940-a362-5386ada0f1b5")
 	)
 	(wire
 		(pts
@@ -4669,6 +4665,16 @@
 			(type default)
 		)
 		(uuid "c6f12495-90cb-4ffd-bab1-74cf4b67c3f1")
+	)
+	(wire
+		(pts
+			(xy 215.9 44.45) (xy 233.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e7080c-fe37-4f28-b798-7ee1d60a384e")
 	)
 	(wire
 		(pts
@@ -5002,6 +5008,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 40.64) (xy 215.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7132373-549b-4ecb-9188-1ecce476a715")
+	)
+	(wire
+		(pts
 			(xy 226.06 140.97) (xy 234.95 140.97)
 		)
 		(stroke
@@ -5009,6 +5025,16 @@
 			(type default)
 		)
 		(uuid "e8acd6a8-3aa2-40e8-b897-db119ac6daad")
+	)
+	(wire
+		(pts
+			(xy 215.9 44.45) (xy 215.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97262b8-a25f-4140-818c-ceb6ff487709")
 	)
 	(wire
 		(pts
@@ -8775,7 +8801,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 215.9 50.8 0)
+		(at 215.9 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8785,7 +8811,7 @@
 		(dnp no)
 		(uuid "5101f468-ac4a-4260-9bd8-e3ef3976283a")
 		(property "Reference" "C46"
-			(at 218.44 49.5362 0)
+			(at 218.44 50.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8796,7 +8822,7 @@
 			)
 		)
 		(property "Value" "33pF-50V"
-			(at 218.44 52.0762 0)
+			(at 218.44 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8807,7 +8833,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8829,7 +8855,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +8866,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +8877,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8862,7 +8888,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8873,7 +8899,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8884,7 +8910,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 215.9 50.8 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8895,7 +8921,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/3426-tu-330-33pf-0603-50v-20c.html"
-			(at 476.25 -1.27 0)
+			(at 476.25 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

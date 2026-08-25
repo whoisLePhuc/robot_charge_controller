@@ -3,7 +3,7 @@
   (lib
     (name "RobotChargeController")
     (type "KiCad")
-    (uri "${KIPRJMOD}/libraries/footprints/RobotChargeController.pretty")
+    (uri "${KIPRJMOD}/../libraries/footprints/RobotChargeController.pretty")
     (options "")
     (descr "Project-specific footprints for Robot Charge Controller")
   )

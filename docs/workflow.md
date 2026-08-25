@@ -110,19 +110,32 @@ robot_charge_controller/
 ├── README.md                 # Tổng quan dự án
 ├── LICENSE                   # Giấy phép dự án
 ├── .gitignore
-├── Docs/
-│   ├── Schematic.pdf         # Bản xuất schematic
+├── docs/                     # Yêu cầu, kiến trúc, thiết kế, tính toán, đánh giá, kiểm chứng
+│   ├── 01-requirements/
+│   ├── 02-architecture/
+│   ├── 03-design/
+│   ├── 04-calculations/
+│   ├── 05-reviews/
+│   ├── 06-verification/
+│   ├── decisions/
 │   └── workflow.md           # Tài liệu này
-└── Hardware/
-    ├── libraries/            # Dùng chung: symbol, footprint, mô hình 3D (trên develop)
-    ├── One_Board_Design/     # Thiết kế một board (trên design/one-board)
-    └── Split_Board_Design/   # Thiết kế tách board (trên design/split-board)
+├── hardware/                 # Thiết kế phần cứng
+│   ├── kicad/                # File nguồn schematic và PCB
+│   ├── libraries/            # Dùng chung: symbol, footprint, mô hình 3D (trên develop)
+│   └── templates/            # Template KiCad dùng chung
+├── firmware/                 # Firmware ESP32 (include, src, lib, test)
+├── simulation/               # Mô phỏng SPICE
+├── components/               # BOM, linh kiện thay thế, datasheet
+├── manufacturing/            # Ghi chú chế tạo, bộ hồ sơ phát hành
+├── test/                     # Đo lường, báo cáo kiểm tra phần cứng
+└── tools/                    # Script xuất, kiểm tra, tự động hóa
 ```
 
 > [!NOTE]
-> `Hardware/One_Board_Design/` và `Hardware/Split_Board_Design/` chỉ tồn tại trên
-> các nhánh thiết kế tương ứng. Trên `main` và `develop`, `Hardware/` chỉ chứa
-> thư mục `libraries/` dùng chung (trên `develop`).
+> `hardware/libraries/` được duy trì trên nhánh `develop` — nguồn duy nhất cho symbol,
+> footprint và mô hình 3D dùng chung. Các thiết kế board cụ thể
+> (`One_Board_Design`, `Split_Board_Design`) được phát triển trên các nhánh
+> `design/one-board` và `design/split-board`.
 
 ## 5. Cổng kiểm tra chất lượng (Quality Gates)
 

@@ -33,7 +33,7 @@ This board **does not replace a dedicated battery charger or battery management 
 | Communication interfaces | CAN, RS485, and 3.3 V UART | Included in the design |
 | External inputs | Two switch inputs | Included in the design |
 | Auxiliary outputs | Three 24 V LED load-control channels | Included in the design |
-| PCB construction | Four layers; 2 oz outer copper and 1 oz inner copper | Target stack-up |
+| PCB construction | Two layers; 2 oz finished copper on F.Cu and B.Cu | Selected fabrication baseline; KiCad copper-thickness metadata still needs synchronization |
 
 The values above describe design requirements or planned configurations. If any conflict exists, the released BOM, schematic, PCB, and verification records for the applicable revision are the authoritative sources.
 

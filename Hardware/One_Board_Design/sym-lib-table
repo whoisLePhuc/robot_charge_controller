@@ -3,7 +3,7 @@
   (lib
     (name "RobotChargeController")
     (type "KiCad")
-    (uri "${KIPRJMOD}/libraries/symbols/RobotChargeController.kicad_sym")
+    (uri "${KIPRJMOD}/../libraries/symbols/RobotChargeController.kicad_sym")
     (options "")
     (descr "Project-specific symbols for Robot Charge Controller")
   )

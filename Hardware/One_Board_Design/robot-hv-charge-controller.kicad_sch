@@ -2589,17 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 100.33) (xy 257.81 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23418ee1-a6ab-485c-89c3-0a884c04e632")
-	)
-	(wire
-		(pts
-			(xy 156.21 60.96) (xy 86.36 60.96)
+			(xy 156.21 62.23) (xy 86.36 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 156.21 60.96)
+			(xy 156.21 67.31) (xy 156.21 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2939,6 +2929,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 100.33) (xy 257.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9878885f-773a-4feb-b1b7-499993ee15ec")
+	)
+	(wire
+		(pts
 			(xy 163.83 128.27) (xy 86.36 128.27)
 		)
 		(stroke
@@ -3046,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "ab775f4f-119b-4bf2-b904-e7a36e0897de")
+	)
+	(wire
+		(pts
+			(xy 254 90.17) (xy 257.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2fe4a1-e02d-4822-881b-7c72fbadf1d5")
 	)
 	(wire
 		(pts
@@ -3209,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 60.96) (xy 86.36 50.8)
+			(xy 86.36 62.23) (xy 86.36 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3286,16 +3296,6 @@
 			(type default)
 		)
 		(uuid "dfb8293f-0639-43a7-badd-c4d03a1e972b")
-	)
-	(wire
-		(pts
-			(xy 254 90.17) (xy 257.81 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc78738-4cc5-40a8-9e27-cf583c2951ac")
 	)
 	(wire
 		(pts
@@ -3415,7 +3415,7 @@
 	)
 	(global_label "DO3_SINK"
 		(shape input)
-		(at 254 100.33 180)
+		(at 254 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3424,7 +3424,7 @@
 		)
 		(uuid "b2c1370f-6ccc-4bae-86c6-4dd6df15a6a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 100.33 0)
+			(at 254 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,7 +3459,7 @@
 	)
 	(global_label "DO1_SINK"
 		(shape input)
-		(at 254 90.17 180)
+		(at 254 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3468,7 +3468,7 @@
 		)
 		(uuid "e63f5957-f75e-4b25-aedd-708b640a7a3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 90.17 0)
+			(at 254 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

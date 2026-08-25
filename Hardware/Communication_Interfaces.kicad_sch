@@ -2785,121 +2785,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 204.47 83.82)
@@ -3088,12 +2973,6 @@
 		(uuid "101f2834-3874-48f0-a305-2d4680e2469f")
 	)
 	(junction
-		(at 135.89 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1804d0ae-8c22-4259-8e2a-83adbc753e46")
-	)
-	(junction
 		(at 184.15 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3118,12 +2997,6 @@
 		(uuid "245ae528-821f-4bf2-93a5-169c76d64089")
 	)
 	(junction
-		(at 41.91 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28138f3f-82cc-4580-9fc9-74c92fd258fa")
-	)
-	(junction
 		(at 172.72 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3134,12 +3007,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32c37425-57ed-4a04-95aa-b55e10d0e7a2")
-	)
-	(junction
-		(at 41.91 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4313b3c3-63ec-4cac-947f-aa30e2c3c290")
 	)
 	(junction
 		(at 260.35 140.97)
@@ -3160,12 +3027,6 @@
 		(uuid "4874061b-a3ca-4462-97e6-a5370154a7f8")
 	)
 	(junction
-		(at 71.12 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a456f01-d666-4e7a-af1d-7e31156b4d70")
-	)
-	(junction
 		(at 36.83 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3184,22 +3045,10 @@
 		(uuid "57799526-017c-4327-afd0-679dbd696b1a")
 	)
 	(junction
-		(at 135.89 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57dcbc0b-060a-4602-898a-d46388a41b3a")
-	)
-	(junction
 		(at 256.54 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61d7c9ce-9ce6-4159-b6ba-a6193cd7facf")
-	)
-	(junction
-		(at 41.91 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "621f8595-61eb-45eb-a5a6-d23c8269764c")
 	)
 	(junction
 		(at 215.9 30.48)
@@ -3218,12 +3067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "801ba4cd-a5fe-4bea-add3-f6e96078ef34")
-	)
-	(junction
-		(at 41.91 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80233f00-1509-479c-a313-ef1de7386b5c")
 	)
 	(junction
 		(at 234.95 156.21)
@@ -3260,6 +3103,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4373568-3c90-47b4-9a70-7d63add20acd")
+	)
+	(junction
+		(at 82.55 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba206f30-59c4-438b-beea-dd76db38d244")
 	)
 	(junction
 		(at 200.66 44.45)
@@ -3346,12 +3195,6 @@
 		(uuid "f147e59b-303f-40b2-86b8-c00f42c56f89")
 	)
 	(junction
-		(at 82.55 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6b4d28b-c6d6-4076-a78b-842bf51d7408")
-	)
-	(junction
 		(at 242.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3419,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 115.57) (xy 50.8 115.57)
+			(xy 46.99 115.57) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3456,16 +3299,6 @@
 			(type default)
 		)
 		(uuid "059f5df6-a786-46e0-b081-d7efa3cdd15e")
-	)
-	(wire
-		(pts
-			(xy 41.91 175.26) (xy 48.26 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06d4e1ca-da3a-4127-b365-569a67177eda")
 	)
 	(wire
 		(pts
@@ -3529,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 144.78) (xy 135.89 144.78)
+			(xy 135.89 144.78) (xy 140.97 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 100.33) (xy 82.55 100.33)
+			(xy 71.12 99.06) (xy 82.55 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 110.49) (xy 31.75 110.49)
+			(xy 33.02 110.49) (xy 36.83 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3739,26 +3572,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 157.48) (xy 135.89 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe1d812-9ed0-40ee-8a61-5a302046aea0")
-	)
-	(wire
-		(pts
-			(xy 27.94 109.22) (xy 27.94 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe2b40a-4b09-4590-b20b-6789e5ceb778")
-	)
-	(wire
-		(pts
 			(xy 226.06 156.21) (xy 234.95 156.21)
 		)
 		(stroke
@@ -3849,6 +3662,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 144.78) (xy 130.81 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d37c39b-ef49-4dad-827c-437a99c75e30")
+	)
+	(wire
+		(pts
 			(xy 160.02 107.95) (xy 160.02 110.49)
 		)
 		(stroke
@@ -3879,26 +3702,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 110.49) (xy 41.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48555829-23e2-425f-ba3d-4419c3eb65be")
-	)
-	(wire
-		(pts
-			(xy 30.48 158.75) (xy 25.4 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48696372-97b2-4295-87e2-b06f7b5a28bf")
-	)
-	(wire
-		(pts
 			(xy 189.23 30.48) (xy 200.66 30.48)
 		)
 		(stroke
@@ -3916,6 +3719,16 @@
 			(type default)
 		)
 		(uuid "4beb7dc5-4781-40f1-a767-ed940009c332")
+	)
+	(wire
+		(pts
+			(xy 31.75 158.75) (xy 38.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c19c733-e84f-4537-bb52-b4da53f8a99f")
 	)
 	(wire
 		(pts
@@ -3996,16 +3809,6 @@
 			(type default)
 		)
 		(uuid "57076834-59e4-4ceb-b498-4cc3e2f9a1f5")
-	)
-	(wire
-		(pts
-			(xy 41.91 127) (xy 48.26 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d6b54c-cb01-430a-bc78-a4f0e12774b0")
 	)
 	(wire
 		(pts
@@ -4099,16 +3902,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 121.92) (xy 41.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6150ed87-8fb4-4669-87cd-0de27a3089b5")
-	)
-	(wire
-		(pts
 			(xy 71.12 115.57) (xy 74.93 115.57)
 		)
 		(stroke
@@ -4189,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 96.52) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762226c9-3936-408d-bc3c-5a358da63c8f")
+	)
+	(wire
+		(pts
 			(xy 161.29 149.86) (xy 161.29 153.67)
 		)
 		(stroke
@@ -4209,7 +4012,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 110.49) (xy 41.91 110.49)
+			(xy 41.91 110.49) (xy 50.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4289,16 +4092,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 158.75) (xy 49.53 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8108fae7-8971-4072-9b70-08a765fcb060")
-	)
-	(wire
-		(pts
 			(xy 170.18 91.44) (xy 176.53 91.44)
 		)
 		(stroke
@@ -4319,23 +4112,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 100.33) (xy 71.12 102.87)
+			(xy 71.12 99.06) (xy 71.12 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82f25ff6-b46e-451c-ad62-25fda31e0352")
-	)
-	(wire
-		(pts
-			(xy 25.4 158.75) (xy 25.4 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e9170f-af61-44cc-bb5f-220c073b8269")
 	)
 	(wire
 		(pts
@@ -4409,16 +4192,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 158.75) (xy 41.91 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f091e92-375a-4023-930c-35fb22a87633")
-	)
-	(wire
-		(pts
 			(xy 256.54 156.21) (xy 256.54 157.48)
 		)
 		(stroke
@@ -4456,16 +4229,6 @@
 			(type default)
 		)
 		(uuid "91928513-1069-4014-8636-fc460594e11c")
-	)
-	(wire
-		(pts
-			(xy 71.12 147.32) (xy 71.12 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ee108a-c7e0-4417-b743-bfdfcdc754aa")
 	)
 	(wire
 		(pts
@@ -4519,26 +4282,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 144.78) (xy 135.89 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97cbc036-7222-4645-997b-390b33f71db2")
-	)
-	(wire
-		(pts
-			(xy 135.89 153.67) (xy 135.89 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9904a922-fce6-48b2-9a6b-ca6efc67d5d5")
-	)
-	(wire
-		(pts
 			(xy 82.55 25.4) (xy 82.55 27.94)
 		)
 		(stroke
@@ -4579,17 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 144.78) (xy 140.97 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e95ce22-593d-4655-8166-43cb74dfe66f")
-	)
-	(wire
-		(pts
-			(xy 82.55 100.33) (xy 82.55 101.6)
+			(xy 82.55 99.06) (xy 82.55 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4696,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "a7e984c7-df27-44fc-a3f9-bab6841343d2")
-	)
-	(wire
-		(pts
-			(xy 34.29 175.26) (xy 41.91 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8baedc-7015-4f9c-817f-a27a7b896864")
 	)
 	(wire
 		(pts
@@ -4869,7 +4592,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 48.26 115.57)
+			(xy 46.99 119.38) (xy 46.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4949,16 +4672,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 110.49) (xy 50.8 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c70974c4-a21a-433b-b314-add7a7113c48")
-	)
-	(wire
-		(pts
 			(xy 161.29 134.62) (xy 161.29 138.43)
 		)
 		(stroke
@@ -4986,16 +4699,6 @@
 			(type default)
 		)
 		(uuid "cae513be-05db-406e-8049-2a802c32c7b7")
-	)
-	(wire
-		(pts
-			(xy 38.1 127) (xy 41.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbee7651-3d0f-4bb2-8796-f02c659591c8")
 	)
 	(wire
 		(pts
@@ -5239,16 +4942,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 82.55 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e045ab7b-a15b-4e84-b63a-45a8992b9a18")
-	)
-	(wire
-		(pts
 			(xy 256.54 146.05) (xy 256.54 156.21)
 		)
 		(stroke
@@ -5276,16 +4969,6 @@
 			(type default)
 		)
 		(uuid "e258a826-1344-47ee-b627-5b173885023e")
-	)
-	(wire
-		(pts
-			(xy 41.91 170.18) (xy 41.91 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f290f0-9d83-410b-820e-e05148fb06bf")
 	)
 	(wire
 		(pts
@@ -5339,17 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 143.51) (xy 121.92 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec938661-a841-4e2e-a631-e559d2627549")
-	)
-	(wire
-		(pts
-			(xy 35.56 158.75) (xy 41.91 158.75)
+			(xy 43.18 158.75) (xy 49.53 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5376,16 +5049,6 @@
 			(type default)
 		)
 		(uuid "f4a2b295-4821-42f2-95c7-65db5197742b")
-	)
-	(wire
-		(pts
-			(xy 135.89 157.48) (xy 140.97 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b23bee-470c-4bc5-880e-6a6ad3ca01ee")
 	)
 	(wire
 		(pts
@@ -5456,16 +5119,6 @@
 			(type default)
 		)
 		(uuid "fd7d5641-79b5-4829-91cd-8aae389f41fd")
-	)
-	(wire
-		(pts
-			(xy 121.92 144.78) (xy 127 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff12eed1-399f-44e5-8e68-8ceccbc3c242")
 	)
 	(hierarchical_label "SW1_EXT"
 		(shape input)
@@ -5579,7 +5232,7 @@
 	)
 	(hierarchical_label "DO2_CMD"
 		(shape input)
-		(at 34.29 175.26 180)
+		(at 31.75 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5590,7 +5243,7 @@
 	)
 	(hierarchical_label "DO3_CMD"
 		(shape input)
-		(at 128.27 157.48 180)
+		(at 127 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5656,7 +5309,7 @@
 	)
 	(hierarchical_label "DO1_CMD"
 		(shape input)
-		(at 38.1 127 180)
+		(at 33.02 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5719,84 +5372,6 @@
 			(justify left)
 		)
 		(uuid "eef1e018-7322-4323-8196-de89bbd63089")
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00ac4692-2e39-499d-bda1-54df5cfbd914")
-		(property "Reference" "#PWR023"
-			(at 121.92 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 118.618 139.954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae76941f-ec53-4c15-a4ab-c9b42d9490b5")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Diode:1N914")
@@ -6532,9 +6107,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 135.89 151.13 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 140.97 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6542,19 +6116,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1719ca5f-c85a-4311-bb5b-d434395a17a3")
-		(property "Reference" "R86"
-			(at 132.842 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10kR"
-			(at 132.08 149.86 0)
+		(uuid "14d8e917-11be-4281-9b81-bcb897905459")
+		(property "Reference" "#PWR0145"
+			(at 140.97 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6563,8 +6128,18 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.89 151.13 0)
+		(property "Value" "GND"
+			(at 140.97 162.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,7 +6150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 151.13 0)
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6585,74 +6160,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 135.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 135.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 135.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 135.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 135.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 135.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
-			(at 302.26 304.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6663,15 +6172,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "883b7a61-a09a-4531-8652-7bcc14afb9e5")
-		)
-		(pin "2"
-			(uuid "503b8b8d-2774-46fd-a389-248a4335e9e2")
+			(uuid "d7b66ade-7050-43e6-a7f9-136775657a2e")
 		)
 		(instances
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
-					(reference "R86")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -7289,84 +6795,6 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 27.94 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1eff9909-9ca0-421d-9b8f-1737ee696743")
-		(property "Reference" "#PWR020"
-			(at 27.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 24.638 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 27.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31d068cd-49ce-4543-a8c8-55f76645c668")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10162,84 +9590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 25.4 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66f8f389-b03d-4f40-9c5f-8318fb534b90")
-		(property "Reference" "#PWR021"
-			(at 25.4 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 22.098 153.924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f888d06c-121d-47d5-8296-9705c856d531")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 71.12 0)
 		(unit 1)
@@ -11867,7 +11217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 129.54 144.78 90)
+		(at 133.35 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11877,7 +11227,7 @@
 		(dnp no)
 		(uuid "9b4c47a8-a55c-4b0c-9bb9-08715925480f")
 		(property "Reference" "R80"
-			(at 129.54 140.462 90)
+			(at 133.35 140.462 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11886,8 +11236,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3kR"
-			(at 129.54 142.494 90)
+		(property "Value" "1kR"
+			(at 133.35 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11897,7 +11247,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 144.78 0)
+			(at 133.35 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11908,7 +11258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 144.78 0)
+			(at 133.35 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11919,7 +11269,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 129.54 144.78 0)
+			(at 133.35 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11930,7 +11280,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 129.54 144.78 90)
+			(at 133.35 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11941,7 +11291,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 129.54 144.78 90)
+			(at 133.35 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11952,7 +11302,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 129.54 144.78 90)
+			(at 133.35 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +11313,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 129.54 144.78 90)
+			(at 133.35 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11974,7 +11324,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 129.54 144.78 90)
+			(at 133.35 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11985,7 +11335,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
-			(at 88.9 -13.97 0)
+			(at 92.71 -13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12792,152 +12142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 41.91 119.38 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3abc3cf-478f-4954-9a9c-70b34f6f69a4")
-		(property "Reference" "R88"
-			(at 38.862 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10kR"
-			(at 38.1 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 41.91 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
-			(at 208.28 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c879f47-4d44-4041-bce3-06e28f20acd4")
-		)
-		(pin "2"
-			(uuid "3c1a1eaf-3fb4-4741-bfb7-11d3ed36b1b1")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
-					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 62.23 0)
 		(unit 1)
@@ -13231,6 +12435,83 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdbfae2d-34cb-471a-a850-d72730715065")
+		(property "Reference" "#PWR0137"
+			(at 48.26 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc65f5c2-3fa4-42ea-ad09-9d5857ca0f42")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -14182,7 +13463,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 82.55 99.06 0)
+		(at 82.55 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14190,10 +13471,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3dd1cc7-5f7c-4a47-bc1c-5f48c169e836")
 		(property "Reference" "#PWR02"
-			(at 82.55 102.87 0)
+			(at 82.55 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14204,7 +13484,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 82.55 93.98 0)
+			(at 82.55 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14214,7 +13494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 99.06 0)
+			(at 82.55 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14225,7 +13505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 99.06 0)
+			(at 82.55 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14236,7 +13516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 82.55 99.06 0)
+			(at 82.55 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14332,84 +13612,6 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 71.12 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6c449d0-4c79-4398-92c1-73f3f62b2ec2")
-		(property "Reference" "#FLG011"
-			(at 71.12 145.415 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 71.12 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35927a3d-14b1-4a7a-a1ba-5a517b832801")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
-					(reference "#FLG011")
 					(unit 1)
 				)
 			)
@@ -14809,7 +14011,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 33.02 158.75 90)
+		(at 40.64 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14819,7 +14021,7 @@
 		(dnp no)
 		(uuid "e895be15-af2e-4f37-be7b-309203d8c06f")
 		(property "Reference" "R77"
-			(at 33.02 154.432 90)
+			(at 40.64 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14828,8 +14030,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3kR"
-			(at 33.02 156.464 90)
+		(property "Value" "1kR"
+			(at 40.64 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14839,7 +14041,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.02 158.75 0)
+			(at 40.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14850,7 +14052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 158.75 0)
+			(at 40.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14861,7 +14063,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 33.02 158.75 0)
+			(at 40.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14872,7 +14074,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 33.02 158.75 90)
+			(at 40.64 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14883,7 +14085,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 33.02 158.75 90)
+			(at 40.64 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14894,7 +14096,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 33.02 158.75 90)
+			(at 40.64 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14905,7 +14107,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 33.02 158.75 90)
+			(at 40.64 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14916,7 +14118,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 33.02 158.75 90)
+			(at 40.64 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14927,7 +14129,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
-			(at -7.62 0 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15032,8 +14234,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 34.29 110.49 90)
+		(lib_id "power:GND")
+		(at 46.99 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15041,19 +14243,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2c1d18e-190a-4a5b-a4e0-c478c54d5378")
-		(property "Reference" "R74"
-			(at 34.29 106.172 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "3.3kR"
-			(at 34.29 108.204 90)
+		(uuid "f0a9c181-9d95-445f-aa7b-b70736be585a")
+		(property "Reference" "#PWR0135"
+			(at 46.99 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15062,8 +14255,18 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 34.29 110.49 0)
+		(property "Value" "GND"
+			(at 46.99 123.698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15074,7 +14277,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 110.49 0)
+			(at 46.99 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33fc4d32-4eb4-4d12-b766-064aaf11c9e6")
+		)
+		(instances
+			(project "robot-hv-charge-controller"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 39.37 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2c1d18e-190a-4a5b-a4e0-c478c54d5378")
+		(property "Reference" "R74"
+			(at 39.37 106.172 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1kR"
+			(at 39.37 108.204 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15085,7 +14364,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 34.29 110.49 0)
+			(at 39.37 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15096,7 +14375,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 34.29 110.49 90)
+			(at 39.37 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15107,7 +14386,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 34.29 110.49 90)
+			(at 39.37 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15118,7 +14397,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 34.29 110.49 90)
+			(at 39.37 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15129,7 +14408,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 34.29 110.49 90)
+			(at 39.37 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15140,7 +14419,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 34.29 110.49 90)
+			(at 39.37 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15151,7 +14430,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
-			(at -6.35 0 0)
+			(at -1.27 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15466,152 +14745,6 @@
 			(project "robot-hv-charge-controller"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
 					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 41.91 167.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd2dc9ba-32e9-4e82-8338-07c570d2e8e0")
-		(property "Reference" "R96"
-			(at 38.862 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10kR"
-			(at 38.1 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 41.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
-			(at 208.28 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9006fc7-2c7f-4959-a169-2d052359ca82")
-		)
-		(pin "2"
-			(uuid "0f746366-9efd-4e1f-a034-ab1c337883ab")
-		)
-		(instances
-			(project "robot-hv-charge-controller"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/fb49094d-fae9-43de-857d-a67702369a33"
-					(reference "R96")
 					(unit 1)
 				)
 			)

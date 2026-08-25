@@ -4668,7 +4668,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "09f83d83-d74b-4495-adca-84f059567355")
+		(uuid "085063c3-cda2-4fd1-ac2b-26afc77ae0f4")
 	)
 	(wire
 		(pts
@@ -4729,16 +4729,6 @@
 			(type default)
 		)
 		(uuid "1672a8c7-e03c-49db-8fcf-4d8359afd881")
-	)
-	(wire
-		(pts
-			(xy 73.66 82.55) (xy 76.2 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd6b742-d9f3-44e2-b59e-67a08eb80279")
 	)
 	(wire
 		(pts
@@ -4979,16 +4969,6 @@
 			(type default)
 		)
 		(uuid "5a25550d-3d3b-47b2-adbd-80e871c34dcf")
-	)
-	(wire
-		(pts
-			(xy 86.36 80.01) (xy 88.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af0fb27-c5cc-4936-9f58-6a4fce2c26ab")
 	)
 	(wire
 		(pts
@@ -5272,16 +5252,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 88.9 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb9d489-3f84-4468-8978-d44fcc2d223d")
-	)
-	(wire
-		(pts
 			(xy 81.28 73.66) (xy 81.28 74.93)
 		)
 		(stroke
@@ -5412,6 +5382,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f05b37-0aa0-45f6-a3c3-f68145290df7")
+	)
+	(wire
+		(pts
 			(xy 243.84 93.98) (xy 243.84 101.6)
 		)
 		(stroke
@@ -5459,6 +5439,16 @@
 			(type default)
 		)
 		(uuid "ccad5e71-7801-4ee0-a252-2b57fcb1da35")
+	)
+	(wire
+		(pts
+			(xy 73.66 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf89b5f9-8971-40fd-91d4-840325f90b1c")
 	)
 	(wire
 		(pts
@@ -5652,6 +5642,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b4636d-c6e1-44a4-b10e-978c30132a65")
+	)
+	(wire
+		(pts
 			(xy 187.96 74.93) (xy 194.31 74.93)
 		)
 		(stroke
@@ -5671,7 +5671,7 @@
 		(uuid "ffe59b60-4889-4e4f-a0d7-224c3ea35d9c")
 	)
 	(label "USB_CONN_D+"
-		(at 73.66 80.01 180)
+		(at 73.66 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5702,7 +5702,7 @@
 		(uuid "163357c7-ed15-4bfc-829d-be2055cf0801")
 	)
 	(label "USB_CONN_D-"
-		(at 73.66 82.55 180)
+		(at 73.66 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5744,7 +5744,7 @@
 		(uuid "3064fd71-5f10-4aba-b557-c1c05c09a47e")
 	)
 	(label "USB_D-"
-		(at 88.9 82.55 0)
+		(at 90.17 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5815,7 +5815,7 @@
 		(uuid "bd37e3ba-c617-4fc2-9f05-79c6232df73f")
 	)
 	(label "USB_D+"
-		(at 88.9 80.01 0)
+		(at 90.17 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)

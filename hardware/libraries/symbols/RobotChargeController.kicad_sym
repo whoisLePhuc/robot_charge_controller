@@ -4783,7 +4783,9 @@
 					)
 				)
 			)
-			(pin power_out line
+		)
+		(symbol "LV14340DDAR_1_1"
+			(pin power_in line
 				(at 45.72 0 180)
 				(length 7.62)
 				(name "EPAD"

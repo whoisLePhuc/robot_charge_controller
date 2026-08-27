@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib
+    (name "RobotChargeController")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../libraries/footprints/RobotChargeController.pretty")
+    (options "")
+    (descr "Project-specific footprints for Robot Charge Controller")
+  )
+)

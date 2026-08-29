@@ -588,7 +588,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -930,10 +930,6 @@
     [
       "e734adb0-7c64-49f7-9536-e962540cdbdc",
       "control-board"
-    ],
-    [
-      "adb58854-9c08-4835-92b0-ac826969a4fa",
-      "Output_Sensing"
     ],
     [
       "72a934f3-ecd5-4f35-8bfa-84961c9fa243",

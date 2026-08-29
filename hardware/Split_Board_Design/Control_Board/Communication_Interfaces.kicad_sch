@@ -5470,8 +5470,19 @@
 				)
 			)
 		)
-		(property "Link to Buy" ""
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at 323.85 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 172.72 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,6 +5673,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 82.55 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62391ec8-808c-450c-9027-a9504a5af817")
 		)
@@ -5797,8 +5819,19 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/9909-dien-tro-0805-05-18w-10-chiec-cac-gia-tri.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at 3.81 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,6 +6099,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 172.72 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2563a2e-fb23-430a-aeeb-e725ba1253c8")
 		)
@@ -6205,6 +6249,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at -45.72 1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 184.15 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,6 +6430,17 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkienchatluong.vn/urlltv/ltv356t-c-356t-sop-4-opto-quang-chinh-hang-liteon_sp1653_ct17264.aspx"
+			(at 148.59 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 148.59 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6649,6 +6715,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 82.55 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6171144-a326-4ecb-a24b-75e0e42bcbd5")
 		)
@@ -6821,6 +6898,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 58.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fce667e5-50da-44d1-86ed-dcb8d684d4b1")
 		)
@@ -6961,8 +7049,19 @@
 				)
 			)
 		)
-		(property "Link to Buy" ""
+		(property "Link to Buy" "https://linhkien.cxtvn.com/4434-dien-tro-15k-0603-1-100c.html"
 			(at 67.31 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 165.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,6 +7293,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 222.25 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b574754d-3ecd-4335-9fa5-52c893ade19e")
 		)
@@ -7409,6 +7519,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/3426-tu-330-33pf-0603-50v-20c.html"
 			(at 476.25 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 215.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7677,6 +7798,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 67.31 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "8884d006-11b0-4bb3-a9ce-1e5f1b633972")
 		)
@@ -7866,6 +7998,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 57.15 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9dc680a1-61c1-4f32-b324-1f38fa06127e")
 		)
@@ -7989,6 +8132,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 170.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9bd402fb-4089-4f21-9d6f-dc339b39892b")
 		)
@@ -8099,6 +8253,17 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/3565-d882-2sd882-npn-transistor-15a-40v-sot-89-10c.html"
+			(at 80.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 80.01 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8293,6 +8458,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 147.32 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8f65d42-0899-471d-8c2d-16994bb9cef3")
 		)
@@ -8430,6 +8606,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/3447-dien-tro-120r-0603-1-100c.html"
 			(at -8.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 142.24 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8578,6 +8765,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/2886-tu-106-10uf-0603-50v-10-20c.html"
 			(at -48.26 1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 168.91 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,6 +9087,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 215.9 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1bbf84e6-2a7c-4b5f-a85c-252aa93342ab")
 		)
@@ -9035,6 +9244,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 161.29 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff49ca41-b244-4217-8ff4-53d3f121c6e2")
 		)
@@ -9073,7 +9293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF - 50V"
+		(property "Value" "100nF-50V"
 			(at 275.844 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9174,6 +9394,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 360.68 -85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 260.35 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9323,6 +9554,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at -45.72 1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 147.32 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,6 +9791,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 48.26 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9817,6 +10070,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 140.97 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "754069fc-d149-4741-8b49-4f8b0dd8b748")
 		)
@@ -9962,6 +10226,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 200.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92b87e90-fc31-4a3a-9e55-d5e9647bdb21")
 		)
@@ -10000,7 +10275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF - 50V"
+		(property "Value" "100nF-50V"
 			(at 262.89 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,6 +10376,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 360.68 -125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 260.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10247,6 +10533,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at 401.32 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 234.95 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,6 +10776,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 260.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0d7db97-e76c-4a00-bdea-1b8fe23fcdee")
 		)
@@ -10617,6 +10925,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/3426-tu-330-33pf-0603-50v-20c.html"
 			(at 246.38 -215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 208.28 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10875,6 +11194,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 246.38 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46953a9f-6e2a-4f3b-8850-daaca2085e7d")
 		)
@@ -11017,6 +11347,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 87.63 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11317,8 +11658,19 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1424-dien-tro-1k-0603-1-100c.html"
 			(at 92.71 -13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 133.35 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11540,8 +11892,19 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/9909-dien-tro-0805-05-18w-10-chiec-cac-gia-tri.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at 3.81 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 71.12 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11697,6 +12060,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 71.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dca06a5d-b5ee-4a54-a733-5979b8fb86c3")
 		)
@@ -11778,7 +12152,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" ""
+		(property "Link to Buy" "https://www.lcsc.com/product-detail/C20345391.html?s_z=n_q_ESD2CANFD24&spm=wm.fly.bg.1.xh&lcsc_vid=RlJfAwBQQlhYVVFTFlNbXlcHFgJZBQdRTgRYAlJVQ1kxVlNeQVhdUF1VTlJfVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlRcU1xQWQkaCgg%3D"
 			(at 486.41 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11802,6 +12176,17 @@
 		)
 		(property "Manufacturer" "Littelfuse/Semtech"
 			(at 486.41 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 242.57 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11960,6 +12345,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 200.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "82ca5379-8d49-4059-a592-e1ee813f45cb")
 		)
@@ -12100,6 +12496,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
 			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 48.26 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12488,6 +12895,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 82.55 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "780e5324-3885-4987-8cbb-6491e7448940")
 		)
@@ -12625,6 +13043,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
 			(at 3.81 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 71.12 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12826,6 +13255,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 36.83 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ab6abaa-7983-4fb4-a07c-43fefd6fa7f6")
 		)
@@ -12974,6 +13414,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 222.25 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a2cea25a-2b31-45b4-8c8f-b04558493131")
 		)
@@ -13057,7 +13508,18 @@
 				)
 			)
 		)
-		(property "Link to Buy" ""
+		(property "Link to Buy" "https://www.lcsc.com/product-image/C22396693.html?whichImg=0&spm=wm.sxq.inf.0.ltp&lcsc_vid=FgQKUwVTEwAMAV1fQVNYUVEHTlZYXlFWT1EKVlNXQVIxVlNRQVRbUVxWR1dcVjtW"
+			(at 161.29 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 161.29 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13271,6 +13733,17 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/3565-d882-2sd882-npn-transistor-15a-40v-sot-89-10c.html"
+			(at 80.01 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 80.01 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13586,6 +14059,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 260.35 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af475408-32f7-495f-abb3-131c8483c925")
 		)
@@ -13670,6 +14154,17 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkienchatluong.vn/urlltv/ltv356t-c-356t-sop-4-opto-quang-chinh-hang-liteon_sp1653_ct17264.aspx"
+			(at 246.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 246.38 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13832,6 +14327,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 234.95 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2eda3b32-ae66-4d6a-8aaf-bde306b14da0")
 		)
@@ -13966,8 +14472,19 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1424-dien-tro-1k-0603-1-100c.html"
 			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 40.64 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14267,8 +14784,19 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1424-dien-tro-1k-0603-1-100c.html"
 			(at -1.27 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 39.37 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14427,6 +14955,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eacd13b7-603f-4dcb-919d-466478df9a87")
 		)
@@ -14564,6 +15103,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/2289-dien-tro-33k-0603-1-100c.html"
 			(at -5.08 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 161.29 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

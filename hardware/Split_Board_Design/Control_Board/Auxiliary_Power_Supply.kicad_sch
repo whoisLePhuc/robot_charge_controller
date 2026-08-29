@@ -3853,6 +3853,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 236.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d795146d-177a-42e4-be94-9b3c9b17bccd")
 		)
@@ -4079,6 +4090,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 214.63 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e190888-a8f2-43cb-9975-6a427e42030f")
 		)
@@ -4217,6 +4239,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 224.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 224.79 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4463,6 +4496,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 261.62 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ccdcb4da-f08a-4902-afe4-81157be8e80c")
 		)
@@ -4611,6 +4655,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 247.65 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "813b7dc9-134e-4e96-9505-7ffb8efd6fa2")
 		)
@@ -4747,6 +4802,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 198.12 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -5373,6 +5439,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 214.63 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f6f98623-b4d3-4a60-b122-71b4b754a710")
 		)
@@ -5635,7 +5712,7 @@
 		(dnp no)
 		(uuid "488395c1-55d0-46f3-9a2e-6a48e1eddad1")
 		(property "Reference" "C19"
-			(at 115.316 67.564 0)
+			(at 113.792 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5646,7 +5723,7 @@
 			)
 		)
 		(property "Value" "100nF-50V"
-			(at 111.506 69.342 0)
+			(at 109.982 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5746,6 +5823,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 209.55 -165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 109.22 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5936,10 +6024,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5be49ac0-dd0c-476b-93c8-6cea88637c12")
 		(property "Reference" "C1"
-			(at 71.12 66.4209 0)
+			(at 68.072 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5949,8 +6036,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 71.12 68.9609 0)
+		(property "Value" "680uF-35V"
+			(at 68.072 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5960,7 +6047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "RobotChargeController:CP_Elec_12.5x13.5_Generic_H13"
 			(at 68.2752 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5994,6 +6081,17 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/3033-tu-nhom-100uf-50v-8x105-5c.html"
+			(at 67.31 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 67.31 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6152,6 +6250,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 189.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6594af3-4145-4ca4-9b24-94eae0614885")
 		)
@@ -6289,6 +6398,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 204.47 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 204.47 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6702,6 +6822,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 115.57 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ab682cfd-fc15-4e38-b819-4e4d775886e9")
 		)
@@ -6843,6 +6974,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 261.62 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 261.62 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7003,6 +7145,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 133.35 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://banlinhkiendientu.vn/lv14340ddar-14340-ic-nguon-sop8/"
 			(at 133.35 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7203,6 +7367,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 46.99 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5207d3e2-3bd8-42ca-83d1-bd440fd47048")
 		)
@@ -7251,7 +7426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7284,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1982-tu-105-1uf-0603-50v-10-20c.html"
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7340,6 +7515,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 134.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 134.62 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7575,6 +7761,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 35.56 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7900,6 +8097,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e3c91dda-c135-446a-a42f-bb2a1eb46c36")
 		)
@@ -8005,7 +8213,7 @@
 		(dnp no)
 		(uuid "cc4da6da-46e9-41b0-8e5a-142b704953ff")
 		(property "Reference" "C20"
-			(at 98.298 67.31 0)
+			(at 97.028 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8016,7 +8224,7 @@
 			)
 		)
 		(property "Value" "1uF-50V"
-			(at 98.552 69.342 0)
+			(at 97.282 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8026,7 +8234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8059,7 +8267,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1982-tu-105-1uf-0603-50v-10-20c.html"
 			(at 6.35 0 0)
 			(hide yes)
 			(show_name no)
@@ -8115,6 +8323,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 96.52 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8284,6 +8503,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 54.61 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0344153d-3124-4429-b859-c06696eb30b0")
 		)
@@ -8322,7 +8552,7 @@
 			)
 		)
 		(property "Value" "10uF-50V"
-			(at 92.456 133.096 90)
+			(at 91.44 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8332,7 +8562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.9 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8365,7 +8595,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/2886-tu-106-10uf-0603-50v-10-20c.html"
 			(at 11.43 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8421,6 +8651,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 88.9 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8648,6 +8889,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at -105.41 -58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 128.27 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8892,6 +9144,17 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 198.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7e0af2b-21fe-45cd-b4e4-c5b1226b665f")
 		)
@@ -8997,7 +9260,7 @@
 		(dnp no)
 		(uuid "f438128c-54d9-4ea9-9739-2a9a58c047af")
 		(property "Reference" "C27"
-			(at 84.328 67.5702 0)
+			(at 82.804 71.1262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9008,7 +9271,7 @@
 			)
 		)
 		(property "Value" "10uF-50V"
-			(at 84.582 69.342 0)
+			(at 83.058 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9018,7 +9281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9051,7 +9314,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/2886-tu-106-10uf-0603-50v-10-20c.html"
 			(at 5.08 0 0)
 			(hide yes)
 			(show_name no)
@@ -9107,6 +9370,17 @@
 			)
 		)
 		(property "VENDOR" ""
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
 			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9256,6 +9530,17 @@
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 246.38 -110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 146.05 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

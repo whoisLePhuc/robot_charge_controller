@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 1.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -555,16 +555,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "60V_GND",
-        "pattern": "60V_GND"
-      },
-      {
-        "netclass": "OTHER",
-        "pattern": "Net-(D7-A)"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -582,7 +573,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "BOM.csv",
+    "bom_export_filename": "BOM_Relay_Board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -613,7 +604,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -948,7 +939,7 @@
         "uuid": "e734adb0-7c64-49f7-9536-e962540cdbdc"
       }
     ],
-    "used_designators": "R41,R49-50,R83-85,#FLG6,J5-7,D7,#PWR1-2,#PWR4,#PWR15,#PWR58,#PWR123-124,#PWR140-141,#PWR146,C2-3,Q7,U8,U13",
+    "used_designators": "#FLG1-3,#FLG6,R1-3,R10-18,R42-47,R54,R86-88,U2,U9,U14,D8,D20,#PWR5,#PWR16-17,#PWR53-54,#PWR59,#PWR94-97,#PWR142-143,#PWR147,C4-5,C29-31,Q8",
     "variants": []
   },
   "sheets": [
@@ -959,6 +950,10 @@
     [
       "f0df9735-d5fd-49ce-8948-b62a5d2db05d",
       "Relay_control"
+    ],
+    [
+      "f94effc7-6103-45f4-b84b-fefc13a6b3f7",
+      "Output_Sensing"
     ]
   ],
   "text_variables": {},

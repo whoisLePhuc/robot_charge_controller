@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "7aab3c2c-62a8-470f-921a-a852b92feeda")
+	(uuid "d52a3c43-22ad-4330-9c61-d238ce85c735")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Current:INA240A1PW"

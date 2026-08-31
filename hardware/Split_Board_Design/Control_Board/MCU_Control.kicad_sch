@@ -7204,7 +7204,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/6736-0603b104k500nt-tu-100nf-50v-10-0603-20c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/2353-tu-103-10nf-0603-50v-10-20c.html"
 			(at 66.04 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -7690,7 +7690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF-25V"
 			(at 139.7 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8368,7 +8368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF-50V"
 			(at 31.75 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,7 +8379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.5252 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8590,7 +8590,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at -80.01 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9030,7 +9030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF-50V"
 			(at 118.364 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9041,7 +9041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.2192 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9241,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 0 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -9913,7 +9913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF-50V"
 			(at 104.14 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +9924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.2848 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10124,7 +10124,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 222.504 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10780,7 +10780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF-50V"
 			(at 90.17 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10791,7 +10791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10824,7 +10824,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1976-tu-khong-phan-cuc-0805.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/2886-tu-106-10uf-0603-50v-10-20c.html"
 			(at 10.16 -17.78 0)
 			(hide yes)
 			(show_name no)

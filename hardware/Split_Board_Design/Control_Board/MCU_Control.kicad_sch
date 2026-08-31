@@ -4690,7 +4690,7 @@
 		)
 	)
 	(rectangle
-		(start 110.49 31.75)
+		(start 114.3 31.75)
 		(end 223.52 127)
 		(stroke
 			(width 0)
@@ -4715,7 +4715,7 @@
 	)
 	(rectangle
 		(start 16.51 99.06)
-		(end 107.95 160.02)
+		(end 111.76 160.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -4738,7 +4738,7 @@
 		(uuid "b9d6960c-2581-4920-a36a-ce4fc1471ae4")
 	)
 	(rectangle
-		(start 110.49 129.54)
+		(start 114.3 129.54)
 		(end 280.67 160.02)
 		(stroke
 			(width 0)
@@ -4751,7 +4751,7 @@
 	)
 	(rectangle
 		(start 16.51 31.75)
-		(end 107.95 96.52)
+		(end 111.76 96.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -4775,7 +4775,7 @@
 	)
 	(text "5. ESP32-WROOM-32E"
 		(exclude_from_sim no)
-		(at 124.206 34.798 0)
+		(at 128.778 35.052 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4799,7 +4799,7 @@
 	)
 	(text "6. ADC"
 		(exclude_from_sim no)
-		(at 116.078 132.334 0)
+		(at 118.364 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4840,10 +4840,16 @@
 		(uuid "0c8edcbf-6a3f-45ab-ba21-e0ffba7b127c")
 	)
 	(junction
-		(at 132.334 48.26)
+		(at 134.62 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e9376f9-28f7-40d7-a009-04c8bb346368")
+	)
+	(junction
+		(at 134.62 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec9278b-815c-4178-8a69-858f05ed6be0")
 	)
 	(junction
 		(at 251.46 50.8)
@@ -4876,13 +4882,7 @@
 		(uuid "2e3e1e01-979e-42f6-90f0-76d4c023e1f0")
 	)
 	(junction
-		(at 131.064 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ceb5c0a-1a34-4fa7-bbd1-38aa708c620a")
-	)
-	(junction
-		(at 74.93 73.66)
+		(at 72.39 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "482232d9-b9b8-435c-b907-c4161088e0ee")
@@ -4997,7 +4997,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 74.93 73.66)
+			(xy 72.39 73.66) (xy 72.39 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +5097,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.334 44.45) (xy 172.72 44.45)
+			(xy 134.62 44.45) (xy 172.72 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5147,7 +5147,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.144 66.04) (xy 131.064 66.04)
+			(xy 138.43 66.04) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5167,7 +5167,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.334 48.26) (xy 136.144 48.26)
+			(xy 134.62 48.26) (xy 138.43 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5217,7 +5217,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 86.36) (xy 95.25 88.9)
+			(xy 92.71 87.63) (xy 92.71 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5257,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 95.25 78.74)
+			(xy 92.71 74.93) (xy 92.71 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5427,7 +5427,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.144 48.26) (xy 136.144 50.8)
+			(xy 138.43 48.26) (xy 138.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +5457,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.254 66.04) (xy 131.064 66.04)
+			(xy 130.81 66.04) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5467,7 +5467,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 52.07) (xy 193.04 52.07)
+			(xy 187.96 52.07) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5527,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.254 60.96) (xy 127.254 66.04)
+			(xy 130.81 60.96) (xy 130.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5567,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.254 53.34) (xy 127.254 48.26)
+			(xy 130.81 53.34) (xy 130.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5587,7 +5587,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.334 44.45) (xy 132.334 48.26)
+			(xy 134.62 44.45) (xy 134.62 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5627,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 52.07) (xy 157.48 52.07)
+			(xy 153.67 52.07) (xy 157.48 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5687,7 +5687,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.064 68.58) (xy 131.064 66.04)
+			(xy 134.62 68.58) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 87.63) (xy 74.93 88.9)
+			(xy 72.39 88.9) (xy 72.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5757,7 +5757,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.144 63.5) (xy 136.144 66.04)
+			(xy 138.43 63.5) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5787,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 74.93 74.93)
+			(xy 72.39 74.93) (xy 72.39 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5837,7 +5837,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 82.55) (xy 83.82 82.55)
+			(xy 77.47 83.82) (xy 81.28 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5957,7 +5957,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.254 48.26) (xy 132.334 48.26)
+			(xy 130.81 48.26) (xy 134.62 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5967,7 +5967,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 82.55) (xy 69.85 82.55)
+			(xy 64.77 83.82) (xy 67.31 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6087,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 80.01) (xy 69.85 80.01)
+			(xy 64.77 81.28) (xy 67.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6107,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 95.25 73.66)
+			(xy 72.39 74.93) (xy 92.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6187,7 +6187,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 83.82 80.01)
+			(xy 77.47 81.28) (xy 81.28 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6206,7 +6206,7 @@
 		(uuid "ffe59b60-4889-4e4f-a0d7-224c3ea35d9c")
 	)
 	(label "USB_CONN_D+"
-		(at 67.31 82.55 180)
+		(at 64.77 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6226,7 +6226,7 @@
 		(uuid "03ec10df-d719-4da7-962c-39436ad0e633")
 	)
 	(label "MCU_EN"
-		(at 151.13 52.07 180)
+		(at 153.67 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6237,7 +6237,7 @@
 		(uuid "16219997-029f-49d1-b582-b43972bc41f1")
 	)
 	(label "USB_CONN_D-"
-		(at 67.31 80.01 180)
+		(at 64.77 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6279,7 +6279,7 @@
 		(uuid "3064fd71-5f10-4aba-b557-c1c05c09a47e")
 	)
 	(label "USB_D-"
-		(at 83.82 80.01 0)
+		(at 81.28 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6360,7 +6360,7 @@
 		(uuid "bd37e3ba-c617-4fc2-9f05-79c6232df73f")
 	)
 	(label "USB_D+"
-		(at 83.82 82.55 0)
+		(at 81.28 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6400,7 +6400,7 @@
 		(uuid "e33f2e53-dc89-4c0d-b59f-eb5787176c92")
 	)
 	(label "MCU_BOOT"
-		(at 193.04 52.07 0)
+		(at 194.31 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6685,7 +6685,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 131.064 68.58 0)
+		(at 134.62 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6696,7 +6696,7 @@
 		(fields_autoplaced yes)
 		(uuid "035c70bc-888f-43d2-9b67-042a21fb74a4")
 		(property "Reference" "#PWR028"
-			(at 131.064 74.93 0)
+			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6707,7 +6707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.064 73.66 0)
+			(at 134.62 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6717,7 +6717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.064 68.58 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,7 +6728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 131.064 68.58 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +6739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 131.064 68.58 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7670,7 +7670,7 @@
 	)
 	(symbol
 		(lib_id "RobotChargeController:T491A106K010AT7280")
-		(at 136.144 50.8 270)
+		(at 138.43 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7680,7 +7680,7 @@
 		(dnp no)
 		(uuid "441deeba-bd49-47d9-9f6c-badc3f2d9ed5")
 		(property "Reference" "C25"
-			(at 139.446 55.372 90)
+			(at 142.494 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7691,7 +7691,7 @@
 			)
 		)
 		(property "Value" "10uF-25V"
-			(at 139.7 58.166 90)
+			(at 142.748 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7702,7 +7702,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 39.954 59.69 0)
+			(at 42.24 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7714,7 +7714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -60.046 59.69 0)
+			(at -57.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,7 +7726,7 @@
 			)
 		)
 		(property "Description" "T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 10%, 10 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3.8 Ohms, 1000 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 9000, 156  Weeks"
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,7 +7737,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 122.174 50.8 0)
+			(at 124.46 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7748,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 134.8741 54.61 0)
+			(at 137.1601 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7760,7 +7760,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 132.3341 54.61 0)
+			(at 134.6201 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7772,7 +7772,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling  capacitor."
-			(at 129.794 55.88 90)
+			(at 132.08 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7783,7 +7783,7 @@
 			)
 		)
 		(property "Instructions and notes" "For high-frequency noise filtering"
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +7794,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +7805,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7816,7 +7816,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7827,7 +7827,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7838,7 +7838,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "T491A106K010AT7280"
-			(at -460.046 59.69 0)
+			(at -457.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,7 +7850,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +7861,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 136.144 50.8 0)
+			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7872,7 +7872,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at -260.046 59.69 0)
+			(at -257.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +7884,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at -360.046 59.69 0)
+			(at -357.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +7896,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-T491A106K107280"
-			(at -560.046 59.69 0)
+			(at -557.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,7 +7908,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/T491A106K010AT7280?qs=HIKTYMuL%252B9NxijI%252BZuzkYQ%3D%3D"
-			(at -660.046 59.69 0)
+			(at -657.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7920,7 +7920,7 @@
 			)
 		)
 		(property "Arrow Part Number" "T491A106K010AT7280"
-			(at -760.046 59.69 0)
+			(at -757.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,7 +7932,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t491a106k010at7280/kemet-corporation?region=nac"
-			(at -860.046 59.69 0)
+			(at -857.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,7 +7944,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 136.144 50.8 90)
+			(at 138.43 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7955,7 +7955,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 136.144 50.8 90)
+			(at 138.43 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,7 +7966,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 136.144 50.8 90)
+			(at 138.43 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,7 +7977,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 136.144 50.8 90)
+			(at 138.43 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,7 +7988,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 136.144 50.8 90)
+			(at 138.43 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7999,7 +7999,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/4430-tu-tantalum-3528-cac-gia-tri.html"
-			(at 0 16.51 0)
+			(at 2.286 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8010,7 +8010,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 136.144 50.8 90)
+			(at 138.43 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8037,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 74.93 72.39 0)
+		(at 72.39 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8048,7 +8048,7 @@
 		(fields_autoplaced yes)
 		(uuid "4809b569-80af-483b-83df-d717cc2ccff4")
 		(property "Reference" "#PWR052"
-			(at 74.93 76.2 0)
+			(at 72.39 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +8059,7 @@
 			)
 		)
 		(property "Value" "V_USB"
-			(at 74.93 68.58 0)
+			(at 72.39 69.85 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8069,7 +8069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 72.39 0)
+			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8080,7 +8080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 72.39 0)
+			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8091,7 +8091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 74.93 72.39 0)
+			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9010,7 +9010,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127.254 57.15 0)
+		(at 130.81 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9020,7 +9020,7 @@
 		(dnp no)
 		(uuid "61c55490-73ce-4473-a8df-6fe26cc7fcbd")
 		(property "Reference" "C24"
-			(at 119.126 55.372 0)
+			(at 123.444 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9031,7 +9031,7 @@
 			)
 		)
 		(property "Value" "100nF-50V"
-			(at 118.364 57.912 0)
+			(at 116.332 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9042,7 +9042,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 128.2192 68.58 0)
+			(at 131.7752 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9053,7 +9053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.524 73.66 0)
+			(at 132.08 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9064,7 +9064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,7 +9075,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 127.254 71.12 0)
+			(at 130.81 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,7 +9086,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 131.064 58.4199 0)
+			(at 134.62 58.4199 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9098,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 131.064 60.9599 0)
+			(at 134.62 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9110,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling  capacitor."
-			(at 132.334 63.5 90)
+			(at 135.89 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +9121,7 @@
 			)
 		)
 		(property "Instructions and notes" "Download this part from https://componentsearchengine.com/part-view/T491A106K010AT7280/KEMET"
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +9132,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9143,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9154,7 +9154,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9165,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9176,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9187,7 +9187,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9198,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,7 +9209,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9220,7 +9220,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9231,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9242,7 +9242,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
-			(at 0 16.51 0)
+			(at 3.556 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9253,7 +9253,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 127.254 57.15 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9513,7 +9513,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 88.9 0)
+		(at 72.39 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9523,7 +9523,7 @@
 		(dnp no)
 		(uuid "7389e315-1e42-4b1e-8094-d0e13927f9e0")
 		(property "Reference" "#PWR017"
-			(at 74.93 95.25 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9534,7 +9534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 93.218 0)
+			(at 72.39 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9544,7 +9544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 88.9 0)
+			(at 72.39 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9555,7 +9555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 88.9 0)
+			(at 72.39 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9566,7 +9566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 88.9 0)
+			(at 72.39 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9892,7 +9892,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 82.55 0)
+		(at 92.71 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9903,7 +9903,7 @@
 		(dnp no)
 		(uuid "81c57d84-841f-48c0-acbd-15011d959516")
 		(property "Reference" "C43"
-			(at 103.378 80.772 0)
+			(at 100.584 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9914,7 +9914,7 @@
 			)
 		)
 		(property "Value" "100nF-50V"
-			(at 104.14 83.312 0)
+			(at 107.696 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9925,7 +9925,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 94.2848 93.98 0)
+			(at 91.7448 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9936,7 +9936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 99.06 0)
+			(at 91.44 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9947,7 +9947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9958,7 +9958,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 95.25 96.52 0)
+			(at 92.71 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9969,7 +9969,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 91.44 83.8199 0)
+			(at 88.9 85.0899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9981,7 +9981,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 91.44 86.3599 0)
+			(at 88.9 87.6299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9993,7 +9993,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling  capacitor."
-			(at 90.17 88.9 90)
+			(at 87.63 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10004,7 +10004,7 @@
 			)
 		)
 		(property "Instructions and notes" "Download this part from https://componentsearchengine.com/part-view/T491A106K010AT7280/KEMET"
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10015,7 +10015,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10026,7 +10026,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,7 +10037,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10048,7 +10048,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10059,7 +10059,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10070,7 +10070,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +10081,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +10092,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,7 +10103,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10114,7 +10114,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,7 +10125,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
-			(at 222.504 41.91 0)
+			(at 219.964 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +10136,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 95.25 82.55 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12357,7 +12357,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 74.93 80.01 0)
+		(at 72.39 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12367,7 +12367,7 @@
 		(dnp no)
 		(uuid "d097e825-807e-4704-bd7e-4ced54416499")
 		(property "Reference" "U5"
-			(at 76.2 75.692 0)
+			(at 73.66 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12378,7 +12378,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 76.2 88.392 0)
+			(at 73.66 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12389,7 +12389,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 76.2 86.36 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12402,7 +12402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 76.2 88.265 0)
+			(at 73.66 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12414,7 +12414,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 74.93 80.01 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12425,7 +12425,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 74.93 80.01 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12436,7 +12436,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 74.93 80.01 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12447,7 +12447,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 74.93 80.01 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12458,7 +12458,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 74.93 80.01 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12469,7 +12469,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 74.93 80.01 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12480,7 +12480,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/6071-usblc6-2sc6-tvs-diode-525v-17v-sot23-62c.html"
-			(at -6.35 16.51 0)
+			(at -8.89 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12491,7 +12491,7 @@
 			)
 		)
 		(property "MPN" "USBLC6-2SC6"
-			(at -6.35 16.51 0)
+			(at -8.89 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12502,7 +12502,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at -6.35 16.51 0)
+			(at -8.89 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12513,7 +12513,7 @@
 			)
 		)
 		(property "LCSC Part" "C7519"
-			(at -6.35 16.51 0)
+			(at -8.89 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12524,7 +12524,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 74.93 80.01 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13185,7 +13185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 88.9 0)
+		(at 92.71 90.17 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13196,7 +13196,7 @@
 		(dnp no)
 		(uuid "edbde69b-a9ff-4b03-92ca-6bd810b63059")
 		(property "Reference" "#PWR018"
-			(at 95.25 95.25 0)
+			(at 92.71 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13207,7 +13207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 93.218 0)
+			(at 92.71 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13217,7 +13217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 88.9 0)
+			(at 92.71 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13228,7 +13228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 88.9 0)
+			(at 92.71 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13239,7 +13239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 88.9 0)
+			(at 92.71 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

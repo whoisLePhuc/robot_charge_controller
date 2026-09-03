@@ -1095,16 +1095,22 @@
 		(uuid "3d8ee7c2-6872-457c-849f-dd179db1fe96")
 	)
 	(junction
-		(at 168.91 40.64)
+		(at 168.91 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16853949-c431-454e-bd42-0d079e0e6131")
 	)
 	(junction
-		(at 168.91 54.61)
+		(at 168.91 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "228c29d3-6de9-4f1e-9d48-ac6fee8b7be1")
+		(uuid "19bef4c6-f100-44c0-8f9b-e186e6e745d2")
+	)
+	(junction
+		(at 143.51 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19c98755-c500-42bc-8617-e924840a66c0")
 	)
 	(junction
 		(at 189.23 129.54)
@@ -1113,13 +1119,7 @@
 		(uuid "2f1583a7-3fd1-4dab-93ab-39f81c49c1e4")
 	)
 	(junction
-		(at 168.91 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30db47c9-61cd-4cf2-8e10-5165ff72db71")
-	)
-	(junction
-		(at 143.51 40.64)
+		(at 143.51 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4cab77-03e3-4748-b438-f15b21ab7d8e")
@@ -1137,16 +1137,10 @@
 		(uuid "43416258-1dce-48c3-ad24-763ebb5ff7c1")
 	)
 	(junction
-		(at 168.91 43.18)
+		(at 168.91 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c6cf1ef-9326-493e-aa8f-bb74b8dee68e")
-	)
-	(junction
-		(at 143.51 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55864acf-026e-43b2-84c6-99d934ae4580")
 	)
 	(junction
 		(at 168.91 73.66)
@@ -1167,7 +1161,7 @@
 		(uuid "605e6991-c511-4266-afeb-5d913e4822b1")
 	)
 	(junction
-		(at 143.51 43.18)
+		(at 143.51 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60f2018c-64c1-45e9-b001-c78df4fe5f2f")
@@ -1197,22 +1191,28 @@
 		(uuid "9f731b90-90d6-4033-9062-7fed223fe46e")
 	)
 	(junction
-		(at 189.23 40.64)
+		(at 168.91 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad0e694b-e9d5-431b-82da-a0482f22b888")
+	)
+	(junction
+		(at 189.23 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b92ecc5d-ccb7-4d38-8ae1-4ec450dca90d")
 	)
 	(junction
-		(at 143.51 57.15)
+		(at 143.51 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c70152f4-f4c5-4441-8089-8378fea3a945")
 	)
 	(junction
-		(at 143.51 54.61)
+		(at 143.51 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d19da221-f492-4200-97ac-b95bae499af3")
+		(uuid "d08f5683-8fa1-46f4-8f08-763ccc0bec01")
 	)
 	(junction
 		(at 121.92 102.87)
@@ -1221,7 +1221,7 @@
 		(uuid "ebcf038d-d7b8-40f5-804a-e58ff9034e60")
 	)
 	(junction
-		(at 168.91 57.15)
+		(at 168.91 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ca56d8-f3eb-4f2a-9efc-10fd664d68b2")
@@ -1284,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 43.18) (xy 168.91 54.61)
+			(xy 168.91 48.26) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1304,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 54.61) (xy 168.91 57.15)
+			(xy 168.91 58.42) (xy 168.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 57.15) (xy 143.51 71.12)
+			(xy 143.51 60.96) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 40.64) (xy 143.51 43.18)
+			(xy 143.51 45.72) (xy 143.51 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 43.18) (xy 143.51 54.61)
+			(xy 143.51 48.26) (xy 143.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 40.64) (xy 168.91 40.64)
+			(xy 165.1 45.72) (xy 168.91 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1424,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 168.91 54.61)
+			(xy 165.1 58.42) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1514,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 57.15) (xy 168.91 71.12)
+			(xy 168.91 60.96) (xy 168.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1534,7 +1534,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 57.15) (xy 147.32 57.15)
+			(xy 143.51 60.96) (xy 147.32 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 143.51 40.64)
+			(xy 115.57 45.72) (xy 143.51 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +1584,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 40.64) (xy 189.23 40.64)
+			(xy 168.91 45.72) (xy 189.23 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1594,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 54.61) (xy 143.51 57.15)
+			(xy 143.51 58.42) (xy 143.51 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 40.64) (xy 147.32 40.64)
+			(xy 143.51 45.72) (xy 147.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 54.61) (xy 147.32 54.61)
+			(xy 143.51 58.42) (xy 147.32 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +1694,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 168.91 43.18)
+			(xy 165.1 48.26) (xy 168.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 168.91 57.15)
+			(xy 165.1 60.96) (xy 168.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 43.18) (xy 147.32 43.18)
+			(xy 143.51 48.26) (xy 147.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +1774,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 40.64) (xy 194.31 40.64)
+			(xy 189.23 45.72) (xy 194.31 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1814,7 +1814,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 40.64) (xy 168.91 43.18)
+			(xy 168.91 45.72) (xy 168.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1834,7 +1834,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 40.64) (xy 189.23 95.25)
+			(xy 189.23 45.72) (xy 189.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1914,7 +1914,7 @@
 	)
 	(hierarchical_label "VBAT_RELAY_OUT_P"
 		(shape input)
-		(at 115.57 40.64 180)
+		(at 115.57 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,7 +1925,7 @@
 	)
 	(hierarchical_label "VBAT_SEN_OUT_P"
 		(shape output)
-		(at 194.31 40.64 0)
+		(at 194.31 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2747,7 +2747,7 @@
 	)
 	(symbol
 		(lib_id "RobotChargeController:FPM253WFR002TML_4Terminal_Kelvin")
-		(at 156.21 41.91 0)
+		(at 156.21 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2755,10 +2755,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "35e84e97-78f3-40d4-9be5-4f0cf442d0e8")
 		(property "Reference" "R1"
-			(at 156.21 33.02 0)
+			(at 153.924 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2768,7 +2767,7 @@
 			)
 		)
 		(property "Value" "2mR"
-			(at 156.21 35.56 0)
+			(at 157.988 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2778,7 +2777,7 @@
 			)
 		)
 		(property "Footprint" "RobotChargeController:R_Shunt_FOJAN_2512L_4Terminal_Kelvin_C"
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C7420017.pdf"
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2800,7 +2799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2810,7 @@
 			)
 		)
 		(property "Link to Buy" "https://www.lcsc.com/product-detail/C7420017.html?s_z=n_q_C7420017&globalKeyword=C7420017"
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +2821,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +2832,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2844,7 +2843,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2855,7 +2854,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2866,7 +2865,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,7 +2876,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2888,7 +2887,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2899,7 +2898,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2910,7 +2909,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2921,7 +2920,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2932,7 +2931,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +2942,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2954,7 +2953,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2965,7 +2964,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,7 +2975,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2987,7 +2986,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,7 +2997,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +3008,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 156.21 41.91 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,7 +3200,7 @@
 	)
 	(symbol
 		(lib_id "RobotChargeController:FPM253WFR002TML_4Terminal_Kelvin")
-		(at 156.21 55.88 0)
+		(at 156.21 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3211,7 +3210,7 @@
 		(dnp no)
 		(uuid "4c3c0691-81a7-48de-a498-f10933a8afcc")
 		(property "Reference" "R2"
-			(at 156.21 48.26 0)
+			(at 153.924 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3221,7 +3220,7 @@
 			)
 		)
 		(property "Value" "2mR"
-			(at 156.21 50.8 0)
+			(at 158.242 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3231,7 +3230,7 @@
 			)
 		)
 		(property "Footprint" "RobotChargeController:R_Shunt_FOJAN_2512L_4Terminal_Kelvin_C"
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +3241,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C7420017.pdf"
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3253,7 +3252,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,7 +3263,7 @@
 			)
 		)
 		(property "Link to Buy" "https://www.lcsc.com/product-detail/C7420017.html?s_z=n_q_C7420017&globalKeyword=C7420017"
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3275,7 +3274,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,7 +3285,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3296,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,7 +3307,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +3318,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3330,7 +3329,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,7 +3340,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +3351,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3363,7 +3362,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3374,7 +3373,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3385,7 +3384,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3396,7 +3395,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,7 +3406,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3418,7 +3417,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3429,7 +3428,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3439,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,7 +3450,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,7 +3461,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 156.21 55.88 0)
+			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +3749,7 @@
 				)
 			)
 		)
-		(property "Value" "10kR"
+		(property "Value" "1kR"
 			(at 132.08 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3793,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/1422-dien-tro-10k-0603-1-100c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1424-dien-tro-1k-0603-1-100c.html"
 			(at 214.63 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -4580,7 +4579,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF-50V"
+		(property "Value" "100nF-50V"
 			(at 119.38 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4624,7 +4623,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/6736-0603b104k500nt-tu-100nf-50v-10-0603-20c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 34.29 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -4803,10 +4802,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1219e14-b9f2-40f2-acb4-847be6ed044f")
 		(property "Reference" "R3"
-			(at 156.21 63.5 0)
+			(at 153.67 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4816,7 +4814,7 @@
 			)
 		)
 		(property "Value" "2mR"
-			(at 156.21 66.04 0)
+			(at 158.242 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

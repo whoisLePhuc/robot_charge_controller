@@ -4944,6 +4944,10 @@
 		(uuid "22236c49-6db6-456b-acd7-f476b3ad9ef6")
 	)
 	(no_connect
+		(at 187.96 62.23)
+		(uuid "2874ff1a-4409-466e-b96a-3478169da0be")
+	)
+	(no_connect
 		(at 73.66 138.43)
 		(uuid "298f6d75-e03f-4732-a7be-809436267860")
 	)
@@ -4954,10 +4958,6 @@
 	(no_connect
 		(at 73.66 135.89)
 		(uuid "5245e112-a914-433f-9ed1-a2b5c967295f")
-	)
-	(no_connect
-		(at 187.96 107.95)
-		(uuid "845c148f-4044-468a-9373-d8bae9e82880")
 	)
 	(no_connect
 		(at 157.48 57.15)
@@ -4988,12 +4988,12 @@
 		(uuid "d7fd49f4-7dc0-4f93-ba6f-4d6edfdff181")
 	)
 	(no_connect
-		(at 187.96 110.49)
-		(uuid "dd8b3628-8c79-460e-9283-3ed1d58ad0d2")
-	)
-	(no_connect
 		(at 187.96 80.01)
 		(uuid "e99f4294-9a09-4f20-b4f8-da6b3db48088")
+	)
+	(no_connect
+		(at 187.96 69.85)
+		(uuid "ff298dde-d2cf-4952-8b0e-14cb5389c6e5")
 	)
 	(wire
 		(pts
@@ -5457,6 +5457,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 110.49) (xy 187.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c108013-b5f1-4728-9885-af00123ac04a")
+	)
+	(wire
+		(pts
 			(xy 130.81 66.04) (xy 134.62 66.04)
 		)
 		(stroke
@@ -5647,16 +5657,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 62.23) (xy 194.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecd6867-75a4-4d19-a107-0430e5b4285c")
-	)
-	(wire
-		(pts
 			(xy 187.96 92.71) (xy 194.31 92.71)
 		)
 		(stroke
@@ -5697,6 +5697,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 107.95) (xy 204.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b92533d-1414-4809-b4ee-b9b8d4bd63a9")
+	)
+	(wire
+		(pts
 			(xy 255.27 138.43) (xy 260.35 138.43)
 		)
 		(stroke
@@ -5734,16 +5744,6 @@
 			(type default)
 		)
 		(uuid "932b80ac-7c4b-4755-aa41-bdfe28e04e5d")
-	)
-	(wire
-		(pts
-			(xy 187.96 69.85) (xy 194.31 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d35008-ab79-45a2-9534-042b97233342")
 	)
 	(wire
 		(pts
@@ -6278,6 +6278,16 @@
 		)
 		(uuid "3064fd71-5f10-4aba-b557-c1c05c09a47e")
 	)
+	(label "IOUT_MCU_ADC"
+		(at 204.47 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b64c00b-e0b5-4fbe-966f-00084928ef39")
+	)
 	(label "USB_D-"
 		(at 81.28 81.28 0)
 		(effects
@@ -6318,6 +6328,16 @@
 		)
 		(uuid "7a5b8630-b6d4-4971-a8fa-8c00744db63a")
 	)
+	(label "VOUT_MCU_ADC"
+		(at 204.47 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "863a42ec-9ded-425b-ad8a-d97e1bfa84df")
+	)
 	(label "CH340_V3"
 		(at 35.56 115.57 0)
 		(effects
@@ -6327,16 +6347,6 @@
 			(justify left bottom)
 		)
 		(uuid "8e65db5f-af40-435c-8ad9-4184ede7a69e")
-	)
-	(label "IOUT_MCU_ADC"
-		(at 194.31 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fc65ab2-1430-4a9e-8c87-b40c376009f6")
 	)
 	(label "USB_UART_DTR"
 		(at 78.74 140.97 0)
@@ -6378,16 +6388,6 @@
 			(justify left bottom)
 		)
 		(uuid "ca3437cb-c8c2-4dc1-b98d-53a135246590")
-	)
-	(label "VOUT_MCU_ADC"
-		(at 194.31 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbba5881-3e3d-4fa6-ba9c-6a9f9b1e29a4")
 	)
 	(label "IOUT_MCU_ADC"
 		(at 130.81 138.43 180)
@@ -7160,7 +7160,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF-50V"
+		(property "Value" "100nF-50V"
 			(at 151.13 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7204,7 +7204,7 @@
 				)
 			)
 		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/2353-tu-103-10nf-0603-50v-10-20c.html"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/1981-tu-0603-khong-phan-cuc.html"
 			(at 66.04 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -11838,7 +11838,7 @@
 				)
 			)
 		)
-		(property "Value" "10kR"
+		(property "Value" "1kR"
 			(at 252.73 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)

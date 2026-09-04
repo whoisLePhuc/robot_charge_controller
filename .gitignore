@@ -85,3 +85,4 @@ Thumbs.db
 
 # Local scratch database (empty placeholder, not part of the design)
 mydatabase.db
+.vscode

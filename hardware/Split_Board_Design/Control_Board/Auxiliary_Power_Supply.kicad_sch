@@ -2554,12 +2554,6 @@
 		(uuid "08854786-f77c-4735-92a7-b306ea92b804")
 	)
 	(junction
-		(at 62.23 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c8d8a74-eb0d-4aba-a106-31619412ed8f")
-	)
-	(junction
 		(at 100.33 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2590,6 +2584,12 @@
 		(uuid "44c5ec8a-14e3-48cc-922c-455d438ca92b")
 	)
 	(junction
+		(at 34.29 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "464febcf-574a-4b7b-809b-ff5ed51b4c4a")
+	)
+	(junction
 		(at 134.62 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2606,12 +2606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8283271c-e569-4738-86a8-80e1e531b3fe")
-	)
-	(junction
-		(at 53.34 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86f693c5-4eb0-473a-b875-fb1f7fb592c4")
 	)
 	(junction
 		(at 107.95 114.3)
@@ -2648,6 +2642,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b920ebfe-b6aa-41ca-9519-14aaeb446660")
+	)
+	(junction
+		(at 62.23 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be354140-2f34-450b-9b64-9ab258a03267")
 	)
 	(junction
 		(at 180.34 58.42)
@@ -2713,6 +2713,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 58.42) (xy 34.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d805178-0b69-4ebb-b819-f25c5720a9b9")
+	)
+	(wire
+		(pts
 			(xy 179.07 76.2) (xy 179.07 73.66)
 		)
 		(stroke
@@ -2773,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 58.42) (xy 62.23 58.42)
+			(xy 55.88 58.42) (xy 62.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2893,17 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 58.42) (xy 53.34 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dcabff7-d49a-4d7e-8f17-87df9489afcd")
-	)
-	(wire
-		(pts
-			(xy 53.34 72.39) (xy 53.34 78.74)
+			(xy 34.29 72.39) (xy 34.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2973,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 58.42) (xy 30.48 58.42)
+			(xy 36.83 58.42) (xy 34.29 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3283,16 +3283,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 53.34 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa7632c-4e1b-41cd-b456-2b90d6f2e560")
-	)
-	(wire
-		(pts
 			(xy 114.3 41.91) (xy 114.3 55.88)
 		)
 		(stroke
@@ -3453,7 +3443,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 58.42) (xy 43.18 58.42)
+			(xy 44.45 58.42) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3470,6 +3460,16 @@
 			(type default)
 		)
 		(uuid "ebf4d98a-815e-476b-b1dc-9ca1e11aa0f3")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 29.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24b1d9c-faf2-4641-aa74-e44068a8bec1")
 	)
 	(wire
 		(pts
@@ -3543,7 +3543,7 @@
 	)
 	(hierarchical_label "VAUX_IN_P"
 		(shape input)
-		(at 30.48 58.42 180)
+		(at 29.21 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7224,7 +7224,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 46.99 58.42 90)
+		(at 52.07 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7235,7 +7235,7 @@
 		(fields_autoplaced yes)
 		(uuid "7491b514-c36e-4df3-a673-c67f8368c0e0")
 		(property "Reference" "F3"
-			(at 46.99 52.07 90)
+			(at 52.07 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7245,7 +7245,7 @@
 			)
 		)
 		(property "Value" "NSMD100"
-			(at 46.99 54.61 90)
+			(at 52.07 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7255,7 +7255,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 52.07 57.15 0)
+			(at 57.15 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7267,7 +7267,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C66453.pdf"
-			(at 46.99 58.42 0)
+			(at 52.07 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,7 +7278,7 @@
 			)
 		)
 		(property "Description" "Fuse 1A"
-			(at 46.99 58.42 0)
+			(at 52.07 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,7 +7289,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/nsmd100-cau-chi-tu-phuc-hoi-60v-1a-1206/"
-			(at -22.86 0 0)
+			(at -17.78 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7300,7 +7300,7 @@
 			)
 		)
 		(property "MPN" "nSMD100"
-			(at -22.86 0 0)
+			(at -17.78 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7311,7 @@
 			)
 		)
 		(property "LCSC Part" "C66453"
-			(at -22.86 0 0)
+			(at -17.78 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,7 +7322,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 46.99 58.42 90)
+			(at 52.07 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,7 +7333,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 46.99 58.42 90)
+			(at 52.07 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7344,7 +7344,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 46.99 58.42 90)
+			(at 52.07 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,7 +7355,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 46.99 58.42 90)
+			(at 52.07 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,7 +7366,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 46.99 58.42 90)
+			(at 52.07 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7377,7 +7377,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 46.99 58.42 90)
+			(at 52.07 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7562,7 +7562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 78.74 0)
+		(at 34.29 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7573,7 +7573,7 @@
 		(fields_autoplaced yes)
 		(uuid "915ba71b-2650-432c-979a-aa5e939aef67")
 		(property "Reference" "#PWR065"
-			(at 53.34 85.09 0)
+			(at 34.29 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 83.82 0)
+			(at 34.29 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7594,7 +7594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 78.74 0)
+			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +7605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 78.74 0)
+			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,7 +7616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 78.74 0)
+			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,7 +7640,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 35.56 58.42 180)
+		(at 40.64 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7651,7 +7651,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d2196d6-6e6e-4c81-b522-9d205ba91d9f")
 		(property "Reference" "D3"
-			(at 35.8775 52.07 0)
+			(at 40.9575 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7661,7 +7661,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 35.8775 54.61 0)
+			(at 40.9575 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7671,7 +7671,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 35.56 53.975 0)
+			(at 40.64 53.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7682,7 +7682,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7693,7 +7693,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7704,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1128-diode-ss34-sma-3a-40v-do-214ac.html"
-			(at -20.32 0 0)
+			(at -15.24 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7715,7 +7715,7 @@
 			)
 		)
 		(property "LCSC Part" "C2837271"
-			(at -20.32 0 0)
+			(at -15.24 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,7 +7726,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,7 +7737,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7748,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7759,7 +7759,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7770,7 +7770,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7781,7 +7781,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 35.56 58.42 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8370,7 +8370,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ36A")
-		(at 53.34 68.58 90)
+		(at 34.29 68.58 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8381,7 +8381,7 @@
 		(dnp no)
 		(uuid "cfe61274-dd13-4e93-ad36-e8a80358373f")
 		(property "Reference" "D4"
-			(at 50.8 67.3099 90)
+			(at 31.75 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8392,7 +8392,7 @@
 			)
 		)
 		(property "Value" "SMAJ36CA"
-			(at 50.8 69.8499 90)
+			(at 31.75 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8403,7 +8403,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 58.42 68.58 0)
+			(at 39.37 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +8414,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 53.34 67.31 0)
+			(at 34.29 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8425,7 +8425,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 36.0Vr, SMA(DO-214AC)"
-			(at 53.34 68.58 0)
+			(at 34.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,7 +8436,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/smaj36ca-tvs-diodes-400w-36v/"
-			(at 2.54 0 0)
+			(at -16.51 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8447,7 +8447,7 @@
 			)
 		)
 		(property "LCSC Part" "C113967"
-			(at 2.54 0 0)
+			(at -16.51 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8458,7 +8458,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 53.34 68.58 90)
+			(at 34.29 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +8469,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 53.34 68.58 90)
+			(at 34.29 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8480,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 53.34 68.58 90)
+			(at 34.29 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +8491,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 53.34 68.58 90)
+			(at 34.29 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8502,7 +8502,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 53.34 68.58 90)
+			(at 34.29 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8513,7 +8513,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 53.34 68.58 90)
+			(at 34.29 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

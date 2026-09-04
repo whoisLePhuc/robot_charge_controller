@@ -3430,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 110.49) (xy 36.83 110.49)
+			(xy 33.02 110.49) (xy 41.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3690,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 158.75) (xy 38.1 158.75)
+			(xy 31.75 158.75) (xy 40.64 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4010,7 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 110.49) (xy 50.8 110.49)
+			(xy 46.99 110.49) (xy 50.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 158.75) (xy 49.53 158.75)
+			(xy 45.72 158.75) (xy 49.53 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14355,7 +14355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 40.64 158.75 90)
+		(at 43.18 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14365,7 +14365,7 @@
 		(dnp no)
 		(uuid "e895be15-af2e-4f37-be7b-309203d8c06f")
 		(property "Reference" "R77"
-			(at 40.64 154.432 90)
+			(at 43.18 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14375,7 +14375,7 @@
 			)
 		)
 		(property "Value" "1kR"
-			(at 40.64 156.464 90)
+			(at 43.18 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14385,7 +14385,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 158.75 0)
+			(at 43.18 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14396,7 +14396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 158.75 0)
+			(at 43.18 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14407,7 +14407,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 40.64 158.75 0)
+			(at 43.18 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14418,7 +14418,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 40.64 158.75 90)
+			(at 43.18 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14429,7 +14429,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 40.64 158.75 90)
+			(at 43.18 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14440,7 +14440,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 40.64 158.75 90)
+			(at 43.18 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14451,7 +14451,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 40.64 158.75 90)
+			(at 43.18 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14462,7 +14462,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 40.64 158.75 90)
+			(at 43.18 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14473,7 +14473,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1424-dien-tro-1k-0603-1-100c.html"
-			(at 0 0 0)
+			(at 2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14484,7 +14484,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 40.64 158.75 90)
+			(at 43.18 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14667,7 +14667,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 39.37 110.49 90)
+		(at 44.45 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14677,7 +14677,7 @@
 		(dnp no)
 		(uuid "f2c1d18e-190a-4a5b-a4e0-c478c54d5378")
 		(property "Reference" "R74"
-			(at 39.37 106.172 90)
+			(at 44.45 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14687,7 +14687,7 @@
 			)
 		)
 		(property "Value" "1kR"
-			(at 39.37 108.204 90)
+			(at 44.45 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14697,7 +14697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 39.37 110.49 0)
+			(at 44.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14708,7 +14708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 110.49 0)
+			(at 44.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14719,7 +14719,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 39.37 110.49 0)
+			(at 44.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14730,7 +14730,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 39.37 110.49 90)
+			(at 44.45 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14741,7 +14741,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 39.37 110.49 90)
+			(at 44.45 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14752,7 +14752,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 39.37 110.49 90)
+			(at 44.45 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14763,7 +14763,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 39.37 110.49 90)
+			(at 44.45 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14774,7 +14774,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 39.37 110.49 90)
+			(at 44.45 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14785,7 +14785,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/1424-dien-tro-1k-0603-1-100c.html"
-			(at -1.27 0 0)
+			(at 3.81 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14796,7 +14796,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 39.37 110.49 90)
+			(at 44.45 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

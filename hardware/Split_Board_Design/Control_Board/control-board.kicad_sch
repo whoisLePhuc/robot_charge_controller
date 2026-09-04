@@ -2333,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 78.74) (xy 220.98 78.74)
+			(xy 210.82 78.74) (xy 220.98 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 167.64 72.39)
+			(xy 151.13 72.39) (xy 166.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 80.01) (xy 138.43 80.01)
+			(xy 166.37 80.01) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 167.64 69.85)
+			(xy 153.67 69.85) (xy 166.37 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 85.09) (xy 138.43 85.09)
+			(xy 166.37 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 82.55) (xy 138.43 82.55)
+			(xy 166.37 82.55) (xy 138.43 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 76.2) (xy 212.09 76.2)
+			(xy 215.9 76.2) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2743,7 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 138.43 92.71)
+			(xy 166.37 92.71) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 95.25) (xy 138.43 95.25)
+			(xy 166.37 95.25) (xy 138.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 74.93) (xy 138.43 74.93)
+			(xy 166.37 74.93) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 138.43 87.63)
+			(xy 166.37 87.63) (xy 138.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2893,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 81.28) (xy 218.44 81.28)
+			(xy 210.82 81.28) (xy 218.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2953,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 83.82) (xy 215.9 83.82)
+			(xy 210.82 83.82) (xy 215.9 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2973,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 138.43 77.47)
+			(xy 166.37 77.47) (xy 138.43 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2993,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 90.17) (xy 138.43 90.17)
+			(xy 166.37 90.17) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +5716,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 66.04)
+		(at 166.37 66.04)
 		(size 44.45 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5732,7 +5732,7 @@
 		)
 		(uuid "cd4ca679-1759-4df3-be15-a18e54bff307")
 		(property "Sheetname" "MCU_Control"
-			(at 167.64 65.2776 0)
+			(at 166.37 65.2776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5745,7 +5745,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_Control.kicad_sch"
-			(at 167.64 99.06 0)
+			(at 166.37 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5756,7 +5756,7 @@
 			)
 		)
 		(pin "IOUT_SENSE_ADC" input
-			(at 167.64 72.39 180)
+			(at 166.37 72.39 180)
 			(uuid "9884692d-3160-42f9-8fda-fdb4a6911d44")
 			(effects
 				(font
@@ -5766,7 +5766,7 @@
 			)
 		)
 		(pin "MAIN_RELAY_EN" output
-			(at 212.09 76.2 0)
+			(at 210.82 76.2 0)
 			(uuid "b7d4d04a-35a1-45d9-8fa7-fcb4ca285872")
 			(effects
 				(font
@@ -5776,7 +5776,7 @@
 			)
 		)
 		(pin "VOUT_SENSE_ADC" input
-			(at 167.64 69.85 180)
+			(at 166.37 69.85 180)
 			(uuid "b08f17d1-64f1-40ca-a7bf-b06269284991")
 			(effects
 				(font
@@ -5786,7 +5786,7 @@
 			)
 		)
 		(pin "CAN_RX" input
-			(at 167.64 74.93 180)
+			(at 166.37 74.93 180)
 			(uuid "5303957e-8c2e-41da-8763-66d05c1cf48a")
 			(effects
 				(font
@@ -5796,7 +5796,7 @@
 			)
 		)
 		(pin "RS485_DIR" input
-			(at 167.64 80.01 180)
+			(at 166.37 80.01 180)
 			(uuid "1817d50e-56c5-4a64-b1f0-a12ce74b5e0f")
 			(effects
 				(font
@@ -5806,7 +5806,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 167.64 77.47 180)
+			(at 166.37 77.47 180)
 			(uuid "6349f16a-cbf6-47f6-a5b7-ddaf2d77c8b0")
 			(effects
 				(font
@@ -5816,7 +5816,7 @@
 			)
 		)
 		(pin "RS485_RX" input
-			(at 167.64 82.55 180)
+			(at 166.37 82.55 180)
 			(uuid "878f6b6c-4faa-46f3-b89b-b126aec73eec")
 			(effects
 				(font
@@ -5826,7 +5826,7 @@
 			)
 		)
 		(pin "RS485_TX" input
-			(at 167.64 85.09 180)
+			(at 166.37 85.09 180)
 			(uuid "cfe1544d-a562-4c39-88c0-57593555cba6")
 			(effects
 				(font
@@ -5836,7 +5836,7 @@
 			)
 		)
 		(pin "UART_EXT_RX_MCU" input
-			(at 167.64 87.63 180)
+			(at 166.37 87.63 180)
 			(uuid "27b577a2-8418-4d4c-8f50-7c0f9f2b3b48")
 			(effects
 				(font
@@ -5846,7 +5846,7 @@
 			)
 		)
 		(pin "UART_EXT_TX_MCU" input
-			(at 167.64 90.17 180)
+			(at 166.37 90.17 180)
 			(uuid "97ba9d41-2770-404d-9ce1-8b96e2d5e31a")
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 			)
 		)
 		(pin "DO1_CMD" output
-			(at 212.09 83.82 0)
+			(at 210.82 83.82 0)
 			(uuid "e1c602b8-7d80-47ac-aae5-e259c2e731ea")
 			(effects
 				(font
@@ -5866,7 +5866,7 @@
 			)
 		)
 		(pin "DO2_CMD" output
-			(at 212.09 81.28 0)
+			(at 210.82 81.28 0)
 			(uuid "15940cd8-17b2-4a67-98f5-696c8fbffb8b")
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 			)
 		)
 		(pin "DO3_CMD" output
-			(at 212.09 78.74 0)
+			(at 210.82 78.74 0)
 			(uuid "8ab3cbe3-91f0-453e-a9ad-5c528160fb5a")
 			(effects
 				(font
@@ -5886,7 +5886,7 @@
 			)
 		)
 		(pin "SW1_SENSE_N" input
-			(at 167.64 92.71 180)
+			(at 166.37 92.71 180)
 			(uuid "98e4664c-2a5f-484d-856e-4281c1516035")
 			(effects
 				(font
@@ -5896,7 +5896,7 @@
 			)
 		)
 		(pin "SW2_SENSE_N" input
-			(at 167.64 95.25 180)
+			(at 166.37 95.25 180)
 			(uuid "f9cc9a8d-81d8-429e-8f0a-58f692dc2cb3")
 			(effects
 				(font

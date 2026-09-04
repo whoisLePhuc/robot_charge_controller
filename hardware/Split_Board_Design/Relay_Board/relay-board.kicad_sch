@@ -378,6 +378,386 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RobotChargeController:XT30PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -7.62 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT30PW-M"
+				(at -7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "XT30PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Amass"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PN" "XT30PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "XT30PW-M_0_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.2225 -0.3175)
+					(end -0.635 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.2225 -2.8575)
+					(end -0.635 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RobotChargeController:XT60PW-M"
 			(pin_names
 				(offset 1.016)
@@ -943,6 +1323,14 @@
 		(color 0 0 0 0)
 		(uuid "d9ff8599-0328-46a0-91e1-e6680eae3726")
 	)
+	(no_connect
+		(at 78.74 100.33)
+		(uuid "05ea6adf-46f5-4c03-9a67-c0f9d0ac35d8")
+	)
+	(no_connect
+		(at 78.74 105.41)
+		(uuid "6f503a8f-45b5-480e-a9d7-1bbc9e9949ce")
+	)
 	(wire
 		(pts
 			(xy 209.55 71.12) (xy 218.44 71.12)
@@ -995,16 +1383,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 78.74 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3ee63a-e51d-4cd5-acc6-47c1dc39716e")
-	)
-	(wire
-		(pts
 			(xy 218.44 110.49) (xy 78.74 110.49)
 		)
 		(stroke
@@ -1015,6 +1393,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 128.27) (xy 85.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed2e613-8690-4f29-81e6-085702c276cf")
+	)
+	(wire
+		(pts
 			(xy 234.95 59.69) (xy 228.6 59.69)
 		)
 		(stroke
@@ -1022,6 +1410,16 @@
 			(type default)
 		)
 		(uuid "3f07ebc4-7885-4a49-b010-53258159b9f3")
+	)
+	(wire
+		(pts
+			(xy 88.9 130.81) (xy 88.9 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481068dd-a936-4523-b708-cf0413a147fe")
 	)
 	(wire
 		(pts
@@ -1045,6 +1443,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 125.73) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580f9f33-d0f4-422f-ace8-3fe7611b3937")
+	)
+	(wire
+		(pts
 			(xy 104.14 102.87) (xy 104.14 73.66)
 		)
 		(stroke
@@ -1062,16 +1470,6 @@
 			(type default)
 		)
 		(uuid "6fe70cd0-e37c-495f-b00d-318513b2e399")
-	)
-	(wire
-		(pts
-			(xy 83.82 92.71) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724125da-3ad8-4f8c-94fe-8aff39298ab4")
 	)
 	(wire
 		(pts
@@ -1135,16 +1533,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 105.41) (xy 78.74 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a48eff-9dc8-4d5b-9782-cefebefd58b8")
-	)
-	(wire
-		(pts
 			(xy 87.63 62.23) (xy 93.98 62.23)
 		)
 		(stroke
@@ -1155,13 +1543,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 120.65) (xy 83.82 105.41)
+			(xy 88.9 123.19) (xy 88.9 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6737b3f-d02f-4fdc-ac6e-48b2ac3d8b9b")
+		(uuid "c9813bc5-a942-4eea-8b81-c1fc0a1f4fbf")
 	)
 	(wire
 		(pts
@@ -1205,7 +1593,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 83.82 92.71 0)
+		(at 88.9 123.19 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1216,7 +1604,7 @@
 		(dnp no)
 		(uuid "0b5be317-19c2-4f1b-9e1f-ccaa7c681888")
 		(property "Reference" "#PWR058"
-			(at 83.82 96.52 0)
+			(at 88.9 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1227,7 +1615,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 84.074 88.646 0)
+			(at 89.154 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1237,7 +1625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 92.71 0)
+			(at 88.9 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1248,7 +1636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 92.71 0)
+			(at 88.9 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1259,7 +1647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 83.82 92.71 0)
+			(at 88.9 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,6 +3888,253 @@
 		)
 	)
 	(symbol
+		(lib_id "RobotChargeController:XT30PW-M")
+		(at 80.01 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85ab38c7-37fe-4f52-9aeb-d8f521aa347f")
+		(property "Reference" "J3"
+			(at 75.438 118.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 75.438 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RobotChargeController:AMASS_XT30PW-M"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT30PW-M"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Amass"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "XT30PW-M"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Link to Buy" "https://shopee.vn/%C4%90%E1%BA%A7u-C%E1%BA%AFm-B%E1%BA%AFp-Chu%E1%BB%91i-XT30PW-ESC-XT30-Cho-M%C3%A1y-Bay-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-T%E1%BB%AB-Xa-i.870173721.23533260939?extraParams=%7B%22display_model_id%22%3A49281747452%2C%22model_selection_logic%22%3A3%7D"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P"
+			(uuid "8bbaa8e0-8fe7-4f6f-8482-bf33679b8c97")
+		)
+		(pin "N"
+			(uuid "52ba7b8d-59e3-4d5d-bc60-63548a3b18d8")
+		)
+		(instances
+			(project "relay-board"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 228.6 71.12 0)
 		(unit 1)
@@ -3579,7 +4214,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 120.65 0)
+		(at 88.9 130.81 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3590,7 +4225,7 @@
 		(dnp no)
 		(uuid "bb0863a0-a882-40b9-962a-85b283227c0a")
 		(property "Reference" "#PWR0123"
-			(at 83.82 127 0)
+			(at 88.9 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +4236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.598 124.46 0)
+			(at 90.678 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3612,7 +4247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 120.65 0)
+			(at 88.9 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,7 +4258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 120.65 0)
+			(at 88.9 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3634,7 +4269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 120.65 0)
+			(at 88.9 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

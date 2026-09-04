@@ -182,162 +182,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1976,12 +1820,6 @@
 		(uuid "490693fe-713c-488d-b200-328cc6c75276")
 	)
 	(junction
-		(at 107.95 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67fffec9-a21a-48ad-a0cd-83089763aa06")
-	)
-	(junction
 		(at 181.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1992,12 +1830,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ad87ee9-94dd-4d95-ba4b-5aa99329fb70")
-	)
-	(junction
-		(at 93.98 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1720da2-9c26-4489-b531-661451fde7fa")
 	)
 	(junction
 		(at 170.18 77.47)
@@ -2029,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 63.5) (xy 96.52 63.5)
+			(xy 93.98 72.39) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2099,23 +1931,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 63.5) (xy 93.98 76.2)
+			(xy 93.98 72.39) (xy 93.98 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "43818a21-d473-40f7-b4ea-1233e3b568c4")
-	)
-	(wire
-		(pts
-			(xy 97.79 76.2) (xy 93.98 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f1c84fd-14d7-48b0-b45f-b34fd71644d1")
 	)
 	(wire
 		(pts
@@ -2149,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 107.95 91.44)
+			(xy 107.95 72.39) (xy 107.95 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2159,17 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c89eb9-56a9-4b49-a416-0513fdcf8a97")
-	)
-	(wire
-		(pts
-			(xy 104.14 63.5) (xy 107.95 63.5)
+			(xy 104.14 72.39) (xy 107.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2249,16 +2061,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 76.2) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95715246-9f5e-4dbd-87dc-486c7ff32986")
-	)
-	(wire
-		(pts
 			(xy 205.74 73.66) (xy 205.74 67.31)
 		)
 		(stroke
@@ -2286,16 +2088,6 @@
 			(type default)
 		)
 		(uuid "aaed8a0c-9054-4301-9a8e-3a1eb2e2d668")
-	)
-	(wire
-		(pts
-			(xy 93.98 76.2) (xy 93.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c8583d-2630-43a8-a041-2eba5c916fb3")
 	)
 	(wire
 		(pts
@@ -2550,7 +2342,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 100.33 63.5 90)
+		(at 100.33 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2560,7 +2352,7 @@
 		(dnp no)
 		(uuid "200fc21b-e984-4f0d-bca0-0235ef6b5085")
 		(property "Reference" "C3"
-			(at 100.33 57.15 90)
+			(at 100.33 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2570,7 +2362,7 @@
 			)
 		)
 		(property "Value" "680uf-35v"
-			(at 100.584 59.69 90)
+			(at 100.584 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2580,7 +2372,7 @@
 			)
 		)
 		(property "Footprint" "RobotChargeController:CP_Elec_12.5x13.5_Generic_H13"
-			(at 104.14 62.5348 0)
+			(at 104.14 71.4248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2591,7 +2383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 63.5 0)
+			(at 100.33 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2602,7 +2394,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 100.33 63.5 0)
+			(at 100.33 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,7 +2405,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien1993.com/tu-nhom-smd-680uf-35v-12-5x13-5mm"
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2624,7 +2416,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2635,7 +2427,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2646,7 +2438,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2657,7 +2449,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +2460,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2471,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,7 +2482,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2701,7 +2493,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +2504,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +2515,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2734,7 +2526,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2745,7 +2537,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +2548,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,7 +2559,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2778,7 +2570,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2581,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2800,7 +2592,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2603,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +2614,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +2625,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2844,7 +2636,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2855,7 +2647,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2866,7 +2658,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 100.33 63.5 90)
+			(at 100.33 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,352 +3481,6 @@
 			(project "relay-board"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/f0df9735-d5fd-49ce-8948-b62a5d2db05d"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 100.33 76.2 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "593da590-e7b7-4b5c-8c9e-3e7a61c8290e")
-		(property "Reference" "C2"
-			(at 99.06 70.104 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF-50V"
-			(at 94.996 72.898 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 100.33 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkien.cxtvn.com/6736-0603b104k500nt-tu-100nf-50v-10-0603-20c.html"
-			(at -15.24 -11.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM Comments" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comments" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IMax" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Instructions and notes" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDrop" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VMax" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 100.33 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f0c9abc-9da7-4cf1-b017-8a82bee5f94f")
-		)
-		(pin "2"
-			(uuid "32278472-e6ad-410a-abd0-92956cf97789")
-		)
-		(instances
-			(project "relay-board"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/f0df9735-d5fd-49ce-8948-b62a5d2db05d"
-					(reference "C2")
 					(unit 1)
 				)
 			)

@@ -2943,6 +2943,12 @@
 		(uuid "039a5f11-76d4-464d-aaaa-12a22113f492")
 	)
 	(junction
+		(at 82.55 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "073ddbe9-3b1f-4cfc-a937-54bf95ee86f0")
+	)
+	(junction
 		(at 82.55 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2959,6 +2965,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "101f2834-3874-48f0-a305-2d4680e2469f")
+	)
+	(junction
+		(at 82.55 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "187129c9-789d-465d-aa73-e05e7bc9d870")
 	)
 	(junction
 		(at 184.15 59.69)
@@ -2983,6 +2995,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3584926e-5082-42b9-bfad-17923b5b7ab7")
+	)
+	(junction
+		(at 82.55 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41c24a7a-b000-469c-8402-8aa7c4baa864")
 	)
 	(junction
 		(at 260.35 140.97)
@@ -3051,10 +3069,10 @@
 		(uuid "801ba4cd-a5fe-4bea-add3-f6e96078ef34")
 	)
 	(junction
-		(at 82.55 109.22)
+		(at 82.55 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "902a5d76-3acf-4019-a1cd-02b756821d8e")
+		(uuid "96421e28-5712-4cc3-bab9-d87ab5da601b")
 	)
 	(junction
 		(at 234.95 156.21)
@@ -3091,12 +3109,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b762cb1b-9fb8-4111-b40f-77879453a06a")
-	)
-	(junction
-		(at 82.55 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba206f30-59c4-438b-beea-dd76db38d244")
 	)
 	(junction
 		(at 215.9 58.42)
@@ -3141,22 +3153,10 @@
 		(uuid "cdff7524-997b-47c8-bd3b-d5521b6763c2")
 	)
 	(junction
-		(at 82.55 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db1599fd-7dcf-4a2e-807c-0fe52a7c8b86")
-	)
-	(junction
 		(at 161.29 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "defc81a9-0fda-42dd-8b48-990e927ceb3f")
-	)
-	(junction
-		(at 82.55 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e45be791-8b28-4aa2-af3d-8b8a7e9ed13b")
 	)
 	(junction
 		(at 172.72 134.62)
@@ -4320,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 82.55 101.6)
+			(xy 82.55 99.06) (xy 82.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4867,6 +4867,16 @@
 			(type default)
 		)
 		(uuid "d916812d-204d-440a-b6f7-9afa7ef3f396")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3c419e-1bb8-44d6-945d-edf300a3fd31")
 	)
 	(wire
 		(pts
@@ -5509,7 +5519,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 82.55 105.41 270)
+		(at 82.55 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5520,7 +5530,7 @@
 		(fields_autoplaced yes)
 		(uuid "06ab3762-25a9-42bb-91dd-76793e4fe5af")
 		(property "Reference" "D1"
-			(at 85.09 104.1399 90)
+			(at 85.09 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5531,7 +5541,7 @@
 			)
 		)
 		(property "Value" "RS1M"
-			(at 85.09 106.6799 90)
+			(at 85.09 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5542,7 +5552,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 78.105 105.41 0)
+			(at 78.105 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5553,7 +5563,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rs1m-d.pdf"
-			(at 82.55 105.41 0)
+			(at 82.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +5574,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 82.55 105.41 0)
+			(at 82.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5585,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 105.41 0)
+			(at 82.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +5596,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 105.41 0)
+			(at 82.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5607,7 @@
 			)
 		)
 		(property "BOM Comments" ""
-			(at 82.55 105.41 90)
+			(at 82.55 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5618,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 82.55 105.41 90)
+			(at 82.55 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5629,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 82.55 105.41 90)
+			(at 82.55 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5630,7 +5640,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 82.55 105.41 90)
+			(at 82.55 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5651,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 82.55 105.41 90)
+			(at 82.55 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5662,7 @@
 			)
 		)
 		(property "Link to Buy" "https://linhkien.cxtvn.com/9278-rs1m-fr107-f7-diode-xung-1a-1000v-sod123-10c.html"
-			(at 3.81 0 0)
+			(at 3.81 -1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5663,7 +5673,7 @@
 			)
 		)
 		(property "MPN" "RS1M"
-			(at 3.81 0 0)
+			(at 3.81 -1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5684,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 82.55 105.41 90)
+			(at 82.55 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8326,7 +8336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8337,7 +8347,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z3_3-Q.pdf"
+		(property "Datasheet" ""
 			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8348,7 +8358,7 @@
 				)
 			)
 		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+		(property "Description" "SOD-523"
 			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8359,62 +8369,7 @@
 				)
 			)
 		)
-		(property "BOM Comments" ""
-			(at 147.32 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 147.32 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 147.32 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 147.32 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 147.32 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/pesd5z3-3/"
+		(property "Link to Buy" ""
 			(at -22.86 2.54 0)
 			(hide yes)
 			(show_name no)
@@ -8425,41 +8380,8 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5Z3.3"
+		(property "MPN" ""
 			(at -22.86 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C96512"
-			(at -22.86 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at -22.86 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CREATOR" ""
-			(at 147.32 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,7 +9860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9960,7 +9882,7 @@
 				)
 			)
 		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+		(property "Description" "SOD-523"
 			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9971,62 +9893,7 @@
 				)
 			)
 		)
-		(property "BOM Comments" ""
-			(at 140.97 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 140.97 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 140.97 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 140.97 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 140.97 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/pesd5z3-3/"
+		(property "Link to Buy" ""
 			(at 300.99 2.54 0)
 			(hide yes)
 			(show_name no)
@@ -10037,41 +9904,8 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5Z3.3"
+		(property "MPN" ""
 			(at 300.99 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C96512"
-			(at 300.99 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 300.99 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CREATOR" ""
-			(at 140.97 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12163,30 +11997,8 @@
 				)
 			)
 		)
-		(property "MPN" "SM712"
+		(property "MPN" "ESD2CANFD24DBZR"
 			(at 486.41 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse/Semtech"
-			(at 486.41 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CREATOR" ""
-			(at 242.57 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

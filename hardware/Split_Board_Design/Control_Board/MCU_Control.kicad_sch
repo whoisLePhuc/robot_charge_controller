@@ -4876,6 +4876,12 @@
 		(uuid "2cc4448b-4520-4ce5-b7ff-371fa78fa489")
 	)
 	(junction
+		(at 60.96 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c5e206b-7f43-43e5-bb09-3f0b6df2955b")
+	)
+	(junction
 		(at 49.53 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4991,13 +4997,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 73.66) (xy 72.39 76.2)
+			(xy 76.2 110.49) (xy 76.2 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01a54385-61d6-4310-ac67-dbe542926575")
+		(uuid "00294d80-cb1e-40ff-bcf5-81ad1964147d")
 	)
 	(wire
 		(pts
@@ -5028,6 +5034,16 @@
 			(type default)
 		)
 		(uuid "04bdfe15-bdb6-435c-ad90-f02e8d8fa291")
+	)
+	(wire
+		(pts
+			(xy 60.96 110.49) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f9ee86-9b20-4512-92c2-3f23a5ec5ffa")
 	)
 	(wire
 		(pts
@@ -5131,6 +5147,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 76.2) (xy 72.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16928302-8995-42be-9d8b-4d23499a7d7c")
+	)
+	(wire
+		(pts
 			(xy 166.37 138.43) (xy 170.18 138.43)
 		)
 		(stroke
@@ -5211,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 113.03) (xy 60.96 118.11)
+			(xy 60.96 109.22) (xy 60.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5398,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "596651ad-9a68-4717-83f2-e3e023c5c83a")
+	)
+	(wire
+		(pts
+			(xy 60.96 110.49) (xy 60.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59689e76-b71b-4bd6-a999-fb4ff834da9f")
 	)
 	(wire
 		(pts
@@ -6729,7 +6765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 265.43 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -7444,7 +7480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 250.19 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7466,7 +7502,7 @@
 				)
 			)
 		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+		(property "Description" "SOD-523"
 			(at 250.19 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7477,107 +7513,8 @@
 				)
 			)
 		)
-		(property "BOM Comments" ""
-			(at 250.19 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 250.19 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 250.19 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 250.19 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 250.19 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/pesd5z3-3/"
+		(property "Link to Buy" ""
 			(at 80.01 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PESD5Z3.3"
-			(at 80.01 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C96512"
-			(at 80.01 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 80.01 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CREATOR" ""
-			(at 250.19 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,84 +7901,6 @@
 			(project "control-board"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 72.39 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4809b569-80af-483b-83df-d717cc2ccff4")
-		(property "Reference" "#PWR052"
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_USB"
-			(at 72.39 69.85 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 72.39 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bbf99d0-f4d9-40cc-ac17-75ef1462d7da")
-		)
-		(instances
-			(project "control-board"
-				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9935,7 +9794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 265.43 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -11860,7 +11719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11882,7 +11741,7 @@
 				)
 			)
 		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+		(property "Description" "SOD523"
 			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11893,62 +11752,7 @@
 				)
 			)
 		)
-		(property "BOM Comments" ""
-			(at 166.37 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 166.37 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 166.37 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 166.37 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VENDOR" ""
-			(at 166.37 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link to Buy" "https://linhkienthuduc.com/san-pham/pesd5z3-3/"
+		(property "Link to Buy" "https://linhkien.cxtvn.com/7411-pesd5z33-tvs-diode-33vwm-18vc-sod523-10c.html"
 			(at 336.55 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11961,39 +11765,6 @@
 		)
 		(property "MPN" "PESD5Z3.3"
 			(at 336.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C96512"
-			(at 336.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 336.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CREATOR" ""
-			(at 166.37 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12297,6 +12068,83 @@
 			(project "control-board"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 72.39 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1250e52-1a87-47f5-8eab-46902292bc9a")
+		(property "Reference" "#PWR053"
+			(at 72.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_USB"
+			(at 72.39 68.326 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 72.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1162d66c-64bb-4f58-aeec-225c14b9a91b")
+		)
+		(instances
+			(project "control-board"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12693,7 +12541,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 60.96 113.03 0)
+		(at 60.96 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12704,7 +12552,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddb3c9db-b7dd-4ae0-8353-007fe3b12cad")
 		(property "Reference" "#PWR055"
-			(at 60.96 116.84 0)
+			(at 60.96 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,8 +12562,8 @@
 				)
 			)
 		)
-		(property "Value" "V_USB"
-			(at 60.96 109.22 0)
+		(property "Value" "+3V3"
+			(at 60.96 105.41 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12725,7 +12573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 113.03 0)
+			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,7 +12584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 113.03 0)
+			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12747,7 +12595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 60.96 113.03 0)
+			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12764,6 +12612,165 @@
 			(project "control-board"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d9a1ef-59a1-41d0-95f3-d559e5039447")
+		(property "Reference" "C22"
+			(at 78.74 113.0362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF-50V"
+			(at 78.74 115.5762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link to Buy" "https://linhkien.cxtvn.com/2886-tu-106-10uf-0603-50v-10-20c.html"
+			(at -1.27 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Comments" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b20863e5-b403-4a9c-9d08-f10b110ea296")
+		)
+		(pin "2"
+			(uuid "88959cf7-f67f-40bb-8f6c-faf326b411b7")
+		)
+		(instances
+			(project "control-board"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13000,6 +13007,83 @@
 			(project "control-board"
 				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3bf1df4-a478-4c6d-b362-474355b8351d")
+		(property "Reference" "#PWR058"
+			(at 76.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 120.904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ab1ea82-0e01-4f95-99e0-4307e86da25e")
+		)
+		(instances
+			(project "control-board"
+				(path "/e734adb0-7c64-49f7-9536-e962540cdbdc/cd4ca679-1759-4df3-be15-a18e54bff307"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
